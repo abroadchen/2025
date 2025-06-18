@@ -3,8 +3,10 @@ package main
 import (
 	"basic/webook/config"
 	"basic/webook/internal/repository"
+	"basic/webook/internal/repository/cache"
 	"basic/webook/internal/repository/dao"
 	"basic/webook/internal/service"
+	"basic/webook/internal/service/sms/memory"
 	"basic/webook/internal/web"
 	"basic/webook/internal/web/middleware"
 	"basic/webook/pkg/ginx/middlewares/ratelimit"
@@ -13,7 +15,6 @@ import (
 	"github.com/gin-contrib/sessions/memstore"
 	"github.com/gin-gonic/gin"
 	"github.com/redis/go-redis/v9"
-	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"net/http"
 	"strings"
@@ -24,8 +25,8 @@ func main() {
 	//db := initDB()
 	//u := initUser(db)
 	//
-	//server := initWebServer()
-	server := gin.Default()
+	server := InitWebServer()
+	//server := gin.Default()
 	server.GET("/hello", func(ctx *gin.Context) {
 		ctx.String(http.StatusOK, "hello world")
 	})
@@ -64,7 +65,7 @@ func initWebServer() *gin.Engine {
 	//myStore := &sqlx_store.Store{}
 	server.Use(sessions.Sessions("mysession", store))
 	//server.Use(middleware.NewLoginMiddlewareBuilder().IgnorePaths("/users/signup").IgnorePaths("/users/login").Build())
-	server.Use(middleware.NewLoginJWTMiddlewareBuilder().Build())
+	server.Use(middleware.NewLoginJWTMiddlewareBuilder().IgnorePaths("/users/signup").IgnorePaths("/users/login_sms/code/send").IgnorePaths("/users/login_sms").IgnorePaths("/users/login").Build())
 
 	//middleware.IgnorePaths = []string{"/users/signup"}
 	//server.Use(middleware.CheckLogin())
@@ -73,23 +74,15 @@ func initWebServer() *gin.Engine {
 	return server
 }
 
-func initUser(db *gorm.DB) *web.UserHandler {
+func initUser(db *gorm.DB, rdb redis.Cmdable) *web.UserHandler {
 	ud := dao.NewUserDao(db)
-	repo := repository.NewUserRepository(ud)
+	uc := cache.NewUserCache(rdb)
+	repo := repository.NewUserRepository(ud, uc)
 	svc := service.NewUserService(repo)
-	u := web.NewUserHandler(svc)
+	codeCache := cache.NewCodeCache(rdb)
+	codeRepo := repository.NewCodeRepository(codeCache)
+	smsSvc := memory.NewService()
+	codeSvc := service.NewCodeService(codeRepo, smsSvc)
+	u := web.NewUserHandler(svc, codeSvc)
 	return u
-}
-
-func initDB() *gorm.DB {
-	db, err := gorm.Open(mysql.Open(config.Config.DB.DSN))
-	if err != nil {
-		panic(err)
-	}
-
-	err = dao.InitTable(db)
-	if err != nil {
-		panic(err)
-	}
-	return db
 }

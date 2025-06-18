@@ -1,0 +1,16 @@
+{
+  "name": "jsj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@reduxjs/toolkit": "^2.8.2",
+    "antd": "^5.26.0",
+    "craco-less": "^3.0.1",
+    "create-react-app": "^5.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.2",
+    "redux": "^5.0.1"
+  }
+}

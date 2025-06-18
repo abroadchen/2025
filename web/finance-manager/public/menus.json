@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/",
+    "meta": {
+      "title": "首页"
+    }
+  },
+  {
+    "path": "/loan-input",
+    "component": "Layout",
+    "redirect": "/loan-input/index",
+    "meta": {
+      "roles": [
+        "input"
+      ],
+      "title": "贷款管理"
+    },
+    "children": [
+      {
+        "path": "/loan-input/index",
+        "component": "loan-input/index",
+        "name": "loan-input",
+        "meta": {
+          "title": "贷款申请"
+        }
+      }
+    ]
+  },
+  {
+    "path": "/input-manager",
+    "component": "Layout",
+    "redirect": "/input-manager/index",
+    "meta": {
+      "roles": [
+        "input"
+      ],
+      "title": "申请管理"
+    },
+    "children": [
+      {
+        "path": "/input-manager/index",
+        "component": "input-manager/index",
+        "name": "input-manager",
+        "meta": {
+          "title": "申请列表"
+        }
+      }
+    ]
+  }
+]

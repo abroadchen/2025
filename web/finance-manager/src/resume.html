@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Engineer Resume - Professional Template</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --accent-color: #3b82f6;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --text-light: #9ca3af;
+            --background: #ffffff;
+            --surface: #f8fafc;
+            --border: #e5e7eb;
+            --success: #10b981;
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--background);
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+            min-height: 297mm;
+        }
+
+        /* Header Section */
+        .header {
+            background: var(--gradient);
+            color: white;
+            padding: 3rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            transform: translate(50px, -50px);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .title {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .contact-item i {
+            width: 16px;
+            opacity: 0.9;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 0;
+            min-height: calc(297mm - 200px);
+        }
+
+        .left-column {
+            padding: 2rem;
+        }
+
+        .right-column {
+            background: var(--surface);
+            padding: 2rem 1.5rem;
+            border-left: 1px solid var(--border);
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-title i {
+            font-size: 1.2rem;
+        }
+
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background: linear-gradient(to right, var(--primary-color), transparent);
+            margin-left: 1rem;
+        }
+
+        /* Professional Summary */
+        .summary-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            text-align: justify;
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .job-header {
+            margin-bottom: 1rem;
+        }
+
+        .job-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.3rem;
+        }
+
+        .company {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 0.3rem;
+        }
+
+        .duration {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .responsibilities {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .responsibilities li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+        }
+
+        .responsibilities li::before {
+            content: '▶';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-size: 0.8rem;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .skill-category-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Projects */
+        .project-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .project-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin: 0.8rem 0;
+        }
+
+        .tech-tag {
+            background: var(--surface);
+            color: var(--text-secondary);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            border: 1px solid var(--border);
+        }
+
+        .project-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        /* Education */
+        .education-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .degree {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.3rem;
+        }
+
+        .institution {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .graduation-year {
+            color: var(--text-light);
+            font-size: 0.85rem;
+        }
+
+        /* Certifications */
+        .cert-item {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 0.8rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+
+        .cert-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--accent-color);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+        .cert-details {
+            flex: 1;
+        }
+
+        .cert-name {
+            font-weight: 500;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .cert-issuer {
+            color: var(--text-light);
+            font-size: 0.8rem;
+        }
+
+        /* Languages */
+        .languages {
+            display: grid;
+            gap: 0.8rem;
+        }
+
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.8rem;
+            background: white;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .language-name {
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .proficiency {
+            background: var(--success);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                font-size: 12pt;
+                line-height: 1.4;
+            }
+
+            .container {
+                box-shadow: none;
+                margin: 0;
+                max-width: none;
+            }
+
+            .header {
+                background: var(--primary-color) !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+
+            .main-content {
+                grid-template-columns: 1fr 300px;
+            }
+
+            .section {
+                break-inside: avoid;
+                margin-bottom: 1.5rem;
+            }
+
+            .experience-item,
+            .project-item,
+            .education-item {
+                break-inside: avoid;
+            }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                margin: 0;
+                box-shadow: none;
+            }
+
+            .header {
+                padding: 2rem 1.5rem;
+            }
+
+            .name {
+                font-size: 2rem;
+            }
+
+            .title {
+                font-size: 1.1rem;
+            }
+
+            .contact-info {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .left-column,
+            .right-column {
+                padding: 1.5rem;
+            }
+
+            .right-column {
+                border-left: none;
+                border-top: 1px solid var(--border);
+            }
+        }
+
+        /* Animations */
+        .section {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .skill-tag,
+        .tech-tag {
+            transition: transform 0.2s ease;
+        }
+
+        .skill-tag:hover,
+        .tech-tag:hover {
+            transform: translateY(-2px);
+        }
+
+        .project-item,
+        .education-item,
+        .cert-item,
+        .language-item {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .project-item:hover,
+        .education-item:hover,
+        .cert-item:hover,
+        .language-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="name">John Smith</h1>
+            <p class="title">Senior AI Engineer & Machine Learning Specialist</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>john.smith@email.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>linkedin.com/in/johnsmith</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/johnsmith</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>San Francisco, CA</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <span>www.johnsmith-ai.com</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Left Column -->
+        <main class="left-column">
+            <!-- Professional Summary -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-user"></i>
+                    Professional Summary
+                </h2>
+                <p class="summary-text">
+                    Innovative AI Engineer with 6+ years of experience designing and implementing cutting-edge machine learning solutions. Expertise in deep learning, computer vision, and natural language processing with a proven track record of deploying production-scale AI systems that drive business value. Passionate about leveraging artificial intelligence to solve complex real-world problems and optimize business processes.
+                </p>
+            </section>
+
+            <!-- Experience -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-briefcase"></i>
+                    Professional Experience
+                </h2>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3 class="job-title">Senior AI Engineer</h3>
+                        <p class="company">TechCorp Inc.</p>
+                        <p class="duration">
+                            <i class="far fa-calendar"></i>
+                            January 2022 - Present
+                        </p>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Led development of computer vision system that improved product quality detection by 45%</li>
+                        <li>Architected and deployed ML pipeline processing 10M+ data points daily</li>
+                        <li>Mentored team of 5 junior engineers and established ML best practices</li>
+                        <li>Reduced model inference time by 60% through optimization and quantization techniques</li>
+                        <li>Collaborated with cross-functional teams to integrate AI solutions into production systems</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3 class="job-title">Machine Learning Engineer</h3>
+                        <p class="company">DataDriven Solutions</p>
+                        <p class="duration">
+                            <i class="far fa-calendar"></i>
+                            March 2020 - December 2021
+                        </p>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Developed NLP models for sentiment analysis achieving 92% accuracy</li>
+                        <li>Implemented recommendation engine that increased user engagement by 35%</li>
+                        <li>Built automated feature engineering pipeline using Apache Spark</li>
+                        <li>Designed A/B testing framework for ML model performance evaluation</li>
+                        <li>Optimized existing models reducing training time by 40%</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3 class="job-title">AI Research Engineer</h3>
+                        <p class="company">Innovation Labs</p>
+                        <p class="duration">
+                            <i class="far fa-calendar"></i>
+                            June 2018 - February 2020
+                        </p>
+                    </div>
+                    <ul class="responsibilities">
+                        <li>Researched and prototyped novel deep learning architectures</li>
+                        <li>Published 3 peer-reviewed papers in top-tier AI conferences</li>
+                        <li>Developed generative models for synthetic data augmentation</li>
+                        <li>Created proof-of-concept for autonomous robotics applications</li>
+                        <li>Collaborated with academic institutions on cutting-edge AI research</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- AI/ML Projects -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-code"></i>
+                    Key AI/ML Projects
+                </h2>
+
+                <div class="project-item">
+                    <h3 class="project-title">
+                        <i class="fas fa-robot"></i>
+                        Autonomous Driving Perception System
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">YOLO</span>
+                        <span class="tech-tag">ROS</span>
+                        <span class="tech-tag">CUDA</span>
+                    </div>
+                    <p class="project-description">
+                        Developed real-time object detection and lane detection system for autonomous vehicles. Achieved 98.5% accuracy in object recognition and enabled safe navigation in complex traffic scenarios.
+                    </p>
+                </div>
+
+                <div class="project-item">
+                    <h3 class="project-title">
+                        <i class="fas fa-comments"></i>
+                        Conversational AI Chatbot
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Transformers</span>
+                        <span class="tech-tag">BERT</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                    <p class="project-description">
+                        Built enterprise chatbot handling 50k+ daily interactions with 95% user satisfaction. Integrated with existing CRM systems and reduced customer service workload by 60%.
+                    </p>
+                </div>
+
+                <div class="project-item">
+                    <h3 class="project-title">
+                        <i class="fas fa-chart-line"></i>
+                        Predictive Analytics Platform
+                    </h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">XGBoost</span>
+                        <span class="tech-tag">Apache Kafka</span>
+                        <span class="tech-tag">MLflow</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <p class="project-description">
+                        Created end-to-end ML platform for demand forecasting. Improved prediction accuracy by 30% and enabled proactive inventory management worth $2M+ in cost savings.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Column -->
+        <aside class="right-column">
+            <!-- Technical Skills -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-cogs"></i>
+                    Technical Skills
+                </h2>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-brain"></i>
+                            AI/ML Frameworks
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">XGBoost</span>
+                            <span class="skill-tag">LightGBM</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-code"></i>
+                            Programming
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">R</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-cloud"></i>
+                            Cloud & DevOps
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Google Cloud</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">MLflow</span>
+                            <span class="skill-tag">Apache Spark</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-database"></i>
+                            Data & Analytics
+                        </h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Education
+                </h2>
+
+                <div class="education-item">
+                    <h3 class="degree">M.S. in Computer Science</h3>
+                    <p class="institution">Stanford University</p>
+                    <p class="graduation-year">Specialization: Artificial Intelligence | 2018</p>
+                </div>
+
+                <div class="education-item">
+                    <h3 class="degree">B.S. in Computer Engineering</h3>
+                    <p class="institution">UC Berkeley</p>
+                    <p class="graduation-year">Magna Cum Laude | 2016</p>
+                </div>
+            </section>
+
+            <!-- Certifications -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-certificate"></i>
+                    Certifications
+                </h2>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-details">
+                        <p class="cert-name">Professional ML Engineer</p>
+                        <p class="cert-issuer">Google Cloud</p>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-details">
+                        <p class="cert-name">Machine Learning Specialty</p>
+                        <p class="cert-issuer">AWS</p>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="cert-details">
+                        <p class="cert-name">Deep Learning Specialization</p>
+                        <p class="cert-issuer">Coursera - Andrew Ng</p>
+                    </div>
+                </div>
+
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-details">
+                        <p class="cert-name">Azure AI Engineer Associate</p>
+                        <p class="cert-issuer">Microsoft</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Languages -->
+            <section class="section">
+                <h2 class="section-title">
+                    <i class="fas fa-language"></i>
+                    Languages
+                </h2>
+
+                <div class="languages">
+                    <div class="language-item">
+                        <span class="language-name">English</span>
+                        <span class="proficiency">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Spanish</span>
+                        <span class="proficiency">Fluent</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Mandarin</span>
+                        <span class="proficiency">Conversational</span>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </div>
+</div>
+
+<script>
+    // Add smooth scrolling and interactive effects
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate sections on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+
+        // Add click effects to skill tags
+        document.querySelectorAll('.skill-tag, .tech-tag').forEach(tag => {
+            tag.addEventListener('click', function() {
+                this.style.transform = 'scale(1.05)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 150);
+            });
+        });
+
+        // Print functionality
+        function printResume() {
+            window.print();
+        }
+
+        // Add print button if needed
+        if (window.location.search.includes('print=true')) {
+            const printBtn = document.createElement('button');
+            printBtn.innerHTML = '<i class="fas fa-print"></i> Print Resume';
+            printBtn.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: var(--primary-color);
+                    color: white;
+                    border: none;
+                    padding: 12px 20px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+                    z-index: 1000;
+                    font-family: inherit;
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                `;
+            printBtn.onclick = printResume;
+            document.body.appendChild(printBtn);
+        }
+    });
+
+    // Performance optimization
+    if ('IntersectionObserver' in window) {
+        const lazyImages = document.querySelectorAll('img[data-src]');
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy');
+                    observer.unobserve(img);
+                }
+            });
+        });
+        lazyImages.forEach(img => imageObserver.observe(img));
+    }
+</script>
+</body>
+</html>
