@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    // const obj = {
+    //     name: '张三',
+    //     age: 18
+    // }
+    // obj.age = 19
+  const obj = {}
+  Object.defineProperty(obj, 'name', {
+    value: '张三',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  })
+  // 使用get/set 不能使用value和writable
+  let oldValue = 0
+  Object.defineProperty(obj, 'age', {
+    get() {
+        return oldValue
+    },
+    set(val) {
+        if (oldValue !== val) oldValue = val
+    },
+    enumerable: true,
+    configurable: true
+  })
+  console.dir(obj)
+</script>    
+</body>
+</html>

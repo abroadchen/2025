@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <id id="app">
+        <p>{{name}}</p>
+        <p>{{n}}</p>
+    </id>
+</body>
+<!-- vm.$data.n = 2 -->
+<script src="vue.js"></script>
+<script type="text/javascript">
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            name: 'Vue',
+            n: 1
+        }
+    })
+</script>
+</html>
