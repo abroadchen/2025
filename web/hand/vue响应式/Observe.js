@@ -12,14 +12,17 @@ class Observe {
   }
   defineReactive(obj, attr, value) {
     this.observe(value)
+    let dep = new Dep()
     Object.defineProperty(obj, attr, {
       get() {
+        Dep.target && dep.addSub(Dep.target)
         return value
       },
       set: (newValue) => {
         if (newValue !== value) {
           this.observe(newValue)
           value = newValue
+          dep.notify()
         }
       }
     })
