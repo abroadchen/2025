@@ -1,0 +1,9 @@
+FROM alpine:3.18.4
+
+RUN mkdir /user
+
+COPY bin/user-rpc /user
+COPY rpc/etc/user.yaml /user
+RUN chmod +x /user/user-rpc
+WORKDIR /user
+ENTRYPOINT ["./user-rpc", "-f", "user.yaml"]

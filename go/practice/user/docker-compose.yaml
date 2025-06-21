@@ -1,0 +1,57 @@
+version: "3"
+
+services:
+  etcd:
+    image: etcd
+    build:
+      context: ./
+      dockerfile: dockerfile_etcd
+    container_name: etcd
+    ports:
+      - "2379:2379"
+      - "2380:2380"
+    environment:
+      - ETCD_ENABLE_V2=true
+      - ALLOW_NONE_AUTHENTICATION=yes
+      - ETCD_ADVERTIS_CLIENT_URLS=http://etcd:2379
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
+      - ETCD_NAME=etcd
+    volumes:
+      - ./etcd/data:/bitnami/etcd/data
+      - ./etcd/logs:/bitnami/etcd/logs
+    networks:
+      user:
+        - ipv4_address: 168.10.0.20
+
+
+  user-rpc:
+    image: user-rpc
+    container_name: user-rpc
+    ports:
+      - "8080:8080"
+    links:
+      - etcd
+    depends_on:
+      - etcd
+    networks:
+      user:
+
+  user-api:
+    image: user-api
+    container_name: user-api
+    ports:
+      - "8888:8888"
+    links:
+      - etcd
+    depends_on:
+      - etcd
+      - user-rpc
+    networks:
+      user:
+
+
+
+networks:
+  user:
+    external:
+      name: user
