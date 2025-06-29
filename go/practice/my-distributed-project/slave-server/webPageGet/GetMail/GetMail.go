@@ -1,7 +1,7 @@
 package GetMail
 
 import (
-	"io/ioutil"
+	"io"
 	"net/http"
 	"regexp"
 )
@@ -11,7 +11,7 @@ func GetMail(url string) []string {
 	if err != nil {
 		return []string{}
 	}
-	b, err := ioutil.ReadAll(resp.Body)
+	b, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return []string{}
 	}

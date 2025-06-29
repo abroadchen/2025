@@ -11,7 +11,7 @@ const (
 )
 
 func main() {
-	conn, err := grpc.Dial(Address, grpc.WithInsecure())
+	conn, err := grpc.NewClient(Address, grpc.WithInsecure())
 	if err != nil {
 		grpclog.Fatalf("fail to dial: %v", err)
 	}

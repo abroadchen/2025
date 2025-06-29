@@ -9,8 +9,10 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 	"sync"
+	"time"
 )
 
 func GetMail1(url string) []string {
@@ -42,6 +44,18 @@ func GetMail2(url string, wg *sync.WaitGroup) []string {
 	tmplist := rgx.FindAllString(string(b), -1)
 	wg.Done()
 	return tmplist
+}
+
+func mainwait() {
+	var wg sync.WaitGroup
+	for i := 1; i <= 8; i++ {
+		url := "https://mail.google.com/" + strconv.Itoa(i) + ".shtml"
+		wg.Add(1)
+		go GetMail2(url, &wg)
+	}
+	wg.Wait()
+	fmt.Println("等待所有线程都干完")
+	time.Sleep(1 * time.Second)
 }
 
 func GetMail(url string, emailmap map[string]int) []string {
@@ -100,6 +114,7 @@ func GetURL2(url string) []string {
 	return lastlist
 }
 
+// GetURL 去重/**
 func GetURL(url string, urlmap map[string]int) []string {
 	resp, err := http.Get(url)
 	if err != nil {

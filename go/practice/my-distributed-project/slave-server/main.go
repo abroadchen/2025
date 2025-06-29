@@ -28,7 +28,7 @@ func init() {
 		if err != nil {
 			time.Sleep(time.Second)
 			goto AA
-		} else {
+		} else { //服务发现
 			fmt.Println("thread1 locked success")
 			numstr := staticdata.DataETCDServer.Get("Clientnum")
 			if numstr == "" {

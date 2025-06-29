@@ -79,8 +79,8 @@ type CONN struct {
 	conn      net.Conn
 	cpu       int
 	mem       int
-	tasks     int
-	livetasks int
+	tasks     int //已经分配的任务 相等随机不等取最小
+	livetasks int //还未干活的
 	replytime int
 }
 
