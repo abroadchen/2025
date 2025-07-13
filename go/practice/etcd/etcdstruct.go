@@ -73,14 +73,13 @@ func main() {
 		if err != nil {
 			fmt.Println("thread1 failed to lock")
 			fmt.Println(err)
+		} else {
 			time.Sleep(time.Second)
 			goto AA
-		} else {
-			fmt.Println("thread1 locked success")
-			time.Sleep(time.Second * 10)
-			defer eMutex1.Unlock()
 		}
-
+		fmt.Println("thread1 locked success")
+		time.Sleep(time.Second * 10)
+		defer eMutex1.Unlock()
 	}()
 	go func() {
 	AB:
@@ -88,14 +87,13 @@ func main() {
 		if err != nil {
 			fmt.Println("thread2 failed to lock")
 			fmt.Println(err)
+		} else {
 			time.Sleep(time.Second)
 			goto AB
-		} else {
-			fmt.Println("thread2 locked success")
-			time.Sleep(time.Second * 10)
-			defer eMutex2.Unlock()
 		}
-
+		fmt.Println("thread2 locked success")
+		time.Sleep(time.Second * 10)
+		defer eMutex2.Unlock()
 	}()
 	time.Sleep(time.Second * 30)
 }

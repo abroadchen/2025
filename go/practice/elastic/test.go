@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"github.com/olivere/elastic/v7"
 	"log"
+	"net/http"
 	"os"
 	"reflect"
+	"testing"
 )
 
 var client *elastic.Client
@@ -71,6 +73,65 @@ func query() {
 	res, err = client.Search("<UNK>").Type("QQqun").Query(q).Do(context.Background())
 }
 
-func main() {
+func ItemServer() chan interface{} {
+	client, err := elastic.NewClient(
+		elastic.SetSniff(false),
+	)
+	if err != nil {
+		return nil
+	}
+	out := make(chan interface{})
+	go func() {
+		for {
+			item := <-out
+			fmt.Printf("Item Server: get item:%v\n", item)
+			//调用数据库
+			//http.Get("http://127.0.0.1:9200")
+			//存入数据
+			err := Save(client, item)
+			if err != nil {
+				log.Printf("save item:%v\n", err)
+			}
+		}
+	}()
+	return out
+}
 
+func Save(client *elastic.Client, item interface{}) error {
+	indexServ := client.Index().Index("").Type("").BodyJson(item)
+	_, err := indexServ.Do(context.Background())
+	return err
+}
+
+func ElasticSearch() error {
+	resp, err := http.Get("http://127.0.0.1:9200")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("%v\n", resp.Body)
+	return nil
+}
+
+func ItemServerWithArgs(in chan interface{}) {
+	go func() {
+		for {
+			item := <-in
+			fmt.Printf("Item Server: get item:%v\n", item)
+		}
+	}()
+}
+
+func TestElasticSearch(t *testing.T) {
+	err := ElasticSearch()
+	if err != nil {
+		t.Errorf("Elasticsearch err:%v\n", err)
+	}
+}
+
+func main() {
+	e := engine.ConcurrentEngine{
+		Scheduler:   &scheduler.QueuedScheduler{},
+		WorkerCount: 100,
+		ItemChannel: database.ItemServer(),
+	}
 }

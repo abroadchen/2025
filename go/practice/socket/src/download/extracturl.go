@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
+	"golang.org/x/net/html"
+	"io"
 	"io/ioutil"
 	"net/http"
+	"os"
 	"regexp"
 	"strings"
 	"sync"
@@ -11,7 +14,36 @@ import (
 )
 
 func GetURL(url string) []string {
+	resp, err := http.Get(url)
+	if err != nil {
+		fmt.Println(err)
+		return []string{}
+	}
+	b, err := io.ReadAll(resp.Body)
+	resp.Body.Close()
+	if err != nil {
+		fmt.Println(err)
+		return []string{}
+	}
+	file, err := os.Create("1.txt")
+	file.Write(b)
+	file.Close()
+	newfile, _ := os.Open("1.txt")
+	doc, err := html.Parse(newfile)
+	tmplist := []string{}
+	for _, link := range visit(nil, doc) {
+		if !strings.Contains(link, "javascript") || !strings.Contains(link, "#fabu_anchor") {
+			link = strings.Replace(link, "“", "", -1)
+			if len(link) > 7 && line[:7] != "http://" {
+				link = "" + link
 
+			}
+			tmplist = append(tmplist, link)
+		}
+
+	}
+	newfile.Close()
+	return tmplist
 }
 
 func visit(links []string, n *html.Node) []string {

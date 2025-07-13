@@ -40,6 +40,7 @@ func main() {
 		Dial: Timeout,
 	}
 	client := http.Client{
+		//Timeout: time.Second*10,
 		Transport: &t,
 	}
 	data, err := client.Get(URL)
