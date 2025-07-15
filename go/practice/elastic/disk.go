@@ -82,6 +82,7 @@ func (mm *DiskSearch) GetQQQunByWord(word []string, filename string) []string {
 
 		save.Flush()
 		savefile.Close()
+		//value := Upload(filelastpath)
 	}
 	return resultstring
 }

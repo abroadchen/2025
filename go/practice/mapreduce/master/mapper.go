@@ -7,7 +7,16 @@ import (
 	"strconv"
 )
 
+/*
+MapInput
+
+	@Description: 输入数据 拆分
+*/
 type MapInput struct {
+	/*
+	   FileName
+	     @Description:
+	*/
 	FileName string
 	Nr       int
 }
