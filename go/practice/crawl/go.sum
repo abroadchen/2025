@@ -1,0 +1,10 @@
+bitbucket.org/zaphar/go-html-transform v0.1.1 h1:rLTyYKMrpz6e3fbfFKscM4IT/cIyNTYnnensIuaKuHw=
+bitbucket.org/zaphar/go-html-transform v0.1.1/go.mod h1:IeWGneS9IRNTH8RFvbR/I7IXSWh5AqLVSM4T8+dQp/g=
+github.com/dokidokikoi/go-cmap v0.0.0-20221210062014-861b056eb775 h1:KiaSxzGFfFzf99Ysb4wvSO9MxrwKRU44Iq2fAupqLW0=
+github.com/dokidokikoi/go-cmap v0.0.0-20221210062014-861b056eb775/go.mod h1:zYLd7lejeK32+1i6IPhPB4BCyyj/cp8nXFjI+Zmi/8w=
+github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
+github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
+github.com/fern4lvarez/go-metainspector v0.0.0-20160307191140-7872a870333f h1:ki5ZSBaYYmy3WONjvb/WPT0veve4L8hP0MGQsfeseKk=
+github.com/fern4lvarez/go-metainspector v0.0.0-20160307191140-7872a870333f/go.mod h1:JDzjJJ77sVJed1GPN1kxSQCCSsIOToXiYyrodQRJf3Q=
+golang.org/x/net v0.42.0 h1:jzkYrhi3YQWD6MLBJcsklgQsoAcw89EcZbJw8Z614hs=
+golang.org/x/net v0.42.0/go.mod h1:FF1RA5d3u7nAYA4z2TkclSCKh68eSXtiFwcWQpPXdt8=

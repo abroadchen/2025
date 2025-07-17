@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func main1() {
+func main11() {
 	url := ""
 	urllist := GetURL(url)
 	urllist = append(urllist, url)

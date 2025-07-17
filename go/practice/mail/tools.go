@@ -2,7 +2,7 @@ package mail
 
 import (
 	"fmt"
-	"io/ioutil"
+	"github.com/klauspost/compress/zip"
 	"os"
 )
 

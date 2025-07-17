@@ -2,6 +2,7 @@ package crawl
 
 import (
 	"fmt"
+	"math/rand"
 	"time"
 )
 
