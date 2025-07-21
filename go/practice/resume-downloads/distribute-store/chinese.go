@@ -5,7 +5,7 @@ Package 分布式存储
 	@since: 2025/7/14
 	@desc:
 */
-package 分布式存储
+package distribute_store
 
 import (
 	"fmt"

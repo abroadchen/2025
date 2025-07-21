@@ -3,7 +3,7 @@
 @since: 2025/7/14
 @desc:
 */
-package 哈希
+package hash
 
 import (
 	"crypto/md5"
