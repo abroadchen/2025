@@ -1,0 +1,8 @@
+[package]
+name = "dns"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+trust-dns-resolver = "0.23.2"
+trust-dns = "0.23.2"

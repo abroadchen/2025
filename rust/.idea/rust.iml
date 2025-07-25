@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/dns/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ipaddr/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ipnet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/mio/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/pnet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/serde/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/serde2/client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/serde2/server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tcp/client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tcp/server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/upd/udp-client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/upd/udp-server/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/dns/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/ipaddr/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/ipnet/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/mio/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/pnet/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/serde/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/serde2/client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/serde2/server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/tcp/client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/tcp/server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/upd/udp-client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/upd/udp-server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
