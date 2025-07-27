@@ -15,6 +15,17 @@
       <sourceFolder url="file://$MODULE_DIR$/src/tcp/server/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/upd/udp-client/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/upd/udp-server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/script/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/script2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/use_grpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lettre/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/async/client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/async/server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/async/simple-future/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/web-server/mylib/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/web-server/server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/wasm/wasm-game-of-life/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/wasm/wasm-game-of-life/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/src/dns/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/ipaddr/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/ipnet/target" />
@@ -28,6 +39,16 @@
       <excludeFolder url="file://$MODULE_DIR$/src/upd/udp-client/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/upd/udp-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/script/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/script2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/use_grpc/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/lettre/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/async/client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/async/server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/async/simple-future/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/web-server/mylib/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/web-server/server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/wasm/wasm-game-of-life/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
