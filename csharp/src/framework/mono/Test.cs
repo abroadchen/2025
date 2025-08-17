@@ -24,8 +24,49 @@ public class Test : MonoBehaviour
     {
         TestTest t = new TestTest();
         MonoMgr.GetInstance().AddUpdateListener(t.Update);
+
+        UIManager.GetInstance().ShowPanel<LoginPanel>("LoginPanel", E_UI_Layer.Mid, ShowPanelOver);
+        
+        //LoginPanel p = this.gameObject.GetComponet<LoginPanel>();
+        //p.InitInfo();
     }
 
+    private void ShowPanelOver(LoginPanel panel)
+    {
+        panel.InitInfo();
+        Invoke("DelayHide", 1);
+    }
+
+    private void DelayHide()
+    {
+        UIManager.GetInstance().HidePanel("LoginPanel");
+    }
+
+    public void InitInfo()
+    {
+        Debug.Log("初始化数据");
+    }
+
+
+	public override void ShowMe()
+	{
+		base.ShowMe();
+        Debug.Log("ShowMe");
+	}
+
+    public void ClickStart()
+    {
+        //UIManager.GetInstance().ShowPanel<>("LoginPanel");
+    }
+
+    public void ClickQuit()
+    {
+        
+    }
+    
+    
+    
+    
     void Update() 
     {
         if (Input.GetMouseButtonDown(0))
