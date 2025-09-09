@@ -2,34 +2,33 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-
 public abstract class BaseData
 {
     /// <summary>
-    /// ÓÃÓÚ×ÓÀàÖØÐ´µÄ »ñÈ¡×Ö½ÚÊý×éÈÝÆ÷´óÐ¡µÄ·½·¨
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ ï¿½ï¿½È¡ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½Ä·ï¿½ï¿½ï¿½
     /// </summary>
     /// <returns></returns>
     public abstract int GetBytesNum();
 
     /// <summary>
-    /// °Ñ³ÉÔ±±äÁ¿ ÐòÁÐ»¯Îª ¶ÔÓ¦µÄ×Ö½ÚÊý×é
+    /// ï¿½Ñ³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ð»ï¿½Îª ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     /// <returns></returns>
     public abstract byte[] Writing();
 
     /// <summary>
-    /// °Ñ2½øÖÆ×Ö½ÚÊý×é ·´ÐòÁÐ»¯µ½ ³ÉÔ±±äÁ¿µ±ÖÐ
+    /// ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
-    /// <param name="bytes">·´ÐòÁÐ»¯Ê¹ÓÃµÄ×Ö½ÚÊý×é</param>
-    /// <param name="beginIndex">´Ó¸Ã×Ö½ÚÊý×éµÄµÚ¼¸¸öÎ»ÖÃ¿ªÊ¼½âÎö Ä¬ÈÏÊÇ0</param>
+    /// <param name="bytes">ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½Ê¹ï¿½Ãµï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
+    /// <param name="beginIndex">ï¿½Ó¸ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÚ¼ï¿½ï¿½ï¿½Î»ï¿½Ã¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ Ä¬ï¿½ï¿½ï¿½ï¿½0</param>
     public abstract int Reading(byte[] bytes, int beginIndex = 0);
 
     /// <summary>
-    /// ´æ´¢intÀàÐÍ±äÁ¿µ½Ö¸¶¨µÄ×Ö½ÚÊý×éµ±ÖÐ
+    /// ï¿½æ´¢intï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½éµ±ï¿½ï¿½
     /// </summary>
-    /// <param name="bytes">Ö¸¶¨×Ö½ÚÊý×é</param>
-    /// <param name="value">¾ßÌåµÄintÖµ</param>
-    /// <param name="index">Ã¿´Î´æ´¢ºóÓÃÓÚ¼ÇÂ¼µ±Ç°Ë÷ÒýÎ»ÖÃµÄ±äÁ¿</param>
+    /// <param name="bytes">Ö¸ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
+    /// <param name="value">ï¿½ï¿½ï¿½ï¿½ï¿½intÖµ</param>
+    /// <param name="index">Ã¿ï¿½Î´æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½Ú¼ï¿½Â¼ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Î»ï¿½ÃµÄ±ï¿½ï¿½ï¿½</param>
     protected void WriteInt(byte[] bytes, int value, ref int index)
     {
         BitConverter.GetBytes(value).CopyTo(bytes, index);
@@ -62,12 +61,12 @@ public abstract class BaseData
     }
     protected void WriteString(byte[] bytes, string value, ref int index)
     {
-        //ÏÈ´æ´¢string×Ö½ÚÊý×éµÄ³¤¶È
+        //ï¿½È´æ´¢stringï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½
         byte[] strBytes = Encoding.UTF8.GetBytes(value);
         //BitConverter.GetBytes(strBytes.Length).CopyTo(bytes, index);
         //index += sizeof(int);
         WriteInt(bytes, strBytes.Length, ref index);
-        //ÔÙ´æ string×Ö½ÚÊý×é
+        //ï¿½Ù´ï¿½ stringï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½
         strBytes.CopyTo(bytes, index);
         index += strBytes.Length;
     }
@@ -78,10 +77,10 @@ public abstract class BaseData
     }
 
     /// <summary>
-    /// ¸ù¾Ý×Ö½ÚÊý×é ¶ÁÈ¡ÕûÐÎ
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
     /// </summary>
-    /// <param name="bytes">×Ö½ÚÊý×é</param>
-    /// <param name="index">¿ªÊ¼¶ÁÈ¡µÄË÷ÒýÊý</param>
+    /// <param name="bytes">ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
+    /// <param name="index">ï¿½ï¿½Ê¼ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</param>
     /// <returns></returns>
     protected int ReadInt(byte[] bytes, ref int index)
     {
@@ -121,9 +120,9 @@ public abstract class BaseData
     }
     protected string ReadString(byte[] bytes, ref int index)
     {
-        //Ê×ÏÈ¶ÁÈ¡³¤¶È
+        //ï¿½ï¿½ï¿½È¶ï¿½È¡ï¿½ï¿½ï¿½ï¿½
         int length = ReadInt(bytes, ref index);
-        //ÔÙ¶ÁÈ¡string
+        //ï¿½Ù¶ï¿½È¡string
         string value = Encoding.UTF8.GetString(bytes, index, length);
         index += length;
         return value;

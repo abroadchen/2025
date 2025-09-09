@@ -30,7 +30,15 @@ namespace net
 
             var socketClient = socketTcp.Accept();
             Console.WriteLine("已连入");
-            socketClient.Send(Encoding.UTF8.GetBytes("欢迎连入服务端"));
+
+            var msg = new PlayerMsg();
+            msg.playerID = 66;
+            msg.playerData = new PlayerData();
+            msg.playerData.name = "June";
+            msg.playerData.atk = 100;
+            msg.playerData.lev = 10;
+
+            socketClient.Send(msg.Writing());
             var result = new byte[1024];
             var receiveNum = socketClient.Receive(result);
             Console.WriteLine("接收到了{0}发来的消息: {1}",

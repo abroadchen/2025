@@ -30,6 +30,20 @@ namespace net
 
             var receiveBytes = new byte[1024];
             var receiveNum = socket.Receive(receiveBytes);
+
+            var msgID = BitConverter.ToInt32(receiveBytes, 0);
+            switch (msgID)
+            {
+                case 1001:
+                    var msg = new PlayerMsg();
+                    msg.Reading(receiveBytes, 4);
+                    print(msg.playerID);
+                    print(msg.playerData.name);
+                    print(msg.playerData.atk);
+                    print(msg.playerData.lev);
+                    break;
+            }
+            
             print("收到服务器端发来的消息:" + Encoding.UTF8.GetString(receiveBytes, 0, receiveNum));
 
             socket.Send(Encoding.UTF8.GetBytes("hello, i am a client"));
