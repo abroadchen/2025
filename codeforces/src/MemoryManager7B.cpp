@@ -1,0 +1,84 @@
+//
+// Created by Psy.C on 2025/9/12.
+//
+
+
+#include <iosfwd>
+#include <iostream>
+#include <vector>
+using namespace std;
+
+struct node {
+    int l, r, id;
+};
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int m, t, num = 1;
+    int a[106] = {0};
+    vector<node> v;
+    cin >> t >> m;
+
+    while (t--) {
+        string s;
+        cin >> s;
+        if (s == "defragment") {
+            int sum = 0;
+            auto cmp = [&](node a, node b) { return a.l < b.l; };
+            sort(v.begin(), v.end(), cmp);
+            for (int i = 0; i < v.size(); i++) sum += v[i].r - v[i].l + 1;
+            for (int i = 1; i <= sum; ++i) a[i] = 1;
+            for (int i = sum + 1; i < 106; ++i) a[i] = 0;
+            int cnt = 1;
+            for (int i = 0; i < v.size(); ++i) {
+                int _size = v[i].r - v[i].l + 1;
+                v[i].l = cnt;
+                cnt += _size - 1;
+                v[i].r = cnt;
+                cnt++;
+            }
+        }
+        else if (s == "erase") {
+            int pos;
+            cin >> pos;
+            int idx = -1;
+            for (int i = 0; i < v.size(); ++i) {
+                if (v[i].id == pos) {
+                    idx = i;
+                    break;
+                }
+            }
+            if (idx == -1) cout << "ILLEGAL_ERASE_ARGUMENT\n";
+            else {
+                for (int i = v[idx].l; i <= v[idx].r; ++i) a[i] = 0;
+                v.erase(v.begin() + idx);
+            }
+        } else {
+            int _size;
+            cin >> _size;
+            int cnt = 0;
+            int idx = -1;
+            for (int i = 1; i <= m; ++i) {
+                if (a[i] == 0) {
+                    cnt++;
+                    if (cnt == _size) {
+                        idx = i;
+                        break;
+                    }
+                } else {
+                    cnt = 0;
+                }
+            }
+            if (idx == -1) cout << "NULL\n";
+            else {
+                v.push_back({idx - _size + 1, idx, num});
+                cout << num << "\n";
+                num++;
+                for (int i = idx - _size + 1; i <= idx; ++i) a[i] = 1;
+            }
+        }
+    }
+    return 0;
+}

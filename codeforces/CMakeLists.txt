@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+
 include_directories(src)
 
 add_executable(codeforces
@@ -27,7 +28,19 @@ add_executable(codeforces
         src/BindianSignalizing5E.cpp
         src/Triangle6A.cpp
         src/President'sOffice6B.cpp
-        src/Alice,BobandChocolate6C.cpp)
+        src/Alice,BobandChocolate6C.cpp
+        "src/LizardsandBasements6D .cpp"
+        src/Exposition6E.cpp
+        src/KalevitchandChess7A.cpp
+        src/MemoryManager7B.cpp
+        src/Line7C.cpp
+        src/PalindromeDegree7D.cpp
+        src/DefiningMacros7E.cpp
+        src/TrainandPeter8A.cpp
+        src/ObsessionwithRobots8B.cpp
+        src/LookingforOrder8C.cpp
+        src/TwoFriends8D.cpp
+        src/Beads8E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
