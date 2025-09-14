@@ -40,7 +40,22 @@ add_executable(codeforces
         src/ObsessionwithRobots8B.cpp
         src/LookingforOrder8C.cpp
         src/TwoFriends8D.cpp
-        src/Beads8E.cpp)
+        src/Beads8E.cpp
+        src/DieRoll9A.cpp
+        src/RunningStudent9B.cpp
+        src/Hexadecimal'sNumbers9C.cpp
+        src/Howmanytrees9D.cpp
+        src/InterestingGraphandApples9E.cpp
+        src/PowerConsumptionCalculation10A.cpp
+        src/CinemaCashier10B.cpp
+        src/DigitalRoot10C.cpp
+        src/LCIS10D.cpp
+        src/Greedychange10E.cpp
+        src/IncreasingSequence11A.cpp
+        src/JumpingJack11B.cpp
+        src/HowManySquares11C.cpp
+        src/ASimpleTask11D.cpp
+        src/Forward,march11E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
