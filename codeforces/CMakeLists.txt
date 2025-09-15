@@ -55,7 +55,21 @@ add_executable(codeforces
         src/JumpingJack11B.cpp
         src/HowManySquares11C.cpp
         src/ASimpleTask11D.cpp
-        src/Forward,march11E.cpp)
+        src/Forward,march11E.cpp
+        src/SuperAgent12A.cpp
+        src/CorrectSolution12B.cpp
+        src/Fruits12C.cpp
+        src/Ball12D.cpp
+        src/Startoftheseason12E.cpp
+        src/Numbers13A.cpp
+        src/LetterA13B.cpp
+        src/Sequence13C.cpp
+        src/Triangles13D.cpp
+        src/Holes13E.cpp
+        src/Letter14A.cpp
+        src/YoungPhotographer14B.cpp
+        src/FourSegments14C.cpp
+        src/TwoPaths14D.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
