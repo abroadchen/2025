@@ -69,7 +69,19 @@ add_executable(codeforces
         src/Letter14A.cpp
         src/YoungPhotographer14B.cpp
         src/FourSegments14C.cpp
-        src/TwoPaths14D.cpp)
+        src/TwoPaths14D.cpp
+        src/Camels14E.cpp
+        src/CottageVillage15A.cpp
+        src/Laser15B.cpp
+        src/IndustrialNim15C.cpp
+        src/Map15D.cpp
+        src/Triangles15E.cpp
+        src/Flag16A.cpp
+        src/BurglarandMatches16B.cpp
+        src/Monitor16C.cpp
+        src/Logging16D.cpp
+        src/Fish16E.cpp
+        src/Noldbachproblem17A.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
