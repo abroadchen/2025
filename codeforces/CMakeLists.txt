@@ -81,7 +81,22 @@ add_executable(codeforces
         src/Monitor16C.cpp
         src/Logging16D.cpp
         src/Fish16E.cpp
-        src/Noldbachproblem17A.cpp)
+        src/Noldbachproblem17A.cpp
+        src/Hierarchy17B.cpp
+        src/Balance17C.cpp
+        src/Notepad17D.cpp
+        src/Palisection17E.cpp
+        src/Triangle18A.cpp
+        src/Platforms18B.cpp
+        src/Stripe18C.cpp
+        src/SellerBob18D.cpp
+        src/Flag2,18E.cpp
+        src/WorldFootballCup19A.cpp
+        src/CheckoutAssistant19B.cpp
+        src/DeletionofRepeats19C.cpp
+        src/Points19D.cpp
+        src/test.cpp
+        src/Fairy19E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
