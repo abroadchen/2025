@@ -96,7 +96,39 @@ add_executable(codeforces
         src/DeletionofRepeats19C.cpp
         src/Points19D.cpp
         src/test.cpp
-        src/Fairy19E.cpp)
+        src/Fairy19E.cpp
+        src/BerOSfilesystem20A.cpp
+        src/Equation20B.cpp
+        src/Dijkstra20C.cpp
+        src/JabberID21A.cpp
+        src/Intersection21B.cpp
+        src/Stripe2_21C.cpp
+        src/TravelingGraph21D.cpp
+        src/SecondOrderStatistics22A.cpp
+        src/BargainingTable22B.cpp
+        src/SystemAdministrator22C.cpp
+        src/Segments22D.cpp
+        src/Scheme22E.cpp
+        src/You'reGivenaString...23A.cpp
+        src/Party23B.cpp
+        src/OrangesandApples23C.cpp
+        src/Tetragon23D.cpp
+        src/Tree23E.cpp
+        src/Ringroad24A.cpp
+        src/F1Champions24B.cpp
+        src/Sequenceofpoints24C.cpp
+        src/Brokenrobot24D.cpp
+        src/Berlandcollider24E.cpp
+        src/IQtest25A.cpp
+        src/Phonenumbers25B.cpp
+        src/RoadsinBerland25C.cpp
+        src/RoadsnotonlyinBerland25D.cpp
+        src/Test25E.cpp
+        src/AlmostPrime26A.cpp
+        src/RegularBracketSequence26B.cpp
+        src/Parquet26C.cpp
+        src/Tickets26D.cpp
+        src/Multithreading26E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
