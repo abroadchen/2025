@@ -128,7 +128,22 @@ add_executable(codeforces
         src/RegularBracketSequence26B.cpp
         src/Parquet26C.cpp
         src/Tickets26D.cpp
-        src/Multithreading26E.cpp)
+        src/Multithreading26E.cpp
+        src/NextTest27A.cpp
+        src/Tournament27B.cpp
+        src/UnorderedSubsequence27C.cpp
+        src/RingRoad2,27D.cpp
+        src/NumberWithTheGivenAmountOfDivisors27E.cpp
+        src/BenderProblem28A.cpp
+        src/pSort28B.cpp
+        src/BathQueue28C.cpp
+        src/Don'tfear,DravDeiskind28D.cpp
+        src/DravDesavestheworld28E.cpp
+        src/SpitProblem29A.cpp
+        src/TrafficLights29B.cpp
+        src/MailStamps29C.cpp
+        src/AntontheTree29D.cpp
+        src/Quarrel29E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
