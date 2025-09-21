@@ -143,7 +143,32 @@ add_executable(codeforces
         src/TrafficLights29B.cpp
         src/MailStamps29C.cpp
         src/AntontheTree29D.cpp
-        src/Quarrel29E.cpp)
+        src/Quarrel29E.cpp
+        src/Accounting30A.cpp
+        src/CodeforcesWorldFinals30B.cpp
+        src/ShootingGallery30C.cpp
+        src/King'sProblem30D.cpp
+        src/TrickyandCleverPassword30E.cpp
+        src/WormsEvolution31A.cpp
+        src/SysadminBob31B.cpp
+        src/Schedule31C.cpp
+        src/Chocolate31D.cpp
+        src/TVGame31E.cpp
+        src/Reconnaissance32A.cpp
+        src/Borze32B.cpp
+        src/Flea32C.cpp
+        src/Constellation32D.cpp
+        src/Hide-and-Seek32E.cpp
+        src/Whatisfordinner33A.cpp
+        src/StringProblem33B.cpp
+        src/WonderfulRandomizedSum33C.cpp
+        src/Knights33D.cpp
+        src/Helper33E.cpp
+        src/Reconnaissance2,34A.cpp
+        src/Sale34B.cpp
+        src/PageNumbers34C.cpp
+        src/RoadMap34D.cpp
+        src/Collisions34E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
