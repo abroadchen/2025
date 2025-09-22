@@ -168,7 +168,21 @@ add_executable(codeforces
         src/Sale34B.cpp
         src/PageNumbers34C.cpp
         src/RoadMap34D.cpp
-        src/Collisions34E.cpp)
+        src/Collisions34E.cpp
+        src/ShellGame35A.cpp
+        src/Warehouse35B.cpp
+        src/FireAgain35C.cpp
+        src/Animals35D.cpp
+        src/Parade35E.cpp
+        src/Extra-terrestrialIntelligence36A.cpp
+        src/Fractal36B.cpp
+        src/Bowls36C.cpp
+        src/NewGamewithaChessPiece36D.cpp
+        src/TwoPaths36E.cpp
+        src/Towers37A.cpp
+        src/ComputerGame37B.cpp
+        src/OldBerlandLanguage37C.cpp
+        src/LessonTimetable37D.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
