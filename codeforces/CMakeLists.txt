@@ -182,7 +182,14 @@ add_executable(codeforces
         src/Towers37A.cpp
         src/ComputerGame37B.cpp
         src/OldBerlandLanguage37C.cpp
-        src/LessonTimetable37D.cpp)
+        src/LessonTimetable37D.cpp
+        src/TrialforChief37E.cpp
+        src/Army38A.cpp
+        src/Chess38B.cpp
+        src/Blinds38C.cpp
+        src/VasyatheArchitect38D.cpp
+        src/Let'sGoRolling!38E.cpp
+        src/SmartBoy38F.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
