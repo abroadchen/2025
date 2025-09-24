@@ -189,7 +189,21 @@ add_executable(codeforces
         src/Blinds38C.cpp
         src/VasyatheArchitect38D.cpp
         src/Let'sGoRolling!38E.cpp
-        src/SmartBoy38F.cpp)
+        src/SmartBoy38F.cpp
+        src/Queue38G.cpp
+        src/TheGreatMarathon38H.cpp
+        src/C*++Calculations39A.cpp
+        src/CompanyIncomeGrowth39B.cpp
+        "src/Moon Craters39C.cpp"
+        src/CubicalPlanet39D.cpp
+        "src/What Has Dirichlet Got to Do with That?39E.cpp"
+        "src/Pacifist frogs39F.cpp"
+        "src/Inverse Function39G.cpp"
+        "src/Multiplication Table39H.cpp"
+        src/Tram39I.cpp
+        "src/Spelling Check39J.cpp"
+        src/Testing39K.cpp
+        "src/Find Color40A.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
