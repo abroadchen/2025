@@ -203,7 +203,21 @@ add_executable(codeforces
         src/Tram39I.cpp
         "src/Spelling Check39J.cpp"
         src/Testing39K.cpp
-        "src/Find Color40A.cpp")
+        "src/Find Color40A.cpp"
+        src/Repaintings40B.cpp
+        "src/Berland Square40C.cpp"
+        "src/Interesting Sequence40D.cpp"
+        "src/Number Table40E.cpp"
+        src/Translation41A.cpp
+        "src/Martian Dollar41B.cpp"
+        "src/Email address41C.cpp"
+        src/Pawn41D.cpp
+        src/3-cycles41E.cpp
+        "src/Guilty --- to the kitchen!42A.cpp"
+        "src/Game of chess unfinished42B.cpp"
+        "src/Safe cracking42C.cpp"
+        "src/Strange town42D.cpp"
+        "src/Baldman and the military42E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
