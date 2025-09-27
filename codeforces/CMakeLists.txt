@@ -217,7 +217,19 @@ add_executable(codeforces
         "src/Game of chess unfinished42B.cpp"
         "src/Safe cracking42C.cpp"
         "src/Strange town42D.cpp"
-        "src/Baldman and the military42E.cpp")
+        "src/Baldman and the military42E.cpp"
+        src/Football43A.cpp
+        src/Letter43B.cpp
+        "src/Lucky Tickets43C.cpp"
+        src/Journey43D.cpp
+        src/Race43E.cpp
+        "src/Indian Summer44A.cpp"
+        src/Cola44B.cpp
+        src/Holidays44C.cpp
+        src/Hyperdrive44D.cpp
+        "src/Anfisa the Monkey44E.cpp"
+        src/BerPaint44F.cpp
+        "src/Shooting Gallery44G.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
