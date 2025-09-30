@@ -229,7 +229,18 @@ add_executable(codeforces
         src/Hyperdrive44D.cpp
         "src/Anfisa the Monkey44E.cpp"
         src/BerPaint44F.cpp
-        "src/Shooting Gallery44G.cpp")
+        "src/Shooting Gallery44G.cpp"
+        "src/Phone Number44H.cpp"
+        src/Toys44I.cpp
+        src/Triminoes44J.cpp
+        "src/Codecraft III45A.cpp"
+        src/School45B.cpp
+        "src/Dancing Lessons45C.cpp"
+        "src/Event Dates45D.cpp"
+        src/Director45E.cpp
+        "src/Goats and Wolves45F.cpp"
+        "src/Prime Problem45G.cpp"
+        "src/Road Problem45H.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
