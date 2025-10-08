@@ -240,7 +240,16 @@ add_executable(codeforces
         src/Director45E.cpp
         "src/Goats and Wolves45F.cpp"
         "src/Prime Problem45G.cpp"
-        "src/Road Problem45H.cpp")
+        "src/Road Problem45H.cpp"
+        src/TCMCF+++45I.cpp
+        "src/Planting Trees45J.cpp"
+        "src/Ball Game46A.cpp"
+        "src/T-shirts from Sponsor46B.cpp"
+        "src/Hamsters and Tigers46C.cpp"
+        "src/Parking Lot46D.cpp"
+        src/Comb46E.cpp
+        "src/Hercule Poirot Problem46F.cpp"
+        "src/Emperor's Problem46G.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
