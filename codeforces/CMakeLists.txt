@@ -249,7 +249,15 @@ add_executable(codeforces
         "src/Parking Lot46D.cpp"
         src/Comb46E.cpp
         "src/Hercule Poirot Problem46F.cpp"
-        "src/Emperor's Problem46G.cpp")
+        "src/Emperor's Problem46G.cpp"
+        "src/Triangular numbers47A.cpp"
+        src/Coins47B.cpp
+        src/Crossword47C.cpp
+        src/Safe47D.cpp
+        src/Cannon47E.cpp
+        src/Rock-paper-scissors48A.cpp
+        "src/Land Lot48B.cpp"
+        "src/The Race48C.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
