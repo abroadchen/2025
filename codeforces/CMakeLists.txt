@@ -257,7 +257,11 @@ add_executable(codeforces
         src/Cannon47E.cpp
         src/Rock-paper-scissors48A.cpp
         "src/Land Lot48B.cpp"
-        "src/The Race48C.cpp")
+        "src/The Race48C.cpp"
+        src/Permutations48D.cpp
+        "src/Ivan the Fool VS Gorynych the Dragon48E.cpp"
+        "src/Snow sellers48F.cpp"
+        "src/Galaxy Union48G.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
