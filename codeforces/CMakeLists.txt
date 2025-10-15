@@ -261,7 +261,24 @@ add_executable(codeforces
         src/Permutations48D.cpp
         "src/Ivan the Fool VS Gorynych the Dragon48E.cpp"
         "src/Snow sellers48F.cpp"
-        "src/Galaxy Union48G.cpp")
+        "src/Galaxy Union48G.cpp"
+        "src/Black and White48H.cpp"
+        src/Sleuth49A.cpp
+        src/Sum49B.cpp
+        src/Disposition49C.cpp
+        src/Game49D.cpp
+        "src/Common ancestor49E.cpp"
+        "src/Domino piling50A.cpp"
+        "src/Choosing Symbol Pairs50B.cpp"
+        "src/Happy Farm 5_50C.cpp"
+        src/Bombing50D.cpp
+        "src/Square Equation Roots50E.cpp"
+        "src/Cheaterius's Problem51A.cpp"
+        "src/bHTML Tables Analisys51B.cpp"
+        "src/Three Base Stations51C.cpp"
+        "src/Geometrical problem51D.cpp"
+        src/Pentagon51E.cpp
+        src/Caterpillar51F.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
