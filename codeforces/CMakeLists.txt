@@ -278,7 +278,20 @@ add_executable(codeforces
         "src/Three Base Stations51C.cpp"
         "src/Geometrical problem51D.cpp"
         src/Pentagon51E.cpp
-        src/Caterpillar51F.cpp)
+        src/Caterpillar51F.cpp
+        src/123-sequence52A.cpp
+        "src/Right Triangles52B.cpp"
+        "src/Circular RMQ52C.cpp"
+        src/Autocomplete53A.cpp
+        "src/Blog Photo53B.cpp"
+        "src/Little Frog53C.cpp"
+        "src/Physical Education53D.cpp"
+        "src/Dead Ends53E.cpp"
+        src/Presents54A.cpp
+        "src/Cutting Jigsaw Puzzle54B.cpp"
+        "src/First Digit Law54C.cpp"
+        "src/Writing a Song54D.cpp"
+        "src/Vacuum Сleaner54E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
