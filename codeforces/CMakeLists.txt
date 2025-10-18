@@ -291,7 +291,9 @@ add_executable(codeforces
         "src/Cutting Jigsaw Puzzle54B.cpp"
         "src/First Digit Law54C.cpp"
         "src/Writing a Song54D.cpp"
-        "src/Vacuum Сleaner54E.cpp")
+        "src/Vacuum Сleaner54E.cpp"
+        "src/Flea travel55A.cpp"
+        "src/Smallest number55B.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
