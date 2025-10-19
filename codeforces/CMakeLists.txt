@@ -293,7 +293,9 @@ add_executable(codeforces
         "src/Writing a Song54D.cpp"
         "src/Vacuum Сleaner54E.cpp"
         "src/Flea travel55A.cpp"
-        "src/Smallest number55B.cpp")
+        "src/Smallest number55B.cpp"
+        "src/Pie or die55C.cpp"
+        "src/Beautiful numbers55D.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
