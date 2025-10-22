@@ -296,7 +296,17 @@ add_executable(codeforces
         "src/Smallest number55B.cpp"
         "src/Pie or die55C.cpp"
         "src/Beautiful numbers55D.cpp"
-        "src/Very simple problem55E.cpp")
+        "src/Very simple problem55E.cpp"
+        src/Bar56A.cpp
+        "src/Spoilt Permutation56B.cpp"
+        "src/Corporation Mail56C.cpp"
+        "src/Changing a String56D.cpp"
+        "src/Domino Principle56E.cpp"
+        "src/Square Earth?57A.cpp"
+        "src/Martian Architecture57B.cpp"
+        src/Array57C.cpp
+        src/Journey57D.cpp
+        src/Chess57E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
