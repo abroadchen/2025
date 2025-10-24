@@ -306,7 +306,12 @@ add_executable(codeforces
         "src/Martian Architecture57B.cpp"
         src/Array57C.cpp
         src/Journey57D.cpp
-        src/Chess57E.cpp)
+        src/Chess57E.cpp
+        "src/Chat room58A.cpp"
+        src/Coins58B.cpp
+        src/Trees58C.cpp
+        src/Calendar58D.cpp
+        src/Expression58E.cpp)
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
