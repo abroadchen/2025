@@ -311,7 +311,12 @@ add_executable(codeforces
         src/Coins58B.cpp
         src/Trees58C.cpp
         src/Calendar58D.cpp
-        src/Expression58E.cpp)
+        src/Expression58E.cpp
+        src/Word59A.cpp
+        "src/Fortune Telling59B.cpp"
+        src/Title59C.cpp
+        "src/Team Arrangemen59D.cpp"
+        "src/Shortest Path59E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
