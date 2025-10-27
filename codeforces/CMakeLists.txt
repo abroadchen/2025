@@ -316,7 +316,12 @@ add_executable(codeforces
         "src/Fortune Telling59B.cpp"
         src/Title59C.cpp
         "src/Team Arrangemen59D.cpp"
-        "src/Shortest Path59E.cpp")
+        "src/Shortest Path59E.cpp"
+        "src/Where Are My Flakes?60A.cpp"
+        "src/Serial Time!60B.cpp"
+        "src/Mushroom Strife60C.cpp"
+        src/Savior60D.cpp
+        "src/Mushroom Gnomes60E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
