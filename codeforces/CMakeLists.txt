@@ -321,7 +321,22 @@ add_executable(codeforces
         "src/Serial Time!60B.cpp"
         "src/Mushroom Strife60C.cpp"
         src/Savior60D.cpp
-        "src/Mushroom Gnomes60E.cpp")
+        "src/Mushroom Gnomes60E.cpp"
+        "src/Ultra-Fast Mathematician61A.cpp"
+        "src/Hard Work61B.cpp"
+        "src/Capture Valerian61C.cpp"
+        "src/Eternal Victory61D.cpp"
+        "src/Enemy is weak61E.cpp"
+        "src/A Student's Dream62A.cpp"
+        src/Tyndex.Brome62B.cpp
+        src/Inquisition62C.cpp
+        src/Wormhouse62D.cpp
+        "src/World Evil62E.cpp"
+        "src/Sinking Ship63A.cpp"
+        "src/Settlers' Training63B.cpp"
+        "src/Bulls and Cows63C.cpp"
+        "src/Dividing Island63D.cpp"
+        "src/Sweets Game63E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
