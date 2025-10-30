@@ -336,7 +336,21 @@ add_executable(codeforces
         "src/Settlers' Training63B.cpp"
         "src/Bulls and Cows63C.cpp"
         "src/Dividing Island63D.cpp"
-        "src/Sweets Game63E.cpp")
+        "src/Sweets Game63E.cpp"
+        src/Factorial64A.tcl
+        src/Expression64B.tcl
+        src/Table64C.tcl
+        src/Presents64D.tcl
+        "src/Prime Segment64E.tcl"
+        src/Domain64F.tcl
+        "src/Path Canonization64G.tcl"
+        "src/Table Bowling64H.tcl"
+        "src/Sort the Table64I.tcl"
+        "src/Harry Potter and Three Spells65A.cpp"
+        "src/Harry Potter and the History of Magic65B.cpp"
+        "src/Harry Potter and the Golden Snitch65C.cpp"
+        "src/Harry Potter and the Sorting Hat65D.cpp"
+        "src/Harry Potter and Moving Staircases65E.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
