@@ -350,7 +350,17 @@ add_executable(codeforces
         "src/Harry Potter and the History of Magic65B.cpp"
         "src/Harry Potter and the Golden Snitch65C.cpp"
         "src/Harry Potter and the Sorting Hat65D.cpp"
-        "src/Harry Potter and Moving Staircases65E.cpp")
+        "src/Harry Potter and Moving Staircases65E.cpp"
+        "src/Petya and Java66A.cpp"
+        "src/Petya and Countryside66B.cpp"
+        "src/Petya and File System66C.cpp"
+        "src/Petya and His Friends66D.cpp"
+        "src/Petya and Post66E.cpp"
+        "src/Partial Teacher67A.cpp"
+        "src/Restoration of the Permutation67B.cpp"
+        "src/Sequence of Balls67C.cpp"
+        "src/Optical Experiment67D.cpp"
+        "src/67E Save the City!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
