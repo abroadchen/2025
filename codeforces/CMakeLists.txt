@@ -360,7 +360,10 @@ add_executable(codeforces
         "src/Restoration of the Permutation67B.cpp"
         "src/Sequence of Balls67C.cpp"
         "src/Optical Experiment67D.cpp"
-        "src/67E Save the City!.cpp")
+        "src/67E Save the City!.cpp"
+        "src/68A Irrational problem.cpp"
+        "src/68B Energy exchange.cpp"
+        "src/68C Synchrophasotron.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
