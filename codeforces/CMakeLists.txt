@@ -363,7 +363,17 @@ add_executable(codeforces
         "src/67E Save the City!.cpp"
         "src/68A Irrational problem.cpp"
         "src/68B Energy exchange.cpp"
-        "src/68C Synchrophasotron.cpp")
+        "src/68C Synchrophasotron.cpp"
+        "src/68D Half-decay tree.cpp"
+        "src/68E Contact.cpp"
+        "src/69A Young Physicist.cpp"
+        "src/69B Bets.cpp"
+        "src/69C Game.cpp"
+        "src/69D Dot.cpp"
+        "src/69E Subsegments.cpp"
+        "src/70A Cookies.cpp"
+        "src/70B Text Messaging.cpp"
+        "src/70C Lucky Tickets.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
