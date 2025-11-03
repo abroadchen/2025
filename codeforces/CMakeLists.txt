@@ -373,7 +373,23 @@ add_executable(codeforces
         "src/69E Subsegments.cpp"
         "src/70A Cookies.cpp"
         "src/70B Text Messaging.cpp"
-        "src/70C Lucky Tickets.cpp")
+        "src/70C Lucky Tickets.cpp"
+        "src/70D Professor's task.cpp"
+        "src/70E Information Reform.cpp"
+        "src/71A Way Too Long Words.cpp"
+        "src/71B Progress Bar.cpp"
+        "src/71C Round Table Knights.cpp"
+        "src/71D Solitaire.cpp"
+        "src/71E Nuclear Fusion.cpp"
+        "src/72A Goshtasp, Vishtasp and Eidi.io"
+        "src/72B INI-file.io"
+        "src/72C Extraordinarily Nice Numbers.io"
+        "src/72D Perse-script.io"
+        "src/72E Ali goes shopping.io"
+        "src/72F Oil.io"
+        "src/72G Fibonacci army.io"
+        "src/72H Reverse It!.io"
+        "src/72I Goofy Numbers.io")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
