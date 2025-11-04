@@ -389,7 +389,24 @@ add_executable(codeforces
         "src/72F Oil.io"
         "src/72G Fibonacci army.io"
         "src/72H Reverse It!.io"
-        "src/72I Goofy Numbers.io")
+        "src/72I Goofy Numbers.io"
+        "src/73A The Elder Trolls IV: Oblivon.cpp"
+        "src/73B Need For Brake.cpp"
+        "src/73C LionAge II.cpp"
+        "src/73D FreeDiv.cpp"
+        "src/73E Morrowindows.cpp"
+        "src/73F Plane of Tanks.cpp"
+        "src/74A Room Leader.cpp"
+        "src/74B Train.cpp"
+        "src/74C Chessboard Billiard.cpp"
+        "src/74D Hanger.cpp"
+        "src/74E Shift It!.cpp"
+        "src/75A Life Without Zeros.cpp"
+        "src/75B Facetook Priority Wall.cpp"
+        "src/75C Modified GCD.cpp"
+        "src/75D Big Maximum Sum.cpp"
+        "src/75E Ship's Shortest Path.cpp"
+        "src/76A Gift.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
