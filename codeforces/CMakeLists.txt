@@ -406,7 +406,23 @@ add_executable(codeforces
         "src/75C Modified GCD.cpp"
         "src/75D Big Maximum Sum.cpp"
         "src/75E Ship's Shortest Path.cpp"
-        "src/76A Gift.cpp")
+        "src/76A Gift.cpp"
+        "src/76B Mice.cpp"
+        "src/76C Mutation.cpp"
+        "src/76D Plus and xor.cpp"
+        "src/76E Points.cpp"
+        "src/76F Tourist.cpp"
+        "src/77A Heroes.cpp"
+        "src/77B Falling Anvils.cpp"
+        "src/77C Beavermuncher-0xFF.cpp"
+        "src/77D Domino Carpet.cpp"
+        "src/77E Martian Food.cpp"
+        "src/78A Haiku.cpp"
+        "src/78B Easter Eggs.cpp"
+        "src/78C Beaver Game.cpp"
+        "src/78D Archer's Shot.cpp"
+        "src/78E Evacuation.cpp"
+        "src/79A Bus Game.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
