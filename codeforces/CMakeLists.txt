@@ -422,7 +422,19 @@ add_executable(codeforces
         "src/78C Beaver Game.cpp"
         "src/78D Archer's Shot.cpp"
         "src/78E Evacuation.cpp"
-        "src/79A Bus Game.cpp")
+        "src/79A Bus Game.cpp"
+        "src/79B Colorful Field.cpp"
+        "src/79C Beaver.cpp"
+        "src/79D Password.cpp"
+        "src/79E Security System.cpp"
+        "src/80A Panoramix's Prediction.cpp"
+        "src/80B Depression.cpp"
+        "src/81A Plug-in.cpp"
+        "src/81B Sequence Formatting.cpp"
+        "src/81C Average Score.cpp"
+        "src/81D Polycarp's Picture Gallery.cpp"
+        "src/81E Pairs.cpp"
+        "src/82A Double Cola.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
