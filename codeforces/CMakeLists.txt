@@ -434,7 +434,16 @@ add_executable(codeforces
         "src/81C Average Score.cpp"
         "src/81D Polycarp's Picture Gallery.cpp"
         "src/81E Pairs.cpp"
-        "src/82A Double Cola.cpp")
+        "src/82A Double Cola.cpp"
+        "src/82B Sets.cpp"
+        "src/82C General Mobilization.cpp"
+        "src/82D Two out of Three.cpp"
+        "src/82E Corridor.cpp"
+        "src/83A Magical Array.cpp"
+        "src/83B Doctor.cpp"
+        "src/83C Track.cpp"
+        "src/83D Numbers.cpp"
+        "src/83E Two Subsequences.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14

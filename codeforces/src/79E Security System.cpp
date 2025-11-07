@@ -67,7 +67,7 @@ bool ok(int x, int y) {
 
 int main() {
     scanf("%d%lld%d%d%d", &n, &t, &a, &b, &c);
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < N; ++i) {
         xs[i] = a + (i / 2) * (c - 1);
         ys[i] = b + (i % 2) * (c - 1);
         ts[i] = t;
@@ -77,7 +77,7 @@ int main() {
         if (x < n && ok(x + 1, y)) x++, ans += "R";
         else if (y < n && ok(x, y + 1)) y++, ans += "U";
         else return puts("Impossible"), 0;
-        for (int i = 0; i < 4; ++i) ts[i] -= abs(x - xs[i]) + abs(y - ys[i]);
+        for (int i = 0; i < N; ++i) ts[i] -= abs(x - xs[i]) + abs(y - ys[i]);
     }
     printf("%s\n", ans.c_str());
     return 0;
