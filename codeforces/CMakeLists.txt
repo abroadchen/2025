@@ -12,96 +12,89 @@ add_executable(codeforces
     src/C.cpp
         "src/2A Winner.cpp"
         "src/2B Theleastroundway.cpp"
-        src/Commentatorproblem2C.cpp
         "src/3A Shortestpathoftheking.cpp"
         "src/3B Lorry.cpp"
         "src/3C Tic-tac-toe.cpp"
-        src/LeastCostBracketSequence3D.cpp
+        "src/3D LeastCostBracketSequence.cpp"
         "src/4A Watermelon.cpp"
         "src/4B BeforeanExam.cpp"
-        src/Registrationsystem4C.cpp
-        src/MysteriousPresent4D.cpp
-        src/ChatServer'sOutgoingTraffic5A.cpp
-        src/CenterAlignment5B.cpp
-        src/LongestRegularBracketSequence5C.cpp
-        src/FollowTrafficRules5D.cpp
+        "src/4C Registrationsystem.cpp"
+        "src/4D MysteriousPresent.cpp"
+        "src/5B CenterAlignment.cpp"
+        "src/5C LongestRegularBracketSequence.cpp"
+        "src/5D FollowTrafficRules.cpp"
         "src/5E BindianSignalizing.cpp"
         "src/6A Triangle.cpp"
-        src/President'sOffice6B.cpp
+        "src/6B President'sOffice.cpp"
         "src/6C Alice,BobandChocolate.cpp"
         "src/6D LizardsandBasements.cpp"
-        src/Exposition6E.cpp
+        "src/6E Exposition.cpp"
         "src/7A KalevitchandChess.cpp"
-        src/MemoryManager7B.cpp
+        "src/7B MemoryManager.cpp"
         "src/7C Line.cpp"
-        src/PalindromeDegree7D.cpp
-        src/DefiningMacros7E.cpp
+        "src/7D PalindromeDegree.cpp"
+        "src/7E DefiningMacros.cpp"
         "src/8A TrainandPeter.cpp"
-        src/ObsessionwithRobots8B.cpp
+        "src/8B ObsessionwithRobots.cpp"
         "src/8C LookingforOrder.cpp"
         "src/8D TwoFriends.cpp"
         "src/8E Beads.cpp"
-        src/DieRoll9A.cpp
+        "src/9A DieRoll.cpp"
         "src/9B RunningStudent.cpp"
-        src/Hexadecimal'sNumbers9C.cpp
+        "src/9C Hexadecimal'sNumbers.cpp"
         "src/9D Howmanytrees.cpp"
         "src/9E InterestingGraphandApples.cpp"
-        src/PowerConsumptionCalculation10A.cpp
-        src/CinemaCashier10B.cpp
-        src/DigitalRoot10C.cpp
+        "src/10A PowerConsumptionCalculation.cpp"
+        "src/10B CinemaCashier.cpp"
+        "src/10C DigitalRoot.cpp"
         "src/10D LCIS.cpp"
-        src/Greedychange10E.cpp
-        src/IncreasingSequence11A.cpp
+        "src/10E GreedyChange.cpp"
+        "src/11A IncreasingSequence.cpp"
         "src/11B JumpingJack.cpp"
-        src/HowManySquares11C.cpp
+        "src/11C HowManySquares.cpp"
         "src/11D ASimpleTask.cpp"
-        src/Forward,march11E.cpp
+        "src/11E Forward,march.cpp"
         "src/12A SuperAgent.cpp"
-        src/CorrectSolution12B.cpp
-        src/Fruits12C.cpp
+        "src/12B CorrectSolution.cpp"
+        "src/12C Fruits.cpp"
         "src/12D Ball.cpp"
         "src/12E Startoftheseason.cpp"
-        src/Numbers13A.cpp
+        "src/13A Numbers.cpp"
         "src/13B LetterA.cpp"
         "src/13C Sequence.cpp"
         "src/13D Triangles.cpp"
         "src/13E Holes.cpp"
         "src/14A Letter.cpp"
         "src/14B YoungPhotographer.cpp"
-        src/FourSegments14C.cpp
+        "src/14C FourSegments.cpp"
         "src/14D TwoPaths.cpp"
-        src/Camels14E.cpp
-        src/CottageVillage15A.cpp
         "src/15B Laser.cpp"
-        src/IndustrialNim15C.cpp
+        "src/15C IndustrialNim.cpp"
         "src/15D Map.cpp"
         "src/15E Triangles.cpp"
-        src/Flag16A.cpp
-        src/BurglarandMatches16B.cpp
-        src/Monitor16C.cpp
+        "src/16A Flag.cpp"
+        "src/16B BurglarandMatches.cpp"
+        "src/16C Monitor.cpp"
         "src/16D Logging.cpp"
-        src/Fish16E.cpp
-        src/Noldbachproblem17A.cpp
+        "src/16E Fish.cpp"
+        "src/17A Noldbachproblem.cpp"
         "src/17B Hierarchy.cpp"
         "src/17C Balance.cpp"
-        src/Notepad17D.cpp
-        src/Palisection17E.cpp
+        "src/17D Notepad.cpp"
+        "src/17E Palisection.cpp"
         "src/18A Triangle.cpp"
-        src/Platforms18B.cpp
+        "src/18B Platforms.cpp"
         "src/18C Stripe.cpp"
         "src/18D SellerBob.cpp"
-        src/Flag2,18E.cpp
+        "src/18E Flag2.cpp"
         "src/19A WorldFootballCup.cpp"
-        src/CheckoutAssistant19B.cpp
-        src/DeletionofRepeats19C.cpp
-        src/Points19D.cpp
-        src/test.cpp
-        src/Fairy19E.cpp
+        "src/19D Points.cpp"
+        "src/19E Fairy.cpp"
         "src/20A BerOSfilesystem.cpp"
-        src/Equation20B.cpp
-        src/Dijkstra20C.cpp
+        "src/20B Equation.cpp"
+        "src/20C Dijkstra.cpp"
         "src/21A JabberID.cpp"
-        src/Intersection21B.cpp
+        "src/21B Intersection.cpp"
         "src/21C Stripe2.cpp"
         "src/21D TravelingGraph.cpp"
         "src/22A SecondOrderStatistics.cpp"
@@ -110,222 +103,201 @@ add_executable(codeforces
         "src/22D Segments.cpp"
         "src/22E Scheme.cpp"
         "src/23A You'reGivenaString....cpp"
-        src/Party23B.cpp
-        src/OrangesandApples23C.cpp
+        "src/23B Party.cpp"
+        "src/23C OrangesandApples.cpp"
         "src/23D Tetragon.cpp"
         "src/23E Tree.cpp"
-        src/Ringroad24A.cpp
-        src/F1Champions24B.cpp
+        "src/24A Ringroad.cpp"
+        "src/24B F1Champions.cpp"
         "src/24C Sequenceofpoints.cpp"
-        src/Brokenrobot24D.cpp
         "src/24E Berlandcollider.cpp"
         "src/25A IQtest.cpp"
-        src/Phonenumbers25B.cpp
-        src/RoadsinBerland25C.cpp
+        "src/25B Phonenumbers.cpp"
+        "src/25C RoadsinBerland.cpp"
         "src/25D RoadsnotonlyinBerland.cpp"
         "src/25E Test.cpp"
         "src/26A AlmostPrime.cpp"
-        src/RegularBracketSequence26B.cpp
-        src/Parquet26C.cpp
+        "src/26B RegularBracketSequence.cpp"
+        "src/26C Parquet.cpp"
         "src/26D Tickets.cpp"
-        src/Multithreading26E.cpp
-        src/NextTest27A.cpp
+        "src/26E Multithreading.cpp"
+        "src/27A NextTest.cpp"
         "src/27B Tournament.cpp"
         "src/27C UnorderedSubsequence.cpp"
-        src/RingRoad2,27D.cpp
-        src/NumberWithTheGivenAmountOfDivisors27E.cpp
+        "src/27D RingRoad2.cpp"
+        "src/27E NumberWithTheGivenAmountOfDivisors.cpp"
         "src/28A BenderProblem.cpp"
-        src/pSort28B.cpp
+        "src/28B pSort.cpp"
         "src/28C BathQueue.cpp"
-        src/Don'tfear,DravDeiskind28D.cpp
-        src/DravDesavestheworld28E.cpp
+        "src/28D Don'tfear,DravDeiskind.cpp"
+        "src/28E DravDesavestheworld.cpp"
         "src/29A SpitProblem.cpp"
         "src/29B TrafficLights.cpp"
         "src/29C MailStamps.cpp"
         "src/29D AntontheTree.cpp"
         "src/29E Quarrel.cpp"
         "src/30A Accounting.cpp"
-        src/CodeforcesWorldFinals30B.cpp
         "src/30C ShootingGallery.cpp"
         "src/30D King'sProblem.cpp"
         "src/30E TrickyandCleverPassword.cpp"
         "src/31A WormsEvolution.cpp"
         "src/31B SysadminBob.cpp"
         "src/31C Schedule.cpp"
-        src/Chocolate31D.cpp
         "src/31E TVGame.cpp"
-        src/Reconnaissance32A.cpp
+        "src/32A Reconnaissance.cpp"
         "src/32B Borze.cpp"
-        src/Flea32C.cpp
-        src/Constellation32D.cpp
+        "src/32C Flea.cpp"
+        "src/32D Constellation.cpp"
         "src/32E Hide-and-Seek.cpp"
         "src/33A Whatisfordinner.cpp"
         "src/33B StringProblem.cpp"
         "src/33C WonderfulRandomizedSum.cpp"
         "src/33D Knights.cpp"
         "src/33E Helper.cpp"
-        src/Reconnaissance2,34A.cpp
+        "src/34A Reconnaissance2.cpp"
         "src/34B Sale.cpp"
-        src/PageNumbers34C.cpp
-        src/RoadMap34D.cpp
-        src/Collisions34E.cpp
+        "src/34C PageNumbers.cpp"
+        "src/34D RoadMap.cpp"
         "src/35A ShellGame.cpp"
         "src/35B Warehouse.cpp"
-        src/FireAgain35C.cpp
+        "src/35C FireAgain.cpp"
         "src/35D Animals.cpp"
-        src/Parade35E.cpp
-        src/Extra-terrestrialIntelligence36A.cpp
-        src/Fractal36B.cpp
-        src/Bowls36C.cpp
-        src/NewGamewithaChessPiece36D.cpp
+        "src/35E Parade.cpp"
+        "src/36A Extra-terrestrialIntelligence.cpp"
+        "src/36B Fractal.cpp"
+        "src/36D NewGamewithaChessPiece.cpp"
         "src/36E TwoPaths.cpp"
         "src/37A Towers.cpp"
-        src/ComputerGame37B.cpp
-        src/OldBerlandLanguage37C.cpp
+        "src/37B ComputerGame.cpp"
+        "src/37C OldBerlandLanguage.cpp"
         "src/37D LessonTimetable.cpp"
         "src/37E TrialforChief.cpp"
         "src/38A Army.cpp"
-        src/Chess38B.cpp
         "src/38C Blinds.cpp"
         "src/38D VasyatheArchitect.cpp"
         "src/38E Let'sGoRolling!.cpp"
         "src/38F SmartBoy.cpp"
-        src/Queue38G.cpp
+        "src/38G Queue.cpp"
         "src/38H TheGreatMarathon.cpp"
-        src/C*++Calculations39A.cpp
-        src/CompanyIncomeGrowth39B.cpp
-        "src/Moon Craters39C.cpp"
-        src/CubicalPlanet39D.cpp
-        "src/Pacifist frogs39F.cpp"
-        "src/Inverse Function39G.cpp"
-        "src/Multiplication Table39H.cpp"
+        "src/39B CompanyIncomeGrowth.cpp"
+        "src/39C Moon Craters.cpp"
+        "src/39D CubicalPlanet.cpp"
+        "src/39F Pacifist frogs.cpp"
+        "src/39G Inverse Function.cpp"
+        "src/39H Multiplication Table.cpp"
         "src/39I Tram.cpp"
         "src/39J Spelling Check.cpp"
         "src/39K Testing.cpp"
-        "src/Find Color40A.cpp"
-        src/Repaintings40B.cpp
+        "src/40A Find Color.cpp"
+        "src/40B Repaintings.cpp"
         "src/40C Berland Square.cpp"
         "src/40D Interesting Sequence.cpp"
-        "src/Number Table40E.cpp"
+        "src/40E Number Table.cpp"
         "src/41A Translation.cpp"
-        "src/Martian Dollar41B.cpp"
-        "src/Email address41C.cpp"
-        src/Pawn41D.cpp
-        src/3-cycles41E.cpp
-        "src/Guilty --- to the kitchen!42A.cpp"
-        "src/Game of chess unfinished42B.cpp"
+        "src/41B Martian Dollar.cpp"
+        "src/41D Pawn.cpp"
+        "src/42A Guilty --- to the kitchen!.cpp"
+        "src/42B Game of chess unfinished.cpp"
         "src/42C Safe cracking.cpp"
         "src/42D Strange town.cpp"
         "src/42E Baldman and the military.cpp"
-        src/Football43A.cpp
+        "src/43A Football.cpp"
         "src/43B Letter.cpp"
         "src/43C Lucky Tickets.cpp"
         "src/43D Journey.cpp"
-        src/Race43E.cpp
+        "src/43E Race.cpp"
         "src/44A Indian Summer.cpp"
-        src/Cola44B.cpp
+        "src/44B Cola.cpp"
         "src/44C Holidays.cpp"
         "src/44D Hyperdrive.cpp"
         "src/44E Anfisa the Monkey.cpp"
         "src/44F BerPaint.cpp"
         "src/44G Shooting Gallery.cpp"
-        "src/Phone Number44H.cpp"
+        "src/44H Phone Number.cpp"
         "src/44I Toys.cpp"
         "src/44J Triminoes.cpp"
-        "src/Codecraft III45A.cpp"
         "src/45B School.cpp"
-        "src/Dancing Lessons45C.cpp"
-        "src/Event Dates45D.cpp"
-        src/Director45E.cpp
-        "src/Goats and Wolves45F.cpp"
-        "src/Prime Problem45G.cpp"
-        "src/Road Problem45H.cpp"
+        "src/45C Dancing Lessons.cpp"
+        "src/45D Event Dates.cpp"
+        "src/45E Director.cpp"
+        "src/45F Goats and Wolves.cpp"
+        "src/45G Prime Problem.cpp"
+        "src/45H Road Problem.cpp"
         "src/45I TCMCF+++.cpp"
-        "src/Planting Trees45J.cpp"
+        "src/45J Planting Trees.cpp"
         "src/46A Ball Game.cpp"
         "src/46B T-shirts from Sponsor.cpp"
         "src/46C Hamsters and Tigers.cpp"
-        "src/Parking Lot46D.cpp"
-        src/Comb46E.cpp
-        "src/Hercule Poirot Problem46F.cpp"
-        "src/Emperor's Problem46G.cpp"
+        "src/46D Parking Lot.cpp"
+        "src/46F Hercule Poirot Problem.cpp"
+        "src/46G Emperor's Problem.cpp"
         "src/47A Triangular numbers.cpp"
-        src/Coins47B.cpp
-        src/Crossword47C.cpp
+        "src/47B Coins.cpp"
+        "src/47C Crossword.cpp"
         "src/47D Safe.cpp"
-        src/Cannon47E.cpp
         "src/48A Rock-paper-scissors.cpp"
         "src/48B Land Lot.cpp"
         "src/48C The Race.cpp"
-        src/Permutations48D.cpp
-        "src/Ivan the Fool VS Gorynych the Dragon48E.cpp"
+        "src/48D Permutations.cpp"
+        "src/48E Ivan the Fool VS Gorynych the Dragon.cpp"
         "src/48F Snow sellers.cpp"
-        "src/Galaxy Union48G.cpp"
+        "src/48G Galaxy Union.cpp"
         "src/48H Black and White.cpp"
         "src/49A Sleuth.cpp"
         "src/49B Sum.cpp"
-        src/Disposition49C.cpp
-        src/Game49D.cpp
-        "src/Common ancestor49E.cpp"
-        "src/Domino piling50A.cpp"
-        "src/Choosing Symbol Pairs50B.cpp"
+        "src/49C Disposition.cpp"
+        "src/49D Game.cpp"
+        "src/49E Common ancestor.cpp"
+        "src/50A Domino piling.cpp"
+        "src/50B Choosing Symbol Pairs.cpp"
         "src/50C Happy Farm 5.cpp"
         "src/50D Bombing.cpp"
         "src/50E Square Equation Roots.cpp"
-        "src/Cheaterius's Problem51A.cpp"
+        "src/51A Cheaterius's Problem.cpp"
         "src/51B bHTML Tables Analisys.cpp"
         "src/51C Three Base Stations.cpp"
-        "src/Geometrical problem51D.cpp"
-        src/Pentagon51E.cpp
-        src/Caterpillar51F.cpp
+        "src/51D Geometrical problem.cpp"
+        "src/51E Pentagon.cpp"
+        "src/51F Caterpillar.cpp"
         "src/52A 123-sequence.cpp"
-        "src/Right Triangles52B.cpp"
-        "src/Circular RMQ52C.cpp"
+        "src/52B Right Triangles.cpp"
         "src/53A Autocomplete.cpp"
         "src/53B Blog Photo.cpp"
         "src/53C Little Frog.cpp"
-        "src/Physical Education53D.cpp"
-        "src/Dead Ends53E.cpp"
-        src/Presents54A.cpp
-        "src/Cutting Jigsaw Puzzle54B.cpp"
-        "src/First Digit Law54C.cpp"
+        "src/53D Physical Education.cpp"
+        "src/53E Dead Ends.cpp"
+        "src/54A Presents.cpp"
+        "src/54B Cutting Jigsaw Puzzle.cpp"
+        "src/54C First Digit Law.cpp"
         "src/54D Writing a Song.cpp"
         "src/54E Vacuum Сleaner.cpp"
-        "src/Flea travel55A.cpp"
+        "src/55A Flea travel.cpp"
         "src/55B Smallest number.cpp"
-        "src/Pie or die55C.cpp"
+        "src/55C Pie or die.cpp"
         "src/55D Beautiful numbers.cpp"
         "src/55E Very simple problem.cpp"
         "src/56A Bar.cpp"
         "src/56B Spoilt Permutation.cpp"
-        "src/Corporation Mail56C.cpp"
-        "src/Changing a String56D.cpp"
-        "src/Domino Principle56E.cpp"
-        "src/Square Earth?57A.cpp"
-        "src/Martian Architecture57B.cpp"
+        "src/56E Domino Principle.cpp"
+        "src/57B Martian Architecture.cpp"
         "src/57C Array.cpp"
         "src/57D Journey.cpp"
-        src/Chess57E.cpp
-        "src/Chat room58A.cpp"
-        src/Coins58B.cpp
         "src/58C Trees.cpp"
         "src/58D Calendar.cpp"
-        src/Expression58E.cpp
+        "src/58E Expression.cpp"
         "src/59A Word.cpp"
-        "src/Fortune Telling59B.cpp"
+        "src/59B Fortune Telling.cpp"
         "src/59C Title.cpp"
         "src/59D Team Arrangemen.cpp"
         "src/59E Shortest Path.cpp"
-        "src/Where Are My Flakes?60A.cpp"
         "src/60B Serial Time!.cpp"
-        "src/Mushroom Strife60C.cpp"
+        "src/60C Mushroom Strife.cpp"
         "src/60D Savior.cpp"
-        "src/Mushroom Gnomes60E.cpp"
+        "src/60E Mushroom Gnomes.cpp"
         "src/61A Ultra-Fast Mathematician.cpp"
         "src/61B Hard Work.cpp"
-        "src/Capture Valerian61C.cpp"
-        "src/Eternal Victory61D.cpp"
-        "src/Enemy is weak61E.cpp"
+        "src/61D Eternal Victory.cpp"
+        "src/61E Enemy is weak.cpp"
         "src/62A A Student's Dream.cpp"
         "src/62B Tyndex.Brome.cpp"
         "src/62C Inquisition.cpp"
@@ -333,16 +305,14 @@ add_executable(codeforces
         "src/62E World Evil.cpp"
         "src/63A Sinking Ship.cpp"
         "src/63B Settlers' Training.cpp"
-        "src/Bulls and Cows63C.cpp"
-        "src/Dividing Island63D.cpp"
         "src/63E Sweets Game.cpp"
-        src/Factorial64A.tcl
-        src/Expression64B.tcl
+        "src/64A Factorial.tcl"
+        "src/64B Expression.tcl"
         "src/64C Table.tcl"
-        src/Presents64D.tcl
-        "src/Prime Segment64E.tcl"
-        src/Domain64F.tcl
-        "src/Path Canonization64G.tcl"
+        "src/64D Presents.tcl"
+        "src/64E Prime Segment.tcl"
+        "src/64F Domain.tcl"
+        "src/64G Path Canonization.tcl"
         "src/64H Table Bowling.tcl"
         "src/64I Sort the Table.tcl"
         "src/65A Harry Potter and Three Spells.cpp"
@@ -350,15 +320,15 @@ add_executable(codeforces
         "src/65C Harry Potter and the Golden Snitch.cpp"
         "src/65D Harry Potter and the Sorting Hat.cpp"
         "src/65E Harry Potter and Moving Staircases.cpp"
-        "src/Petya and Java66A.cpp"
-        "src/Petya and Countryside66B.cpp"
-        "src/Petya and File System66C.cpp"
-        "src/Petya and His Friends66D.cpp"
-        "src/Petya and Post66E.cpp"
-        "src/Partial Teacher67A.cpp"
-        "src/Restoration of the Permutation67B.cpp"
+        "src/66A Petya and Java.cpp"
+        "src/66B Petya and Countryside.cpp"
+        "src/66C Petya and File System.cpp"
+        "src/66D Petya and His Friends.cpp"
+        "src/66E Petya and Post.cpp"
+        "src/67A Partial Teacher.cpp"
+        "src/67B Restoration of the Permutation.cpp"
         "src/67C Sequence of Balls.cpp"
-        "src/Optical Experiment67D.cpp"
+        "src/67D Optical Experiment.cpp"
         "src/67E Save the City!.cpp"
         "src/68A Irrational problem.cpp"
         "src/68B Energy exchange.cpp"
@@ -455,7 +425,32 @@ add_executable(codeforces
         "src/86B Tetris revisited.cpp"
         "src/86C Genetic engineering.cpp"
         "src/86D Powerful array.cpp"
-        "src/86E Long sequence.cpp")
+        "src/86E Long sequence.cpp"
+        "src/87A Trains.cpp"
+        "src/87A Trains.cpp"
+        "src/87B Vasya and Types.cpp"
+        "src/87C Interesting Game.cpp"
+        "src/87D Beautiful Road.cpp"
+        "src/87E Mogohu-Rea Idol.cpp"
+        "src/88A Chord.cpp"
+        "src/88B Keyboard.cpp"
+        "src/89A Robbery.cpp"
+        "src/89B Widget Library.cpp"
+        "src/89C Chip Play.cpp"
+        "src/89D Space mines.cpp"
+        "src/89E Fire and Ice.cpp"
+        "src/90A Cableway.cpp"
+        "src/90B African Crossword.cpp"
+        "src/91A Newspaper Headline.cpp"
+        "src/91B Queue.cpp"
+        "src/91C Ski Base.cpp"
+        "src/91D Grocer's Problem.cpp"
+        "src/91E Igloo Skyscraper.cpp"
+        "src/92A Chips.cpp"
+        "src/92B Binary Number.cpp"
+        "src/93A Frames.cpp"
+        "src/93B End of Exams.cpp"
+        "src/93C Azembler.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
