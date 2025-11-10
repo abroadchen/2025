@@ -450,7 +450,21 @@ add_executable(codeforces
         "src/92B Binary Number.cpp"
         "src/93A Frames.cpp"
         "src/93B End of Exams.cpp"
-        "src/93C Azembler.cpp")
+        "src/93C Azembler.cpp"
+        "src/93D Flags.cpp"
+        "src/93E Lostborn.cpp"
+        "src/94A Restoring Password.cpp"
+        "src/94B Friends.cpp"
+        "src/95A Hockey.cpp"
+        "src/95B Lucky Numbers.cpp"
+        "src/95C Volleyball.cpp"
+        "src/95D Horse Races.cpp"
+        "src/95E Lucky Country.cpp"
+        "src/96A Football.cpp"
+        "src/96B Lucky Numbers (easy).cpp"
+        "src/97A Domino.cpp"
+        "src/97B Superset.cpp"
+        "src/97C Winning Strategy.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
