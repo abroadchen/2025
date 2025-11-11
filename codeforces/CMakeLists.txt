@@ -464,7 +464,13 @@ add_executable(codeforces
         "src/96B Lucky Numbers (easy).cpp"
         "src/97A Domino.cpp"
         "src/97B Superset.cpp"
-        "src/97C Winning Strategy.cpp")
+        "src/97C Winning Strategy.cpp"
+        "src/97D Robot in Basement.cpp"
+        "src/97E Leaders.cpp"
+        "src/98A Help Victoria the Wise.cpp"
+        "src/98B Help King.cpp"
+        "src/98C Help Greg the Dwarf.cpp"
+        "src/98D Help Monks.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
