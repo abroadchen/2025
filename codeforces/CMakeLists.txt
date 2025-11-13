@@ -497,7 +497,24 @@ add_executable(codeforces
         "src/103D Time to Raid Cowavans.cpp"
         "src/103E Buying Sets.cpp"
         "src/104A Blackjack.cpp"
-        "src/105A Transmigration.cpp")
+        "src/105A Transmigration.cpp"
+        "src/105B Dark Assembly.cpp"
+        "src/105C Item World.cpp"
+        "src/105D Entertaining Geodetics.cpp"
+        "src/105E Lift and Throw.cpp"
+        "src/106A Card Game.cpp"
+        "src/106B Choosing Laptop.cpp"
+        "src/106C Buns.cpp"
+        "src/106D Treasure Island.cpp"
+        "src/106E Space Rescuers.cpp"
+        "src/107A Dorm Water Supply.cpp"
+        "src/107B Basketball Team.cpp"
+        "src/107C Arrangement.cpp"
+        "src/107D Crime Management.cpp"
+        "src/107E Darts.cpp"
+        "src/108A Palindromic Times.cpp"
+        "src/108B Datatypes.cpp"
+        "src/109A Lucky Sum of Digits.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
