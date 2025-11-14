@@ -514,7 +514,23 @@ add_executable(codeforces
         "src/107E Darts.cpp"
         "src/108A Palindromic Times.cpp"
         "src/108B Datatypes.cpp"
-        "src/109A Lucky Sum of Digits.cpp")
+        "src/109A Lucky Sum of Digits.cpp"
+        "src/109B Lucky Probability.cpp"
+        "src/109C Lucky Tree.cpp"
+        "src/109D Lucky Sorting.cpp"
+        "src/109E Lucky Interval.cpp"
+        "src/110A Nearly Lucky Number.cpp"
+        "src/110B Lucky String.cpp"
+        "src/111A Petya and Inequiations.cpp"
+        "src/111B Petya and Divisors.cpp"
+        "src/111C Petya and Spiders.cpp"
+        "src/111D Petya and Coloring.cpp"
+        "src/111E Petya and Rectangle.cpp"
+        "src/112A Petya and Strings.cpp"
+        "src/112B Petya and Square.cpp"
+        "src/113A Grammar Lessons.cpp"
+        "src/113B Petr#.cpp"
+        "src/113C Double Happiness.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
