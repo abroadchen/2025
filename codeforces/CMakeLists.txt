@@ -530,7 +530,23 @@ add_executable(codeforces
         "src/112B Petya and Square.cpp"
         "src/113A Grammar Lessons.cpp"
         "src/113B Petr#.cpp"
-        "src/113C Double Happiness.cpp")
+        "src/113C Double Happiness.cpp"
+        "src/113D Museum.cpp"
+        "src/113E Sleeping.cpp"
+        "src/114A Cifera.cpp"
+        "src/114B PFAST Inc..cpp"
+        "src/115A Party.cpp"
+        "src/115B Lawnmower.cpp"
+        "src/115C Plumber.cpp"
+        "src/115D Unambiguous Arithmetic Expression.cpp"
+        "src/115E Linear Kingdom Races.cpp"
+        "src/116A Tram.cpp"
+        "src/116B Little Pigs and Wolves.cpp"
+        "src/117A Elevator.cpp"
+        "src/117B Very Interesting Game.cpp"
+        "src/117C Cycle.cpp"
+        "src/117D Not Quick Transformation.cpp"
+        "src/117E Tree or not Tree.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
