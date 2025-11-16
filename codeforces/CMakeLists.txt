@@ -546,7 +546,27 @@ add_executable(codeforces
         "src/117B Very Interesting Game.cpp"
         "src/117C Cycle.cpp"
         "src/117D Not Quick Transformation.cpp"
-        "src/117E Tree or not Tree.cpp")
+        "src/117E Tree or not Tree.cpp"
+        "src/118A String Task.cpp"
+        "src/118B Present from Lena.cpp"
+        "src/118C Fancy Number.cpp"
+        "src/118D Caesar's Legions.cpp"
+        "src/118E Bertown roads.cpp"
+        "src/119A Epic Game.cpp"
+        "src/119B Before Exam.cpp"
+        "src/119C Education Reform.cpp"
+        "src/119D String Transformation.cpp"
+        "src/119E Alternative Reality.cpp"
+        "src/120A Elevator.cpp"
+        "src/120B Quiz League.cpp"
+        "src/120C Winnie-the-Pooh and honey.cpp"
+        "src/120D Three Sons.cpp"
+        "src/120E Put Knight!.cpp"
+        "src/120F Spiders.cpp"
+        "src/120G Boom.cpp"
+        "src/120H Brevity is Soul of Wit.cpp"
+        "src/120I Luck is in Numbers.cpp"
+        "src/120J Minimum Sum.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
