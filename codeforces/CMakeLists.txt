@@ -566,7 +566,26 @@ add_executable(codeforces
         "src/120G Boom.cpp"
         "src/120H Brevity is Soul of Wit.cpp"
         "src/120I Luck is in Numbers.cpp"
-        "src/120J Minimum Sum.cpp")
+        "src/120J Minimum Sum.cpp"
+        "src/121A Lucky Sum.cpp"
+        "src/121B Lucky Transformation.cpp"
+        "src/121C Lucky Permutation.cpp"
+        "src/121D Lucky Segments.cpp"
+        "src/121E Lucky Array.cpp"
+        "src/122A Lucky Division.cpp"
+        "src/122B Lucky Substring.cpp"
+        "src/123A Prime Permutation.cpp"
+        "src/123B Squares.cpp"
+        "src/123C Brackets.cpp"
+        "src/123D String.cpp"
+        "src/123E Maze.cpp"
+        "src/124A The number of positions.cpp"
+        "src/124B Permutations.cpp"
+        "src/125A Measuring Lengths in Baden.cpp"
+        "src/125B Simple XML.cpp"
+        "src/125C Hobbits' Party.cpp"
+        "src/125D Two progressions.cpp"
+        "src/125E MST Company.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
