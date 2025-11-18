@@ -585,7 +585,31 @@ add_executable(codeforces
         "src/125B Simple XML.cpp"
         "src/125C Hobbits' Party.cpp"
         "src/125D Two progressions.cpp"
-        "src/125E MST Company.cpp")
+        "src/125E MST Company.cpp"
+        "src/126A Hot Bath.cpp"
+        "src/126B Password.cpp"
+        "src/126C E-reader Display.cpp"
+        "src/126D Fibonacci Sums.cpp"
+        "src/126E Pills.cpp"
+        "src/127A Wasted Time.cpp"
+        "src/127B Canvas Frames.cpp"
+        "src/128A Statues.cpp"
+        "src/128B String.cpp"
+        "src/128C Games with Rectangle.cpp"
+        "src/128D Numbers.cpp"
+        "src/128E Birthday.cpp"
+        "src/129A Cookies.cpp"
+        "src/129B Students and Shoelaces.cpp"
+        "src/130A Hexagonal numbers.bf"
+        "src/130B Gnikool Ssalg.bf"
+        "src/130C Decimal sum.bf"
+        "src/130D Exponentiation.bf"
+        "src/130E Tribonacci numbers.bf"
+        "src/130F Prime factorization.bf"
+        "src/130G CAPS LOCK ON.bf"
+        "src/130H Balanced brackets.bf"
+        "src/130I Array sorting.bf"
+        "src/130J Date calculation.bf")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
