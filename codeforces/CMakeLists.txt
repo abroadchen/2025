@@ -609,7 +609,18 @@ add_executable(codeforces
         "src/130G CAPS LOCK ON.bf"
         "src/130H Balanced brackets.bf"
         "src/130I Array sorting.bf"
-        "src/130J Date calculation.bf")
+        "src/130J Date calculation.bf"
+        "src/131A cAPS lOCK.cpp"
+        "src/131B Opposites Attract.cpp"
+        "src/131C The World is a Theatre.cpp"
+        "src/131D Subway.cpp"
+        "src/131E Yet Another Task with Queens.cpp"
+        "src/131F Present to Mom.cpp"
+        "src/132A Turing Tape.cpp"
+        "src/132B Piet.cpp"
+        "src/132C Logo Turtle.cpp"
+        "src/132D Constants in the language of Shakespeare.cpp"
+        "src/132E Bits of merry old England.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
