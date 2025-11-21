@@ -658,7 +658,21 @@ add_executable(codeforces
         "src/141E Clearing Up.cpp"
         "src/142A Help Farmer.cpp"
         "src/142B Help General.cpp"
-        "src/142C Help Caretaker.cpp")
+        "src/142C Help Caretaker.cpp"
+        "src/142D Help Shrek and Donkey 2.cpp"
+        "src/142E Help Greg the Dwarf 2.cpp"
+        "src/143A Help Vasilisa the Wise 2.cpp"
+        "src/143B Help Kingdom of Far Far Away 2.cpp"
+        "src/144A Arrival of the General.cpp"
+        "src/144B Meeting.cpp"
+        "src/144C Anagram Search.cpp"
+        "src/144D Missile Silos.cpp"
+        "src/144E Competition.cpp"
+        "src/145A Lucky Conversion.cpp"
+        "src/145B Lucky Number 2.cpp"
+        "src/145C Lucky Subsequence.cpp"
+        "src/145D Lucky Pair.cpp"
+        "src/145E Lucky Queries.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
