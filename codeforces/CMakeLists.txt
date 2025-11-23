@@ -672,7 +672,24 @@ add_executable(codeforces
         "src/145B Lucky Number 2.cpp"
         "src/145C Lucky Subsequence.cpp"
         "src/145D Lucky Pair.cpp"
-        "src/145E Lucky Queries.cpp")
+        "src/145E Lucky Queries.cpp"
+        "src/146A Lucky Ticket.cpp"
+        "src/146B Lucky Mask.cpp"
+        "src/147A Punctuation.cpp"
+        "src/147B Smile House.cpp"
+        "src/148A Insomnia cure.cpp"
+        "src/148B Escape.cpp"
+        "src/148C Terse princess.cpp"
+        "src/148D Bag of mice.cpp"
+        "src/148E Porcelain.cpp"
+        "src/149A Business trip.cpp"
+        "src/149B Martian Clock.cpp"
+        "src/149C Division into Teams.cpp"
+        "src/149D Coloring Brackets.cpp"
+        "src/149E Martian Strings.cpp"
+        "src/150A Win or Freeze.cpp"
+        "src/150B Quantity of Strings.cpp"
+        "src/150C Smart Cheater.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
