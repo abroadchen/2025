@@ -716,7 +716,24 @@ add_executable(codeforces
         "src/157B Trace.cpp"
         "src/158A Next Round.cpp"
         "src/160A Twins.cpp"
-        "src/158B Taxi.cpp")
+        "src/158B Taxi.cpp"
+        "src/158C Cd and pwd commands.cpp"
+        "src/158D Ice Sculptures.cpp"
+        "src/158E Phone Talks.cpp"
+        "src/159A Friends or Not.cpp"
+        "src/159B Matchmaker.cpp"
+        "src/159C String Manipulation 1.0.cpp"
+        "src/159D Palindrome pairs.cpp"
+        "src/159E Zebra Tower.cpp"
+        "src/160B Unlucky Ticket.cpp"
+        "src/160C Find Pair.cpp"
+        "src/160D Edges in MST.cpp"
+        "src/160E Buses and People.cpp"
+        "src/161A Dress'em in Vests!.cpp"
+        "src/161B Discounts.cpp"
+        "src/161C Abracadabra.cpp"
+        "src/161D Distance in Tree.cpp"
+        "src/161E Polycarpus the Safecracker.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
