@@ -733,7 +733,23 @@ add_executable(codeforces
         "src/161B Discounts.cpp"
         "src/161C Abracadabra.cpp"
         "src/161D Distance in Tree.cpp"
-        "src/161E Polycarpus the Safecracker.cpp")
+        "src/161E Polycarpus the Safecracker.cpp"
+        "src/162A Pentagonal numbers.factor"
+        "src/163A Substring and Subsequence.cpp"
+        "src/163B Lemmings.cpp"
+        "src/163C Conveyor.cpp"
+        "src/163D Large Refrigerator.cpp"
+        "src/163E e-Government.cpp"
+        "src/164A Variable, or There and Back Again.cpp"
+        "src/164B Ancient Berland Hieroglyphs.cpp"
+        "src/164C Machine Programming.cpp"
+        "src/164D Minimum Diameter.cpp"
+        "src/164E Polycarpus and Tasks.cpp"
+        "src/165A Supercentral Point.cpp"
+        "src/165B Burning Midnight Oil.cpp"
+        "src/165C Another Problem on Strings.cpp"
+        "src/165D Beard Graph.cpp"
+        "src/165E Compatible Numbers.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
