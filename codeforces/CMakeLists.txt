@@ -777,7 +777,26 @@ add_executable(codeforces
         "src/172C Bus.cpp"
         "src/172D Calendar Reform.cpp"
         "src/172E BHTML+BCSS.cpp"
-        "src/173A Rock-Paper-Scissors.cpp")
+        "src/173A Rock-Paper-Scissors.cpp"
+        "src/173B Chamber of Secrets.cpp"
+        "src/173C Spiral Maximum.cpp"
+        "src/173D Deputies.cpp"
+        "src/173E  Camping Groups!!.cpp"
+        "src/174A Problem About Equation.cpp"
+        "src/174B File List.cpp"
+        "src/174C Range Increments.cpp"
+        "src/175A Robot Bicorn Attack.cpp"
+        "src/175B Plane of Tanks: Pro.cpp"
+        "src/175C Geometry Horse.cpp"
+        "src/175D Plane of Tanks: Duel.cpp"
+        "src/175E Power Defence.cpp"
+        "src/175F Gnomes of Might and Magic.cpp"
+        "src/176A Trading Business.cpp"
+        "src/176B Word Cut.cpp"
+        "src/176C Playing with Superglue.cpp"
+        "src/176D Hyper String.cpp"
+        "src/176E Archaeology.cpp"
+        "src/177A1 Good Matrix Elements.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
