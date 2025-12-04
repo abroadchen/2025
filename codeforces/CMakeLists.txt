@@ -878,7 +878,29 @@ add_executable(codeforces
         "src/193C Hamming Distance.cpp"
         "src/193D Two Segments.cpp"
         "src/193E Fibonacci Number.cpp"
-        "src/194A Exams.cpp")
+        "src/194A Exams.cpp"
+        "src/194B Square.cpp"
+        "src/195A Let's Watch Football.cpp"
+        "src/195B After Training.cpp"
+        "src/195C Try and Catch.cpp"
+        "src/195D Analyzing Polyline.cpp"
+        "src/195E Building Forest.cpp"
+        "src/196A Lexicographically Maximum Subsequence.cpp"
+        "src/196B Infinite Maze.cpp"
+        "src/196C Paint Tree.cpp"
+        "src/196D The Next Good String.cpp"
+        "src/196E Opening Portals.cpp"
+        "src/197A Plate Game.cpp"
+        "src/197B Limit.cpp"
+        "src/198A About Bacteria.cpp"
+        "src/198B Jumping on Walls.cpp"
+        "src/198C Delivering Carcinogen.cpp"
+        "src/198D Cube Snake.cpp"
+        "src/198E Gripping Story.cpp"
+        "src/199A Hexadecimal's theorem.cpp"
+        "src/199B Special Olympics.cpp"
+        "src/200A Cinema.cpp"
+        "src/200B Drinks.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14

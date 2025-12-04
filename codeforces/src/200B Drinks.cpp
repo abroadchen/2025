@@ -1,5 +1,5 @@
 //
-// Created by Psy.C on 2025/12/3.
+// Created by Psy.C on 2025/12/4.
 //
 
 #include <iostream>
@@ -9,7 +9,6 @@ using namespace std;
 
 int main() {
     fast;
-    int n, k; cin >> n >> k;
-    cout << (k <= n * 3 ? n * 3 - k : 0) << '\n';
+
     return 0;
 }

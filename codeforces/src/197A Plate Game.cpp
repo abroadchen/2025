@@ -9,7 +9,9 @@ using namespace std;
 
 int main() {
     fast;
-    int n, k; cin >> n >> k;
-    cout << (k <= n * 3 ? n * 3 - k : 0) << '\n';
+    int a, b, r; cin>>a>>b>>r;
+    const int d = r * 2;
+    if (a < d || b < d) cout << "Second\n";
+    else cout << "First\n";
     return 0;
 }
