@@ -928,7 +928,32 @@ add_executable(codeforces
         "src/207A3 Beaver's Calculator 1.0.cpp"
         "src/207B1 Military Trainings.cpp"
         "src/207B2 Military Trainings.cpp"
-        "src/207B3 Military Trainings.cpp")
+        "src/207B3 Military Trainings.cpp"
+        "src/207C1 Game with Two Trees.cpp"
+        "src/207C2 Game with Two Trees.cpp"
+        "src/207C3 Game with Two Trees.cpp"
+        "src/207D1 The Beaver's Problem - 3.cpp"
+        "src/208A Dubstep.cpp"
+        "src/208B Solitaire.cpp"
+        "src/208C Police Station.cpp"
+        "src/208D Prizes, Prizes, more Prizes.cpp"
+        "src/208E Blood Cousins.cpp"
+        "src/209A Multicolored Marbles.cpp"
+        "src/209B Pixels.cpp"
+        "src/209C Trails and Glades.cpp"
+        "src/212A Privatization.cpp"
+        "src/212B Polycarpus is Looking for Good Substrings.cpp"
+        "src/212C Cowboys.cpp"
+        "src/212D Cutting a Fence.cpp"
+        "src/212E IT Restaurants.cpp"
+        "src/213A Game.cpp"
+        "src/213B Numbers.cpp"
+        "src/213C Relay Race.cpp"
+        "src/213D Stars.cpp"
+        "src/213E  Two Permutations.cpp"
+        "src/214A System of Equations.cpp"
+        "src/214B Hometask.cpp"
+        "src/215A Bicycle Chain.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
