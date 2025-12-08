@@ -953,7 +953,29 @@ add_executable(codeforces
         "src/213E  Two Permutations.cpp"
         "src/214A System of Equations.cpp"
         "src/214B Hometask.cpp"
-        "src/215A Bicycle Chain.cpp")
+        "src/215A Bicycle Chain.cpp"
+        "src/215B Olympic Medal.cpp"
+        "src/215C Crosses.cpp"
+        "src/215D Hot Days.cpp"
+        "src/215E Periodical Numbers.cpp"
+        "src/216A Tiling with Hexagons.cpp"
+        "src/216B Forming Teams.cpp"
+        "src/216C Hiring Staff.cpp"
+        "src/216D Spider's Web.cpp"
+        "src/216E Martian Luck.cpp"
+        "src/217A Ice Skating.cpp"
+        "src/217B Blackboard Fibonacci.cpp"
+        "src/217C Formurosa.cpp"
+        "src/217D Bitonix' Patrol.cpp"
+        "src/217E Alien DNA.cpp"
+        "src/218A Mountain Scenery.cpp"
+        "src/218B Airport.cpp"
+        "src/219A k-String.cpp"
+        "src/219B Special Offer! Super Price 999 Bourles!.cpp"
+        "src/219C Color Stripe.cpp"
+        "src/219D Choosing Capital for Treeland.cpp"
+        "src/219E Parking Lot.cpp"
+        "src/220A Little Elephant and Problem.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
