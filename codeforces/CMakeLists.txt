@@ -1003,7 +1003,29 @@ add_executable(codeforces
         "src/226B Naughty Stone Piles.cpp"
         "src/226C Anniversary.cpp"
         "src/226D The table.cpp"
-        "src/227A Where do I Turn?.cpp")
+        "src/227A Where do I Turn?.cpp"
+        "src/227B Effective Approach.cpp"
+        "src/228A Is your horseshoe on the other hoof?.cpp"
+        "src/228B Two Tables.cpp"
+        "src/228C Fractal Detector.cpp"
+        "src/228D Zigzag.cpp"
+        "src/228E The Road to Berland is Paved With Good Intentions.cpp"
+        "src/229A Shifts.cpp"
+        "src/229B Planets.cpp"
+        "src/229C Triangles.cpp"
+        "src/229D Towers.cpp"
+        "src/229E Gifts.cpp"
+        "src/230A Dragons.cpp"
+        "src/230B T-primes.cpp"
+        "src/231A Team.cpp"
+        "src/231B Magic, Wizardry and Wonders.cpp"
+        "src/231C To Add or Not to Add.cpp"
+        "src/231D Magic Box.cpp"
+        "src/231E Cactus.cpp"
+        "src/232A Cycles.cpp"
+        "src/232B Table.cpp"
+        "src/232C Doe Graphs.cpp"
+        "src/232D Fence.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
