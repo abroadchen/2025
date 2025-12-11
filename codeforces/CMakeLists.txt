@@ -1025,7 +1025,8 @@ add_executable(codeforces
         "src/232A Cycles.cpp"
         "src/232B Table.cpp"
         "src/232C Doe Graphs.cpp"
-        "src/232D Fence.cpp")
+        "src/232D Fence.cpp"
+        "src/232E Quick Tortoise.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
