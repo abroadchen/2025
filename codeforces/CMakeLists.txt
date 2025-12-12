@@ -1026,7 +1026,29 @@ add_executable(codeforces
         "src/232B Table.cpp"
         "src/232C Doe Graphs.cpp"
         "src/232D Fence.cpp"
-        "src/232E Quick Tortoise.cpp")
+        "src/232E Quick Tortoise.cpp"
+        "src/233A Perfect Permutation.cpp"
+        "src/233B Non-square Equation.cpp"
+        "src/234A Lefthanders and Righthanders.cpp"
+        "src/234B Reading.cpp"
+        "src/234C Weather.cpp"
+        "src/234D Cinema.cpp"
+        "src/234E Champions' League.cpp"
+        "src/234F Fence.cpp"
+        "src/234G Practice.cpp"
+        "src/234H Merging Two Decks.cpp"
+        "src/235A LCM Challenge.cpp"
+        "src/235B Let's Play Osu!.cpp"
+        "src/235D Graph Game.cpp"
+        "src/235E Number Challenge.cpp"
+        "src/236A Boy or Girl.cpp"
+        "src/236B Easy Number Challenge.cpp"
+        "src/237A Free Cash.cpp"
+        "src/237B Young Table.cpp"
+        "src/237C Primes on Interval.cpp"
+        "src/237D T-decomposition.cpp"
+        "src/237E Build String.cpp"
+        "src/238A Not Wool Sequences.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
