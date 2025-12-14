@@ -1048,7 +1048,20 @@ add_executable(codeforces
         "src/237C Primes on Interval.cpp"
         "src/237D T-decomposition.cpp"
         "src/237E Build String.cpp"
-        "src/238A Not Wool Sequences.cpp")
+        "src/238A Not Wool Sequences.cpp"
+        "src/238B Boring Partition.cpp"
+        "src/238C World Eater Brothers.cpp"
+        "src/238D Tape Programming.cpp"
+        "src/238E Meeting Her.cpp"
+        "src/239A Two Bags of Potatoes.cpp"
+        "src/239B Easy Tape Programming.cpp"
+        "src/240E Road Repairs.cpp"
+        "src/240F TorCoder.cpp"
+        "src/241A Old Peykan.cpp"
+        "src/241B Friends.cpp"
+        "src/241C Mirror Box.cpp"
+        "src/241D Numbers.cpp"
+        "src/241E Flights.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
