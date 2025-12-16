@@ -1061,7 +1061,29 @@ add_executable(codeforces
         "src/241B Friends.cpp"
         "src/241C Mirror Box.cpp"
         "src/241D Numbers.cpp"
-        "src/241E Flights.cpp")
+        "src/241E Flights.cpp"
+        "src/241F Race.cpp"
+        "src/241G Challenging Balloons.cpp"
+        "src/242A Heads or Tails.cpp"
+        "src/242B Big Segment.cpp"
+        "src/242C King's Path.cpp"
+        "src/242D Dispute.cpp"
+        "src/242E XOR on Segment.cpp"
+        "src/243A The Brand New Function.cpp"
+        "src/243B Hydra.cpp"
+        "src/243C Colorado Potato Beetle.cpp"
+        "src/243D Cubes.cpp"
+        "src/243E Matrix.cpp"
+        "src/244A Dividing Orange.cpp"
+        "src/244B Undoubtedly Lucky Numbers.cpp"
+        "src/245A System Administrator.cpp"
+        "src/245B Internet Address.cpp"
+        "src/245C Game with Coins.cpp"
+        "src/245D Restoring Table.cpp"
+        "src/245E Mishap in Club.cpp"
+        "src/245F Log Stream Analysis.cpp"
+        "src/245H Queries for Number of Palindromes.cpp"
+        "src/246A Buggy Sorting.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
