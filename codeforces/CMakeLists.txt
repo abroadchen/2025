@@ -1083,7 +1083,17 @@ add_executable(codeforces
         "src/245E Mishap in Club.cpp"
         "src/245F Log Stream Analysis.cpp"
         "src/245H Queries for Number of Palindromes.cpp"
-        "src/246A Buggy Sorting.cpp")
+        "src/246A Buggy Sorting.cpp"
+        "src/246B Increase and Decrease.cpp"
+        "src/246C Beauty Pageant.cpp"
+        "src/246D Colorful Graph.cpp"
+        "src/246E Blood Cousins Return.cpp"
+        "src/248A Cupboards.cpp"
+        "src/248B Chilly Willy.cpp"
+        "src/248C Robo-Footballer.cpp"
+        "src/248D Sweets for Everyone!.cpp"
+        "src/248E Piglet's Birthday.cpp"
+        "src/249E Endless Matrix.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14

@@ -10,10 +10,8 @@ using namespace std;
 int main() {
     fast;
     int n; cin >> n;
-    if (n == 1 || n == 2) cout << -1 << '\n';
-    else {
-        for (int i = 1; i <= n - 1; ++i) cout << 2 << ' ';
-        cout << 1 << '\n';
-    }
+    int sum = 0, a;
+    for (int i = 0; i < n; ++i) { cin >> a;  sum += a; }
+    cout << (sum % n == 0 ? n : n - 1) << '\n';
     return 0;
 }
