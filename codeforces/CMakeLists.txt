@@ -1093,7 +1093,21 @@ add_executable(codeforces
         "src/248C Robo-Footballer.cpp"
         "src/248D Sweets for Everyone!.cpp"
         "src/248E Piglet's Birthday.cpp"
-        "src/249E Endless Matrix.cpp")
+        "src/249E Endless Matrix.cpp"
+        "src/250A Paper Work.cpp"
+        "src/250B Restoring IPv6.cpp"
+        "src/250C Movie Critics.cpp"
+        "src/250D Building Bridge.cpp"
+        "src/251A Points on Line.cpp"
+        "src/251E Tree and Table.cpp"
+        "src/252A Little Xor.cpp"
+        "src/252B Unsorting Array.cpp"
+        "src/253A Boys and Girls.cpp"
+        "src/253B Physics Practical.cpp"
+        "src/253C Text Editor.cpp"
+        "src/254A Cards with Numbers.cpp"
+        "src/254B Jury Size.cpp"
+        "src/255A Greg's Workout.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
