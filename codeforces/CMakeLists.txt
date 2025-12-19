@@ -1107,7 +1107,22 @@ add_executable(codeforces
         "src/253C Text Editor.cpp"
         "src/254A Cards with Numbers.cpp"
         "src/254B Jury Size.cpp"
-        "src/255A Greg's Workout.cpp")
+        "src/255A Greg's Workout.cpp"
+        "src/255B Code Parsing.cpp"
+        "src/255C Almost Arithmetical Progression.cpp"
+        "src/255D Mr. Bender and Square.cpp"
+        "src/255E Furlo and Rublo and Game.cpp"
+        "src/256D Liars and Serge.cpp"
+        "src/256E Lucky Arrays.cpp"
+        "src/257A Sockets.cpp"
+        "src/257B Playing Cubes.cpp"
+        "src/257C View Angle.cpp"
+        "src/257D Sum.cpp"
+        "src/258A Little Elephant and Bits.cpp"
+        "src/258D Little Elephant and Broken Sorting.cpp"
+        "src/259A Little Elephant and Chess.cpp"
+        "src/259B Little Elephant and Magic Square.cpp"
+        "src/260A Adding Digits.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
