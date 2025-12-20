@@ -1122,7 +1122,26 @@ add_executable(codeforces
         "src/258D Little Elephant and Broken Sorting.cpp"
         "src/259A Little Elephant and Chess.cpp"
         "src/259B Little Elephant and Magic Square.cpp"
-        "src/260A Adding Digits.cpp")
+        "src/260A Adding Digits.cpp"
+        "src/260B Ancient Prophesy.cpp"
+        "src/260C Balls and Boxes.cpp"
+        "src/260D Black and White Tree.cpp"
+        "src/260E Dividing Kingdom.cpp"
+        "src/261A Maxim and Discounts.cpp"
+        "src/261B Maxim and Restaurant.cpp"
+        "src/261C Maxim and Matrix.cpp"
+        "src/261D Maxim and Increasing Subsequence.cpp"
+        "src/261E Maxim and Calculator.cpp"
+        "src/262A Roma and Lucky Numbers.cpp"
+        "src/262B Roma and Changing Signs.cpp"
+        "src/263A Beautiful Matrix.cpp"
+        "src/263B Squares.cpp"
+        "src/263C Circle of Numbers.cpp"
+        "src/263D Cycle in Graph.cpp"
+        "src/263E Rhombus.cpp"
+        "src/264A Escape from Stones.cpp"
+        "src/264B Good Sequences.cpp"
+        "src/264C Choosing Balls.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
