@@ -1141,7 +1141,25 @@ add_executable(codeforces
         "src/263E Rhombus.cpp"
         "src/264A Escape from Stones.cpp"
         "src/264B Good Sequences.cpp"
-        "src/264C Choosing Balls.cpp")
+        "src/264C Choosing Balls.cpp"
+        "src/264D Colorful Stones.cpp"
+        "src/264E Roadside Trees.cpp"
+        "src/265A Colorful Stones (Simplified Edition).cpp"
+        "src/265B Roadside Trees (Simplified Edition).cpp"
+        "src/266A Stones on the Table.cpp"
+        "src/266B Queue at the School.cpp"
+        "src/266C Below the Diagonal.cpp"
+        "src/266D BerDonalds.cpp"
+        "src/266E More Queries to Array....cpp"
+        "src/267A Subtractions.cpp"
+        "src/267B Dominoes.cpp"
+        "src/267C Berland Traffic.cpp"
+        "src/268A Games.cpp"
+        "src/268B Buttons.cpp"
+        "src/268C Beautiful Sets of Points.cpp"
+        "src/268D Wall Bars.cpp"
+        "src/268E Playlist.cpp"
+        "src/269A Magical Boxes.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
