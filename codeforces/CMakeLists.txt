@@ -1159,7 +1159,23 @@ add_executable(codeforces
         "src/268C Beautiful Sets of Points.cpp"
         "src/268D Wall Bars.cpp"
         "src/268E Playlist.cpp"
-        "src/269A Magical Boxes.cpp")
+        "src/269A Magical Boxes.cpp"
+        "src/269B Greenhouse Effect.cpp"
+        "src/269C Flawed Flow.cpp"
+        "src/269D Maximum Waterfall.cpp"
+        "src/269E String Theory.cpp"
+        "src/270A Fancy Fence.cpp"
+        "src/270B Multithreading.cpp"
+        "src/271A Beautiful Year.cpp"
+        "src/271B Prime Matrix.cpp"
+        "src/271C Secret.cpp"
+        "src/271D Good Substrings.cpp"
+        "src/271E Three Horses.cpp"
+        "src/272A Dima and Friends.cpp"
+        "src/272B Dima and Sequence.cpp"
+        "src/272C Dima and Staircase.cpp"
+        "src/272D Dima and Two Sequences.cpp"
+        "src/272E Dima and Horses.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
