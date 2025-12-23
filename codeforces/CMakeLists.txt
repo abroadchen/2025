@@ -1175,7 +1175,20 @@ add_executable(codeforces
         "src/272B Dima and Sequence.cpp"
         "src/272C Dima and Staircase.cpp"
         "src/272D Dima and Two Sequences.cpp"
-        "src/272E Dima and Horses.cpp")
+        "src/272E Dima and Horses.cpp"
+        "src/273D Dima and Figure.cpp"
+        "src/273E Dima and Game.cpp"
+        src/test/test.cpp
+        "src/274A k-Multiple Free Set.cpp"
+        "src/274B Zero Tree.cpp"
+        "src/274C The Last Hole!.cpp"
+        "src/274D Lovely Matrix.cpp"
+        "src/274E Mirror Room.cpp"
+        "src/275A Lights Out.cpp"
+        "src/275B Convex Shape.cpp"
+        "src/276A Lunch Rush.cpp"
+        "src/276B Little Girl and Game.cpp"
+        "src/276C Little Girl and Maximum Sum.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
