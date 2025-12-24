@@ -1188,7 +1188,8 @@ add_executable(codeforces
         "src/275B Convex Shape.cpp"
         "src/276A Lunch Rush.cpp"
         "src/276B Little Girl and Game.cpp"
-        "src/276C Little Girl and Maximum Sum.cpp")
+        "src/276C Little Girl and Maximum Sum.cpp"
+        "src/276D Little Girl and Maximum XOR.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14

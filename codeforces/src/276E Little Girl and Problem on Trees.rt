@@ -1,0 +1,108 @@
+
+use std::io::{self, BufRead};
+
+struct Edge {
+  next: usize,
+  to: usize
+}
+
+struct Solver {
+  n: usize,
+  ca: usize,
+  head: Vec<usize>,
+  edges: Vec<Edge>,
+  tot: usize,
+
+  cnt: usize,
+  ans1: i32,
+  depth: Vec<usize>,
+  id: Vec<usize>,
+  sums: Vec<Vec<i32>>
+}
+
+impl Solver {
+  fn new(n: usize, ca: usize) -> Self {
+    Solver {
+      n,
+      ca,
+      head: vec![0; n + 5],
+      edges: vec![Edge { next: 0, to: 0}; 2 * n + 5],
+      tot: 0,
+      cnt: 0,
+      ans1: 0,
+      depth: vec![0; n + 5],
+      id: vec![0; n + 5],
+      sums: vec![Vec::new(); n + 5]
+    }
+  }
+  fn add_edge(&mut self, u: usize, v: usize) {
+    self.tot += 1;
+    self.edges[self.tot] = Edge {
+      next: self.head[u],
+      to: v
+    };
+    self.head[u] = self.tot;
+  }
+  fn dfs(&mut self, u: usize, fa: usize, idd: usize) {
+    self.sums[idd].push(0);
+    self.depth[u] = self.depth[fa] + 1;
+    self.id[u] = idd;
+
+    let mut i = self.head[u];
+    while i != 0 {
+      let v = self.edges[i].to;
+      if v != fa { self.dfs(v, u, idd); }
+      i = self.edges[i].next;
+    }
+  }
+  fn query(&self, mut x: usize, id: usize) -> i32 {
+    let mut tmp = 0;
+    while x > 0 {
+      tmp += self.sums[id][x];
+      x -= x & (!x + 1);
+    }
+    tmp
+  }
+  fn update(&mut self, mut x: usize, k: i32, id: usize) {
+    while x < self.sums[id].len() {
+      self.sums[id][x] += k;
+      x += x & (!x + 1);
+    }
+  }
+  fn change(&mut self, l: usize, r: usize, k: i32, id: usize) {
+    self.update(l, k, id);
+    if r + 1 < self.sums[id].len() { self.update(r + 1, -k, id); }
+  }
+
+  fn solve(&mut self) {
+    let mut i = self.head[1];
+    while i != 0 {
+      self.cnt += 1;
+      self.dfs(self.edges[i].to, 1, self.cnt);
+      i = self.edges[i].next;
+    }
+    for _ in 0..=self.n { self.sums[0].push(0); }
+    for i in 0..=self.cnt { self.sums[i].push(0); }
+    for _ in 0..self.ca {
+      let mut line = String::new();
+      io::stdin().read_line(&mut line).unwrap();
+      let query_parts: Vec<i32> = line
+        .trim()
+        .split_whitespace()
+        .map(|x| x.parse().unwrap())
+        .collect();
+
+      let op = query_parts[0] as usize;
+      let v = query_parts[1] as usize;
+      if op == 1 {
+        if v == 1 println!("{}", self.ans1);
+        else {
+          let  result = self.query(self.depth[v], 0) + self.query(self.depth[v], self.id[v]);
+          println!("{}", result);
+        }
+      } else {
+        
+      }
+    }
+  }
+}
