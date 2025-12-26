@@ -1178,7 +1178,6 @@ add_executable(codeforces
         "src/272E Dima and Horses.cpp"
         "src/273D Dima and Figure.cpp"
         "src/273E Dima and Game.cpp"
-        src/test/test.cpp
         "src/274A k-Multiple Free Set.cpp"
         "src/274B Zero Tree.cpp"
         "src/274C The Last Hole!.cpp"
@@ -1189,7 +1188,13 @@ add_executable(codeforces
         "src/276A Lunch Rush.cpp"
         "src/276B Little Girl and Game.cpp"
         "src/276C Little Girl and Maximum Sum.cpp"
-        "src/276D Little Girl and Maximum XOR.cpp")
+        "src/277B Set of Points.cpp"
+        "src/277C Game.cpp"
+        "src/277D Google Code Jam.cpp"
+        "src/277E Binary Tree on Plane.cpp"
+        "src/278A Circle Line.cpp"
+        "src/278B New Problem.cpp"
+        "src/279A Point on Spiral.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
