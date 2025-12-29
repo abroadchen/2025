@@ -1194,7 +1194,9 @@ add_executable(codeforces
         "src/277E Binary Tree on Plane.cpp"
         "src/278A Circle Line.cpp"
         "src/278B New Problem.cpp"
-        "src/280E Sequence Transformation.cpp")
+        "src/280E Sequence Transformation.cpp"
+        "src/286D Tourists.cpp"
+        "src/286E Ladies' Shop.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
