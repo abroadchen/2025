@@ -1197,7 +1197,8 @@ add_executable(codeforces
         "src/280E Sequence Transformation.cpp"
         "src/286D Tourists.cpp"
         "src/286E Ladies' Shop.cpp"
-        "src/293E Close Vertices.cpp")
+        "src/295D Greg and Caves.cpp"
+        "src/295E Yaroslav and Points.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
