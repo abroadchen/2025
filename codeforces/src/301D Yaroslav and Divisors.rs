@@ -52,7 +52,7 @@ fn main() {
         if r[i] as usize <= n { rv[r[i] as usize].push(i); }
     }
     for i in 1..=n {
-        for j in 0..lv[i].len() {
+        for j in 0..lv[i].len() {//处理所有左端点为 i 的查询
             let idx = lv[i][j];
             let qr = query(&b, r[idx] as usize);//[1, r[idx]]
             let ql = if i > 1 { query(&b, i - 1) } else { 0 };//[1, i-1]
@@ -61,12 +61,12 @@ fn main() {
         let mut j = 1;
         while j * a[i] as usize <= n {
             let val = (j as i32 * a[i]) as usize;
-            if val <= n && val > 0 && p[val] != 0 {
+            if val <= n && val > 0 && p[val] != 0 {//倍数在范围内且存在对应位置
                 update(&mut b, p[val] as usize);
             }
             j += 1;
         }
-        for j in 0..rv[i].len() {
+        for j in 0..rv[i].len() {//处理所有右端点为 i 的查询
             let idx = rv[i][j];
             let qr = query(&b, i);
             let ql = if l[idx] > 1 { query(&b, l[idx] as usize - 1) } else { 0 };
