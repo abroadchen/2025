@@ -1198,7 +1198,14 @@ add_executable(codeforces
         "src/286D Tourists.cpp"
         "src/286E Ladies' Shop.cpp"
         "src/295D Greg and Caves.cpp"
-        "src/295E Yaroslav and Points.cpp")
+        "src/309C Memory for Arrays.cpp"
+        "src/309D Tennis Rackets.cpp"
+        "src/309E Sheep.cpp"
+        "src/311A The Closest Pair.cpp"
+        "src/311B Cats Transport.cpp"
+        "src/311C Fetch the Treasure.cpp"
+        "src/311D Interval Cubing.cpp"
+        "src/311E Biologist.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
