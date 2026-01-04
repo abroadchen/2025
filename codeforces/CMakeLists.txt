@@ -1205,7 +1205,8 @@ add_executable(codeforces
         "src/311B Cats Transport.cpp"
         "src/311C Fetch the Treasure.cpp"
         "src/311D Interval Cubing.cpp"
-        "src/311E Biologist.cpp")
+        "src/311E Biologist.cpp"
+        "src/312A Whose sentence is it?.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14
