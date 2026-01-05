@@ -1206,7 +1206,15 @@ add_executable(codeforces
         "src/311C Fetch the Treasure.cpp"
         "src/311D Interval Cubing.cpp"
         "src/311E Biologist.cpp"
-        "src/312A Whose sentence is it?.cpp")
+        "src/316D1 PE Lesson.cpp"
+        "src/316D2 PE Lesson.cpp"
+        "src/316D3 PE Lesson.cpp"
+        "src/316E1 Summer Homework.cpp"
+        "src/316E2 Summer Homework.cpp"
+        "src/316E3 Summer Homework.cpp"
+        "src/316F1 Suns and Rays.cpp"
+        "src/316F2 Suns and Rays.cpp"
+        "src/316F3 Suns and Rays.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 14

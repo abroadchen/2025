@@ -1,29 +1,41 @@
+/**
+ *
+* 1. 为什么有 i - t？
+i 是当前处理到字符串的位置（从1开始）
+t 是字符串总长度的一半（n/2）
+i - t 表示：当前处理到第i个字符，考虑到对称性，最多可能与前半部分形成 i - t 对匹配
+2. 为什么有 1？
+j 是dp数组的索引，表示匹配对的数量
+匹配对数量不能为负数或0以下，所以最小是1（如果存在匹配的话）
+保证 j >= 1
+3. 实际含义
+当 i <= t 时（还在前半部分），i - t <= 0，所以 max(1, i-t) = 1
+当 i > t 时（开始处理后半部分），i - t > 0，表示从后半部分第 i-t 个字符开始可能与前半部分匹配
+ *
+* t 是期望的匹配对数（n/2）
+cnt 是已确定的匹配对数（非'?'字符数）
+t - cnt 是剩余需要填充的'?'对数
+每对'?'有25种可能的填法
+ */
 #include <iostream>
-#define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
-#define N 100009
+#define N 100005
 using namespace std;
 
 
 int main() {
-    fast;
-    int n, sum[N]; cin >> n;
+    int n; scanf("%d",&n);
+    if (n & 1) return putchar('0'), 0;
     char s[N]; scanf("%s", s + 1);
-    if (n & 1) { cout << "0\n"; return 0; }
-    for (int i = n; i; --i) sum[i] = sum[i + 1] + (s[i] == '?' ? 1 : -1);
-    if (n == 100000 && sum[1] == n) { cout << "2313197120\n"; return 0; }
-    int l = 0, r = 0; unsigned dp[N]; dp[0] = 1;
-    for (int i = 1; i <= n; ++i) {
-        for (int j = r + 1; j > l; --j) dp[j] = dp[j - 1];
-        dp[l] = 0;
-        l++, r++;
+    unsigned int dp[N]; dp[0] = 1;
+    int cnt = 0;//非'?'字符的数量
+    const int t = n>>1;
+    for (int i = 1; i <= n; ++i) {//遍历字符串的每个位置
         if (s[i] == '?') {
-            l = max(0, l - 2);
-            for (int j = l; j <= r - 2; ++j) dp[j] += dp[j + 2];
-        }
-        while (r > sum[i + 1] + 1) dp[r--] = 0;
+            for (int j = i>>1, x = max(1, i - t);  j >= x; --j) dp[j] += dp[j - 1];
+        } else cnt++;
     }
-    if (l) { cout << "0\n"; return 0; }
-    for (int i = 1; i <= sum[1] / 2; ++i) dp[0] *= 25;
-    cout << dp[0] << '\n';
+    if (t < cnt) return putchar('0'), 0;
+    for (int i = t - cnt; i--;) dp[t] *= 25;//?'字符可以填入25个不同字母
+    printf("%u", dp[t]);
     return 0;
 }
