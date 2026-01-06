@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.29)
 project(codeforces)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -1214,9 +1214,17 @@ add_executable(codeforces
         "src/316E3 Summer Homework.cpp"
         "src/316F1 Suns and Rays.cpp"
         "src/316F2 Suns and Rays.cpp"
-        "src/316F3 Suns and Rays.cpp")
+        "src/316F3 Suns and Rays.cpp"
+        "src/316G2 Good Substrings.cpp"
+        "src/316G3 Good Substrings.cpp"
+        "src/317A Perfect Pair.cpp"
+        "src/317B Ants.cpp"
+        "src/317C Balance.cpp"
+        "src/317D Game with Powers.cpp"
+        "src/317D Game with Powers.cpp"
+        "src/317E Princess and Her Shadow.cpp")
 
 set_target_properties(codeforces PROPERTIES
-    CXX_STANDARD 14
+    CXX_STANDARD 23
     CXX_STANDARD_REQUIRED ON
 )
