@@ -1222,7 +1222,18 @@ add_executable(codeforces
         "src/317C Balance.cpp"
         "src/317D Game with Powers.cpp"
         "src/317D Game with Powers.cpp"
-        "src/317E Princess and Her Shadow.cpp")
+        "src/317E Princess and Her Shadow.cpp"
+        "src/318A Even Odds.cpp"
+        "src/318B Strings of Power.cpp"
+        "src/319A Malek Dance Club.cpp"
+        "src/319B Psychos in a Line.cpp"
+        "src/319C Kalila and Dimna in the Logging Industry.cpp"
+        "src/319D Have You Ever Heard About the Word?.cpp"
+        "src/320A Magic Numbers.cpp"
+        "src/320B Ping-Pong (Easy Version).cpp"
+        "src/321A Ciel and Robot.cpp"
+        "src/321B Ciel and Duel.cpp"
+        "src/321C Ciel the Commander.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
