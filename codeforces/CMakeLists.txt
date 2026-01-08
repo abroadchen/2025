@@ -1233,7 +1233,22 @@ add_executable(codeforces
         "src/320B Ping-Pong (Easy Version).cpp"
         "src/321A Ciel and Robot.cpp"
         "src/321B Ciel and Duel.cpp"
-        "src/321C Ciel the Commander.cpp")
+        "src/321C Ciel the Commander.cpp"
+        "src/321D Ciel and Flipboard.cpp"
+        "src/321E Ciel and Gondolas.cpp"
+        "src/322A Ciel and Dancing.cpp"
+        "src/322B Ciel and Flowers.cpp"
+        "src/323A Black-and-White Cube.cpp"
+        "src/323B Tournament-graph.cpp"
+        "src/323C Two permutations.cpp"
+        "src/325A Square and Rectangles.cpp"
+        "src/325B Stadium and Games.cpp"
+        "src/325C Monsters and Diamonds.cpp"
+        "src/325D Reclamation.cpp"
+        "src/325E The Red Button.cpp"
+        "src/327A Flipping Game.cpp"
+        "src/327B Hungry Sequence.cpp"
+        "src/327C Magic Five.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
