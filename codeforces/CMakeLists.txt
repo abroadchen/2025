@@ -1248,7 +1248,28 @@ add_executable(codeforces
         "src/325E The Red Button.cpp"
         "src/327A Flipping Game.cpp"
         "src/327B Hungry Sequence.cpp"
-        "src/327C Magic Five.cpp")
+        "src/327C Magic Five.cpp"
+        "src/327D Block Tower.cpp"
+        "src/327E Axis Walking.cpp"
+        "src/328A IQ Test.cpp"
+        "src/328B Sheldon and Ice Pieces.cpp"
+        "src/329A Purification.cpp"
+        "src/329B Biridian Forest.cpp"
+        "src/329D The Evil Temple and the Moving Rocks.cpp"
+        "src/329E Evil.cpp"
+        "src/330B Road Construction.cpp"
+        "src/331A1 Oh Sweet Beaverette.cpp"
+        "src/331A2 Oh Sweet Beaverette.cpp"
+        "src/331B1 Shave Beaver!.cpp"
+        "src/331B2 Shave Beaver!.cpp"
+        "src/331C1 The Great Julya Calendar.cpp"
+        "src/331C2 The Great Julya Calendar.cpp"
+        "src/331C3 The Great Julya Calendar.cpp"
+        "src/331D1 Escaping on Beaveractor.cpp"
+        "src/331D2 Escaping on Beaveractor.cpp"
+        "src/331D3 Escaping on Beaveractor.cpp"
+        "src/331E1 Deja Vu.cpp"
+        "src/331D3 test.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
