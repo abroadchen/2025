@@ -1268,8 +1268,23 @@ add_executable(codeforces
         "src/331D1 Escaping on Beaveractor.cpp"
         "src/331D2 Escaping on Beaveractor.cpp"
         "src/331D3 Escaping on Beaveractor.cpp"
-        "src/331E1 Deja Vu.cpp"
-        "src/331D3 test.cpp")
+        "src/331D3 test.cpp"
+        "src/331E2 Deja Vu.cpp"
+        "src/332A Down the Hatch!.cpp"
+        "src/332B Maximum Absurdity.cpp"
+        "src/332C Students' Revenge.cpp"
+        "src/332D Theft of Blueprints.cpp"
+        "src/332E Binary Key.cpp"
+        "src/333A Secrets.cpp"
+        "src/333B Chips.cpp"
+        "src/333C Lucky Tickets.cpp"
+        "src/333E Summer Earnings.cpp"
+        "src/334A Candy Bags.cpp"
+        "src/334B Eight Point Sets.cpp"
+        "src/335A Banana.cpp"
+        "src/335B Palindrome.cpp"
+        "src/335C More Reclamation.cpp"
+        "src/335D Rectangles and Square.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
