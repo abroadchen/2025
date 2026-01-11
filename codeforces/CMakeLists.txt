@@ -1284,7 +1284,20 @@ add_executable(codeforces
         "src/335A Banana.cpp"
         "src/335B Palindrome.cpp"
         "src/335C More Reclamation.cpp"
-        "src/335D Rectangles and Square.cpp")
+        "src/335E Counting Skyscrapers.cpp"
+        "src/335F Buy One, Get One Free.cpp"
+        "src/336A Vasily the Bear and Triangle.cpp"
+        "src/336B Vasily the Bear and Fly.cpp"
+        "src/336C Vasily the Bear and Sequence.cpp"
+        "src/336D Vasily the Bear and Beautiful Strings.cpp"
+        "src/336E Vasily the Bear and Painting Square.cpp"
+        "src/337A Puzzles.cpp"
+        "src/337B Routine Problem.cpp"
+        "src/337C Quiz.cpp"
+        "src/337D Book of Evil.cpp"
+        "src/337E Divisor Tree.cpp"
+        "src/338D GCD Table.cpp"
+        "src/338E Optimize!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
