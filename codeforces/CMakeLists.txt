@@ -1297,7 +1297,22 @@ add_executable(codeforces
         "src/337D Book of Evil.cpp"
         "src/337E Divisor Tree.cpp"
         "src/338D GCD Table.cpp"
-        "src/338E Optimize!.cpp")
+        "src/338E Optimize!.cpp"
+        "src/339A Helpful Maths.cpp"
+        "src/339B Xenia and Ringroad.cpp"
+        "src/339C Xenia and Weights.cpp"
+        "src/339D Xenia and Bit Operations.cpp"
+        "src/339E Three Swaps.cpp"
+        "src/340A The Wall.cpp"
+        "src/340B Maximal Area Quadrilateral.cpp"
+        "src/340C Tourist Problem.cpp"
+        "src/340D Bubble Sort Graph.cpp"
+        "src/341D Iahub and Xors.cpp"
+        "src/341E Candies Game.cpp"
+        "src/342A Xenia and Divisors.cpp"
+        "src/342B Xenia and Spies.cpp"
+        "src/342C Cupboard and Balloons.cpp"
+        "src/342D Xenia and Dominoes.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
