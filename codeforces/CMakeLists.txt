@@ -1312,7 +1312,12 @@ add_executable(codeforces
         "src/342A Xenia and Divisors.cpp"
         "src/342B Xenia and Spies.cpp"
         "src/342C Cupboard and Balloons.cpp"
-        "src/342D Xenia and Dominoes.cpp")
+        "src/342D Xenia and Dominoes.cpp"
+        "src/343A Rational Resistance.cpp"
+        "src/343B Alternating Current.cpp"
+        "src/343C Read Time.cpp"
+        "src/343D Water Tree.cpp"
+        "src/343E Pumping Stations.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
