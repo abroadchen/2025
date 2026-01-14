@@ -1317,7 +1317,22 @@ add_executable(codeforces
         "src/343B Alternating Current.cpp"
         "src/343C Read Time.cpp"
         "src/343D Water Tree.cpp"
-        "src/343E Pumping Stations.cpp")
+        "src/343E Pumping Stations.cpp"
+        "src/344A Magnets.cpp"
+        "src/344B Simple Molecules.cpp"
+        "src/346B Lucky Common Subsequence.cpp"
+        "src/346C Number Transformation II.cpp"
+        "src/346D Robot Control.cpp"
+        "src/346E Doodle Jump.cpp"
+        "src/347A Difference Row.cpp"
+        "src/347B Fixed Points.cpp"
+        "src/348A Mafia.cpp"
+        "src/348B Apple Tree.cpp"
+        "src/348C Subset Sums.cpp"
+        "src/348D Turtles.cpp"
+        "src/349A Cinema Line.cpp"
+        "src/349B Color the Fence.cpp"
+        "src/350A TL.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
