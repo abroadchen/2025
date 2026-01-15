@@ -1332,7 +1332,10 @@ add_executable(codeforces
         "src/348D Turtles.cpp"
         "src/349A Cinema Line.cpp"
         "src/349B Color the Fence.cpp"
-        "src/350A TL.cpp")
+        "src/350A TL.cpp"
+        "src/350B Resort.cpp"
+        "src/350D Looking for Owls!!.cpp"
+        "src/350E Wrong Floyd.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
