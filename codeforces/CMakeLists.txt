@@ -1335,7 +1335,19 @@ add_executable(codeforces
         "src/350A TL.cpp"
         "src/350B Resort.cpp"
         "src/350D Looking for Owls!!.cpp"
-        "src/350E Wrong Floyd.cpp")
+        "src/350E Wrong Floyd.cpp"
+        "src/351A Jeff and Rounding.cpp"
+        "src/351B Jeff and Furik.cpp"
+        "src/351C Jeff and Brackets.cpp"
+        "src/351D Jeff and Removing Periods.cpp"
+        "src/351E Jeff and Permutation.cpp"
+        "src/352A Jeff and Digits.cpp"
+        "src/352B Jeff and Periods.cpp"
+        "src/353A Domino.cpp"
+        "src/353B Two Heaps.cpp"
+        "src/353C Find Maximum.cpp"
+        "src/353D Queue.cpp"
+        "src/353E Antichain.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
