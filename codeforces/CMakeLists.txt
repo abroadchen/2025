@@ -1347,7 +1347,19 @@ add_executable(codeforces
         "src/353B Two Heaps.cpp"
         "src/353C Find Maximum.cpp"
         "src/353D Queue.cpp"
-        "src/353E Antichain.cpp")
+        "src/353E Antichain.cpp"
+        "src/354A Vasya and Robot.cpp"
+        "src/354B Game with Strings.cpp"
+        "src/354C Vasya and Beautiful Arrays.cpp"
+        "src/354D Transferring Pyramid.cpp"
+        "src/354E Lucky Number Representation.cpp"
+        "src/355A Vasya and Digital Root.cpp"
+        "src/355B Vasya and Public Transport.cpp"
+        "src/356A Knight Tournament.cpp"
+        "src/356B Xenia and Hamming.cpp"
+        "src/356C Compartments.cpp"
+        "src/356D Bags and Coins.cpp"
+        "src/356E Xenia and String Problem.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
