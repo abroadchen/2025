@@ -1359,7 +1359,18 @@ add_executable(codeforces
         "src/356B Xenia and Hamming.cpp"
         "src/356C Compartments.cpp"
         "src/356D Bags and Coins.cpp"
-        "src/356E Xenia and String Problem.cpp")
+        "src/356E Xenia and String Problem.cpp"
+        "src/357A Group of Students.cpp"
+        "src/357B Flag Day.cpp"
+        "src/358A Dima and Continuous Line.cpp"
+        "src/358B Dima and Text Messages.cpp"
+        "src/358C Dima and Containers.cpp"
+        "src/358D Dima and Hares.cpp"
+        "src/358E Dima and Kicks.cpp"
+        "src/359A Table.cpp"
+        "src/359B Permutation.cpp"
+        "src/359D Pair of Numbers.cpp"
+        "src/359E Neatness.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
