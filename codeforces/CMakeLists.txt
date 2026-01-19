@@ -1370,7 +1370,19 @@ add_executable(codeforces
         "src/359A Table.cpp"
         "src/359B Permutation.cpp"
         "src/359D Pair of Numbers.cpp"
-        "src/359E Neatness.cpp")
+        "src/359E Neatness.cpp"
+        "src/360A Levko and Array Recovery.cpp"
+        "src/360B Levko and Array.cpp"
+        "src/360C Levko and Strings.cpp"
+        "src/360D Levko and Sets.cpp"
+        "src/360E Levko and Game.cpp"
+        "src/361A Levko and Table.cpp"
+        "src/361B Levko and Permutation.cpp"
+        "src/362A Two Semiknights Meet.cpp"
+        "src/362B Petya and Staircases.cpp"
+        "src/362C Insertion Sort.cpp"
+        "src/362D Fools and Foolproof Roads.cpp"
+        "src/363A Soroban.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
