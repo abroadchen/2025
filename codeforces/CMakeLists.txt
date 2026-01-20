@@ -1382,7 +1382,23 @@ add_executable(codeforces
         "src/362B Petya and Staircases.cpp"
         "src/362C Insertion Sort.cpp"
         "src/362D Fools and Foolproof Roads.cpp"
-        "src/363A Soroban.cpp")
+        "src/363A Soroban.cpp"
+        "src/363B Fence.cpp"
+        "src/363C Fixing Typos.cpp"
+        "src/363D Renting Bikes.cpp"
+        "src/363E Two Circles.cpp"
+        "src/364A Matrix.cpp"
+        "src/364B Free Market.cpp"
+        "src/364C Beautiful Set.cpp"
+        "src/364D Ghd.cpp"
+        "src/364E Empty Rectangles.cpp"
+        "src/365A Good Number.cpp"
+        "src/365B The Fibonacci Segment.cpp"
+        "src/366A Dima and Guards.cpp"
+        "src/366B Dima and To-do List.cpp"
+        "src/366C Dima and Salad.cpp"
+        "src/366E Dima and Magic Guitar.cpp"
+        "src/367A Sereja and Algorithm.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

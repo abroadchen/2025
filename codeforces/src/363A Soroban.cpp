@@ -7,13 +7,14 @@
 #define fast ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 using namespace std;
 
+//接收数字x（0-9）并输出其可视化表示
 void out(int x) {
     if (x < 5) cout << "O-"; else cout << "-O";
-    cout << '|';
-    x %= 5;
+    cout << '|';//分隔符
+    x %= 5;//x对5的余数
     for (int i = 0; i < x; ++i) cout << 'O';
     cout << '-';
-    for (int i = 0; i < 4 - x; ++i) cout << 'O';
+    for (int i = 0; i < 4 - x; ++i) cout << 'O';//剩余的
     cout << '\n';
 }
 
