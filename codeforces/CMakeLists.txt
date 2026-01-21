@@ -1398,7 +1398,26 @@ add_executable(codeforces
         "src/366B Dima and To-do List.cpp"
         "src/366C Dima and Salad.cpp"
         "src/366E Dima and Magic Guitar.cpp"
-        "src/367A Sereja and Algorithm.cpp")
+        "src/367A Sereja and Algorithm.cpp"
+        "src/367B Sereja ans Anagrams.cpp"
+        "src/367C Sereja and the Arrangement of Numbers.cpp"
+        "src/367E Sereja and Intervals.cpp"
+        "src/368A Sereja and Coat Rack.cpp"
+        "src/368B Sereja and Suffixes.cpp"
+        "src/369A Valera and Plates.cpp"
+        "src/369B Valera and Contest.cpp"
+        "src/369C Valera and Elections.cpp"
+        "src/369D Valera and Fools.cpp"
+        "src/370A Rook, Bishop and King.cpp"
+        "src/370B Berland Bingo.cpp"
+        "src/370C Mittens.cpp"
+        "src/370D Broken Monitor.cpp"
+        "src/370E Summer Reading.cpp"
+        "src/371A K-Periodic Array.cpp"
+        "src/371B Fox Dividing Cheese.cpp"
+        "src/371C Hamburgers.cpp"
+        "src/371D Vessels.cpp"
+        "src/371E Subway Innovation.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
