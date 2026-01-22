@@ -1417,7 +1417,15 @@ add_executable(codeforces
         "src/371B Fox Dividing Cheese.cpp"
         "src/371C Hamburgers.cpp"
         "src/371D Vessels.cpp"
-        "src/371E Subway Innovation.cpp")
+        "src/371E Subway Innovation.cpp"
+        "src/372A Counting Kangaroos is Fun.cpp"
+        "src/372D Choosing Subtree is Fun.cpp"
+        "src/372E Drawing Circles is Fun.cpp"
+        "src/373A Collecting Beats is Fun.cpp"
+        "src/373B Making Sequences is Fun.cpp"
+        "src/374A Inna and Pink Pony.cpp"
+        "src/374B Inna and Nine.cpp"
+        "src/374C Inna and Dima.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
