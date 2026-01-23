@@ -1425,7 +1425,18 @@ add_executable(codeforces
         "src/373B Making Sequences is Fun.cpp"
         "src/374A Inna and Pink Pony.cpp"
         "src/374B Inna and Nine.cpp"
-        "src/374C Inna and Dima.cpp")
+        "src/374C Inna and Dima.cpp"
+        "src/374D Inna and Sequence.cpp"
+        "src/374E Inna and Babies.cpp"
+        "src/375A Divisible by Seven.cpp"
+        "src/375B Maximum Submatrix 2.cpp"
+        "src/375C Circling Round Treasures.cpp"
+        "src/375D Tree and Queries.cpp"
+        "src/375E Red and Black Tree.cpp"
+        "src/376A Lever.cpp"
+        "src/376B I.O.U..cpp"
+        "src/377A Maze.cpp"
+        "src/377B Preparing for the Contest.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
