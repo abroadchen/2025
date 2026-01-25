@@ -1436,7 +1436,17 @@ add_executable(codeforces
         "src/376A Lever.cpp"
         "src/376B I.O.U..cpp"
         "src/377A Maze.cpp"
-        "src/377B Preparing for the Contest.cpp")
+        "src/377B Preparing for the Contest.cpp"
+        "src/377C Captains Mode.cpp"
+        "src/377D Developing Game.cpp"
+        "src/377E Cookie Clicker.cpp"
+        "src/378A Playing with Dice.cpp"
+        "src/378B Semifinals.cpp"
+        "src/379A New Year Candles.cpp"
+        "src/379B New Year Present.cpp"
+        "src/379C New Year Ratings Change.cpp"
+        "src/379D New Year Letter.cpp"
+        "src/379E New Year Tree Decorations.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
