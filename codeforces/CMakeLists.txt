@@ -1479,7 +1479,19 @@ add_executable(codeforces
         "src/387A George and Sleep.cpp"
         "src/387B George and Round.cpp"
         "src/387C George and Number.cpp"
-        "src/387E George and Cards.cpp")
+        "src/387E George and Cards.cpp"
+        "src/388A Fox and Box Accumulation.cpp"
+        "src/388B Fox and Minimal path.cpp"
+        "src/388C Fox and Card Game.cpp"
+        "src/388D Fox and Perfect Sets.cpp"
+        "src/388E Fox and Meteor Shower.cpp"
+        "src/389A Fox and Number Game.cpp"
+        "src/389B Fox and Cross.cpp"
+        "src/390A Inna and Alarm Clock.cpp"
+        "src/390B Inna, Dima and Song.cpp"
+        "src/390C Inna and Candy Boxes.cpp"
+        "src/390D Inna and Sweet Matrix.cpp"
+        "src/390E Inna and Large Sweet Matrix.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
