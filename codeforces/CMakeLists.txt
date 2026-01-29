@@ -1491,7 +1491,23 @@ add_executable(codeforces
         "src/390B Inna, Dima and Song.cpp"
         "src/390C Inna and Candy Boxes.cpp"
         "src/390D Inna and Sweet Matrix.cpp"
-        "src/390E Inna and Large Sweet Matrix.cpp")
+        "src/390E Inna and Large Sweet Matrix.cpp"
+        "src/391A Genetic Engineering.cpp"
+        "src/391B Word Folding.cpp"
+        "src/391C1 The Tournament.cpp"
+        "src/391C2 The Tournament.cpp"
+        "src/391C3 The Tournament.cpp"
+        "src/391D1 Supercollider.cpp"
+        "src/391D2 Supercollider.cpp"
+        "src/391E1 Three Trees.cpp"
+        "src/391E2 Three Trees.cpp"
+        "src/391F1 Stock Trading.cpp"
+        "src/391F2 Stock Trading.cpp"
+        "src/391F3 Stock Trading.cpp"
+        "src/392A Blocked Points.cpp"
+        "src/392B Tower of Hanoi.cpp"
+        "src/392D Three Arrays.cpp"
+        "src/392E Deleting Substrings.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
