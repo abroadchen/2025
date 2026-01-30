@@ -1507,7 +1507,23 @@ add_executable(codeforces
         "src/392A Blocked Points.cpp"
         "src/392B Tower of Hanoi.cpp"
         "src/392D Three Arrays.cpp"
-        "src/392E Deleting Substrings.cpp")
+        "src/392E Deleting Substrings.cpp"
+        "src/393A Nineteen.cpp"
+        "src/393B Three matrices.cpp"
+        "src/394A Counting Sticks.cpp"
+        "src/394B Very Beautiful Number.cpp"
+        "src/394C Dominoes.cpp"
+        "src/394D Physical Education and Buns.cpp"
+        "src/394E Lightbulb for Minister.cpp"
+        "src/396A On Number of Decompositions into Multipliers.cpp"
+        "src/396B On Sum of Fractions.cpp"
+        "src/396C On Changing Tree.cpp"
+        "src/396D On Sum of Number of Inversions in Permutations.cpp"
+        "src/396E On Iteration of One Well-Known Function.cpp"
+        "src/397A On Segment's Own Points.cpp"
+        "src/397B On Corruption and Numbers.cpp"
+        "src/398A Cards.cpp"
+        "src/398B Painting The Wall.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
