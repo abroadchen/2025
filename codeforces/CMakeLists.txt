@@ -1523,7 +1523,30 @@ add_executable(codeforces
         "src/397A On Segment's Own Points.cpp"
         "src/397B On Corruption and Numbers.cpp"
         "src/398A Cards.cpp"
-        "src/398B Painting The Wall.cpp")
+        "src/398B Painting The Wall.cpp"
+        "src/398C Tree and Array .cpp"
+        "src/398D Instant Messanger.cpp"
+        "src/398E Sorting Permutations.cpp"
+        "src/399A Pages.cpp"
+        "src/399B Red and Blue Balls.cpp"
+        "src/400A Inna and Choose Options.cpp"
+        "src/400B Inna and New Matrix of Candies.cpp"
+        "src/400C Inna and Huge Candy Matrix.cpp"
+        "src/400D Dima and Bacteria.cpp"
+        "src/400E Inna and Binary Logic.cpp"
+        "src/401A Vanya and Cards.cpp"
+        "src/401B Sereja and Contests.cpp"
+        "src/401C Team.cpp"
+        "src/401D Roman and Numbers.cpp"
+        "src/401E Olympic Games.cpp"
+        "src/402A Nuts.cpp"
+        "src/402B Trees in a Row.cpp"
+        "src/402C Searching for Graph.cpp"
+        "src/402D Upgrading Array.cpp"
+        "src/402E Strictly Positive Matrix.cpp"
+        "src/403D Beautiful Pairs of Numbers.cpp"
+        "src/403E Two Rooted Trees.cpp"
+        "src/404A Valera and X.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
