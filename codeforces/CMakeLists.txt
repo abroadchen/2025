@@ -1546,7 +1546,23 @@ add_executable(codeforces
         "src/402E Strictly Positive Matrix.cpp"
         "src/403D Beautiful Pairs of Numbers.cpp"
         "src/403E Two Rooted Trees.cpp"
-        "src/404A Valera and X.cpp")
+        "src/404A Valera and X.cpp"
+        "src/404B Marathon.cpp"
+        "src/404C Restore Graph.cpp"
+        "src/404D Minesweeper 1D.cpp"
+        "src/404E Maze 1D.cpp"
+        "src/405A Gravity Flip.cpp"
+        "src/405B Domino Effect.cpp"
+        "src/405C Unusual Product.cpp"
+        "src/405D Toy Sum.cpp"
+        "src/405E Graph Cutting.cpp"
+        "src/406D Hill Climbing.cpp"
+        "src/406E Hamming Triples.cpp"
+        "src/407A Triangle.cpp"
+        "src/407B Long Path.cpp"
+        "src/407C Curious Array.cpp"
+        "src/407D Largest Submatrix 3.cpp"
+        "src/407E k-d-sequence.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
