@@ -1562,7 +1562,30 @@ add_executable(codeforces
         "src/407B Long Path.cpp"
         "src/407C Curious Array.cpp"
         "src/407D Largest Submatrix 3.cpp"
-        "src/407E k-d-sequence.cpp")
+        "src/407E k-d-sequence.cpp"
+        "src/408A Line to Cashier.cpp"
+        "src/408B Garland.cpp"
+        "src/411B Multi-core Processor.cpp"
+        "src/409A The Great Game.cpp"
+        "src/409B Mysterious Language.cpp"
+        "src/409C Magnum Opus.cpp"
+        "src/409D Big Data.cpp"
+        "src/409E Dome.cpp"
+        "src/409F 000001.cpp"
+        "src/409G On a plane.cpp"
+        "src/409H A + B Strikes Back.cpp"
+        "src/409I Feed the Golorp.cpp"
+        "src/411A Password Check.cpp"
+        "src/412A Poster.cpp"
+        "src/412B Network Configuration.cpp"
+        "src/412C Pattern.cpp"
+        "src/412D Giving Awards.cpp"
+        "src/412E E-mail Addresses.cpp"
+        "src/413A Data Recovery.cpp"
+        "src/413B Spyke Chatting.cpp"
+        "src/413C Jeopardy!.cpp"
+        "src/413D 2048.cpp"
+        "src/413E Maze 2D.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

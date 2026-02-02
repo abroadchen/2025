@@ -1,0 +1,8 @@
+//
+// Created by Psy.C on 2026/2/2.
+//
+
+PROGRAM 409B
+WRITE(*, 10)
+10 FORMAT('FORTRAN 77')
+END PROGRAM 409B
