@@ -1585,7 +1585,23 @@ add_executable(codeforces
         "src/413B Spyke Chatting.cpp"
         "src/413C Jeopardy!.cpp"
         "src/413D 2048.cpp"
-        "src/413E Maze 2D.cpp")
+        "src/413E Maze 2D.cpp"
+        "src/414A Mashmokh and Numbers.cpp"
+        "src/414B Mashmokh and ACM.cpp"
+        "src/414D Mashmokh and Water Tanks.cpp"
+        "src/415A Mashmokh and Lights.cpp"
+        "src/415B Mashmokh and Tokens.cpp"
+        "src/416A Guess a number! .cpp"
+        "src/416B Art Union.cpp"
+        "src/416C Booking System.cpp"
+        "src/416D Population Size.cpp"
+        "src/416E President's Path.cpp"
+        "src/417A Elimination.cpp"
+        "src/417B Crash.cpp"
+        "src/417C Football.cpp"
+        "src/417D Cunning Gena.cpp"
+        "src/417E Square Table.cpp"
+        "src/418D Big Problems for Organizers.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
