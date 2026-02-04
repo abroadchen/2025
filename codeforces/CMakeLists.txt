@@ -1601,7 +1601,28 @@ add_executable(codeforces
         "src/417C Football.cpp"
         "src/417D Cunning Gena.cpp"
         "src/417E Square Table.cpp"
-        "src/418D Big Problems for Organizers.cpp")
+        "src/418D Big Problems for Organizers.cpp"
+        "src/418E Tricky Password.cpp"
+        "src/420A Start Up.cpp"
+        "src/420B Online Meeting.cpp"
+        "src/420C Bug in Code.cpp"
+        "src/420D Cup Trick.cpp"
+        "src/420E Playing the ball.cpp"
+        "src/421A Pasha and Hamsters.cpp"
+        "src/421D Bug in Code.cpp"
+        "src/424A Squats.cpp"
+        "src/424B Megacity.cpp"
+        "src/424C Magic Formulas.cpp"
+        "src/424D Biathlon Track.cpp"
+        "src/425A Sereja and Swaps.cpp"
+        "src/425B Sereja and Table.cpp"
+        "src/425C Sereja and Two Sequences.cpp"
+        "src/425D Sereja and Squares.cpp"
+        "src/425E Sereja and Sets.cpp"
+        "src/426A Sereja and Mugs.cpp"
+        "src/426B Sereja and Mirroring.cpp"
+        "src/427A Police Recruits.cpp"
+        "src/427B Prison Transfer.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
