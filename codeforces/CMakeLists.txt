@@ -1622,7 +1622,22 @@ add_executable(codeforces
         "src/426A Sereja and Mugs.cpp"
         "src/426B Sereja and Mirroring.cpp"
         "src/427A Police Recruits.cpp"
-        "src/427B Prison Transfer.cpp")
+        "src/427B Prison Transfer.cpp"
+        "src/427C Checkposts.cpp"
+        "src/427D Match & Catch.cpp"
+        "src/427E Police Patrol.cpp"
+        "src/429A Xor-tree.cpp"
+        "src/429B Working out.cpp"
+        "src/429C Guess the Tree.cpp"
+        "src/429D Tricky Function.cpp"
+        "src/429E Points and Segments.cpp"
+        "src/430A Points and Segments (easy).cpp"
+        "src/430B Balls Game.cpp"
+        "src/431A Black Square.cpp"
+        "src/431B Shower Line.cpp"
+        "src/431C k-Tree.cpp"
+        "src/431D Random Task.cpp"
+        "src/431E Chemistry Experiment.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
