@@ -1637,7 +1637,24 @@ add_executable(codeforces
         "src/431B Shower Line.cpp"
         "src/431C k-Tree.cpp"
         "src/431D Random Task.cpp"
-        "src/431E Chemistry Experiment.cpp")
+        "src/431E Chemistry Experiment.cpp"
+        "src/432A Choosing Teams.cpp"
+        "src/432B Football Kit.cpp"
+        "src/432C Prime Swaps.cpp"
+        "src/432D Prefixes and Suffixes.cpp"
+        "src/432E Square Tiling.cpp"
+        "src/433A Kitahara Haruki's Gift.cpp"
+        "src/433B Kuriyama Mirai's Stones.cpp"
+        "src/433C Ryouko's Memory Note.cpp"
+        "src/433D Nanami's Digital Board.cpp"
+        "src/433E Tachibana Kanade's Tofu.cpp"
+        "src/434D Nanami's Power Plant.cpp"
+        "src/434E Furukawa Nagisa's Tree.cpp"
+        "src/435A Queue on Bus Stop.cpp"
+        "src/435B Pasha Maximizes.cpp"
+        "src/435C Cardiogram.cpp"
+        "src/435D Special Grid.cpp"
+        "src/435E Special Graph.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
