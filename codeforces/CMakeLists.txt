@@ -1654,7 +1654,20 @@ add_executable(codeforces
         "src/435B Pasha Maximizes.cpp"
         "src/435C Cardiogram.cpp"
         "src/435D Special Grid.cpp"
-        "src/435E Special Graph.cpp")
+        "src/435E Special Graph.cpp"
+        "src/436A Feed with Candy.cpp"
+        "src/436B Om Nom and Spiders.cpp"
+        "src/436C Dungeons and Candies.cpp"
+        "src/436D Pudding Monsters.cpp"
+        "src/436E Cardboard Box.cpp"
+        "src/436F Banners.cpp"
+        "src/437A The Child and Homework.cpp"
+        "src/437B The Child and Set.cpp"
+        "src/437C The Child and Toy.cpp"
+        "src/437D The Child and Zoo.cpp"
+        "src/437E The Child and Polygon.cpp"
+        "src/438D The Child and Sequence.cpp"
+        "src/438E The Child and Binary Tree.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
