@@ -1667,7 +1667,30 @@ add_executable(codeforces
         "src/437D The Child and Zoo.cpp"
         "src/437E The Child and Polygon.cpp"
         "src/438D The Child and Sequence.cpp"
-        "src/438E The Child and Binary Tree.cpp")
+        "src/438E The Child and Binary Tree.cpp"
+        "src/439A Devu, the Singer and Churu, the Joker.cpp"
+        "src/439B Devu, the Dumb Guy.cpp"
+        "src/439C Devu and Partitioning of the Array.cpp"
+        "src/439D Devu and his Brother.cpp"
+        "src/439E Devu and Birthday Celebration.cpp"
+        "src/440A Forgotten Episode.cpp"
+        "src/440B Balancer.cpp"
+        "src/440C One-Based Arithmetic.cpp"
+        "src/440D Berland Federalization.cpp"
+        "src/441A Valera and Antique Items.cpp"
+        "src/441B Valera and Fruits.cpp"
+        "src/441C Valera and Tubes.cpp"
+        "src/441D Valera and Swaps.cpp"
+        "src/441E Valera and Number.cpp"
+        "src/442A Borya and Hanabi.cpp"
+        "src/442B Andrey and Problem.cpp"
+        "src/442C Artem and Array.cpp"
+        "src/442D Adam and Tree.cpp"
+        "src/442E Gena and Second Distance.cpp"
+        "src/443A Anton and Letters.cpp"
+        "src/443B Kolya and Tandem Repeat.cpp"
+        "src/444A DZY Loves Physics.cpp"
+        "src/444B DZY Loves FFT.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
