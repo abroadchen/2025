@@ -1690,7 +1690,29 @@ add_executable(codeforces
         "src/443A Anton and Letters.cpp"
         "src/443B Kolya and Tandem Repeat.cpp"
         "src/444A DZY Loves Physics.cpp"
-        "src/444B DZY Loves FFT.cpp")
+        "src/444B DZY Loves FFT.cpp"
+        "src/444C DZY Loves Colors.cpp"
+        "src/444D DZY Loves Strings.cpp"
+        "src/444E DZY Loves Planting.cpp"
+        "src/445A DZY Loves Chessboard.cpp"
+        "src/445B DZY Loves Chemistry.cpp"
+        "src/446A DZY Loves Sequences.cpp"
+        "src/446B DZY Loves Modification.cpp"
+        "src/446C DZY Loves Fibonacci Numbers.cpp"
+        src/utils/rd.h
+        "src/446D DZY Loves Games.cpp"
+        "src/446E DZY Loves Bridges.cpp"
+        "src/447A DZY Loves Hash.cpp"
+        "src/447B DZY Loves Strings.cpp"
+        "src/448A Rewards.cpp"
+        "src/448B Suffix Structures.cpp"
+        "src/448C Painting Fence.cpp"
+        "src/448D Multiplication Table.cpp"
+        "src/448E Divisors.cpp"
+        "src/449A Jzzhu and Chocolate.cpp"
+        "src/449B Jzzhu and Cities.cpp"
+        "src/449C Jzzhu and Apples.cpp"
+        "src/449D Jzzhu and Numbers.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
