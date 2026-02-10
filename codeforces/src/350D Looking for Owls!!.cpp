@@ -21,7 +21,7 @@ struct node {
     //const表明该方法不修改对象状态
     [[nodiscard]] int len() const { return x * x + y * y; }//距离原点的平方长度
 } c[N];
-node operator+(const node a, const node b) {//两个节点的坐标相加
+node operator+(const node &a, const node &b) {//两个节点的坐标相加
     return node(a.x + b.x, a.y + b.y);
 }
 node operator*(const int v, const node a) {//整数与节点相乘

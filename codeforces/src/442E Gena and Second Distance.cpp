@@ -14,7 +14,7 @@ inline db sqr(const db x) { return x * x; }
 struct node {
     db x, y;
     explicit node(const db x=0, const db y=0) : x(x), y(y) {}
-    friend node operator+(const node a, const node b) {
+    friend node operator+(const node &a, const node &b) {
         return node(a.x + b.x, a.y + b.y);
     }
     friend node operator-(const node a, const node b) {

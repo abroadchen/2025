@@ -1712,7 +1712,28 @@ add_executable(codeforces
         "src/449A Jzzhu and Chocolate.cpp"
         "src/449B Jzzhu and Cities.cpp"
         "src/449C Jzzhu and Apples.cpp"
-        "src/449D Jzzhu and Numbers.cpp")
+        "src/449D Jzzhu and Numbers.cpp"
+        "src/449E Jzzhu and Squares.cpp"
+        "src/450A Jzzhu and Children.cpp"
+        "src/450B Jzzhu and Sequences.cpp"
+        "src/451A Game With Sticks.cpp"
+        "src/451B Sort the Array.cpp"
+        "src/451C Predict Outcome of the Game.cpp"
+        "src/451D Count Good Substrings.cpp"
+        "src/452A Eevee.cpp"
+        "src/452B 4-point polyline.cpp"
+        "src/452C Magic Trick.cpp"
+        "src/452D Washer, Dryer, Folder.cpp"
+        "src/452E Three strings.cpp"
+        "src/452F Permutation.cpp"
+        "src/453A Little Pony and Expected Maximum.cpp"
+        "src/453B Little Pony and Harmony Chest.cpp"
+        "src/453C Little Pony and Summer Sun Celebration.cpp"
+        "src/453D Little Pony and Elements of Harmony .cpp"
+        "src/453E Little Pony and Lord Tirek.cpp"
+        "src/454A Little Pony and Crystal Mine.cpp"
+        "src/454B Little Pony and Sort by Shift.cpp"
+        "src/455A Boredom.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

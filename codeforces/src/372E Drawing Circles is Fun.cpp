@@ -24,7 +24,7 @@ struct node {
     db x, y;//坐标分量
     node() = default;
     node(const db x, const db y): x(x), y(y) {}
-    friend node operator+(const node a, const node b) {
+    friend node operator+(const node &a, const node &b) {
         return {a.x + b.x, a.y + b.y};
     }
     friend node operator-(const node a, const node b) {
