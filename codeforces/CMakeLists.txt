@@ -1733,7 +1733,25 @@ add_executable(codeforces
         "src/453E Little Pony and Lord Tirek.cpp"
         "src/454A Little Pony and Crystal Mine.cpp"
         "src/454B Little Pony and Sort by Shift.cpp"
-        "src/455A Boredom.cpp")
+        "src/455A Boredom.cpp"
+        "src/455B A Lot of Games.cpp"
+        "src/455C Civilization.cpp"
+        "src/455D Serega and Fun.cpp"
+        "src/455E Function.cpp"
+        "src/456A Laptops.cpp"
+        "src/456B Fedya and Maths.cpp"
+        "src/457A Golden System.cpp"
+        "src/457B Distributed Join.cpp"
+        "src/457C Elections.cpp"
+        "src/457D Bingo!.cpp"
+        "src/457E Flow Optimality.cpp"
+        "src/459A Pashmak and Garden.cpp"
+        "src/459B Pashmak and Flowers.cpp"
+        "src/459C Pashmak and Buses.cpp"
+        "src/459D Pashmak and Parmida's problem.cpp"
+        "src/459E Pashmak and Graph.cpp"
+        "src/460A Vasya and Socks.cpp"
+        "src/460B Little Dima and Equation.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
