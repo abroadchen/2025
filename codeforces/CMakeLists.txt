@@ -1751,7 +1751,27 @@ add_executable(codeforces
         "src/459D Pashmak and Parmida's problem.cpp"
         "src/459E Pashmak and Graph.cpp"
         "src/460A Vasya and Socks.cpp"
-        "src/460B Little Dima and Equation.cpp")
+        "src/460B Little Dima and Equation.cpp"
+        "src/460C Present.cpp"
+        "src/460D Little Victor and Set.cpp"
+        "src/460E Roland and Rose.cpp"
+        "src/461A Appleman and Toastman.cpp"
+        "src/461B Appleman and Tree.cpp"
+        "src/461C Appleman and a Sheet of Paper.cpp"
+        "src/461D Appleman and Complicated Task.cpp"
+        "src/461E Appleman and a Game.cpp"
+        "src/462A Appleman and Easy Task.cpp"
+        "src/462B Appleman and Card Game.cpp"
+        "src/463A Caisa and Sugar.cpp"
+        "src/463B Caisa and Pylons.cpp"
+        "src/463C Gargari and Bishops.cpp"
+        "src/463D Gargari and Permutations.cpp"
+        "src/463E Caisa and Tree.cpp"
+        "src/464A No to Palindromes!.cpp"
+        "src/464B Restore Cube.cpp"
+        "src/464C Substitutes in Number.cpp"
+        "src/464D World of Darkraft - 2.cpp"
+        "src/464E The Classic Problem.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

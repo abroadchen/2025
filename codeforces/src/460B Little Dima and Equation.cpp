@@ -8,13 +8,13 @@
 #define ll long long
 using namespace std;
 
-ll get(const ll p, const ll a) {
+ll get(const ll p, const ll a) {//p的a次方
     ll s = 1;
     for (int i = 1; i <= a; ++i) s *= p;
     return s;
 }
 
-ll getnum(ll x) {
+ll getnum(ll x) {//数字各位数之和
     ll w = 0;
     while (x) {
         w += x % 10;
@@ -28,7 +28,7 @@ vector<ll> ans;
 int main() {
     fast;
     cin >> a >> b >> c;
-    for (ll i = 0; i < ans.size(); ++i) ans.clear();
+    ans.clear();
     for (ll i = 1; i <= 81; ++i) {
         if (const ll x = b * get(i, a) + c; x < 1000000000 && getnum(x) == i)
             ans.push_back(x);
