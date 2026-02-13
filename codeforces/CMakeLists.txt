@@ -1771,7 +1771,31 @@ add_executable(codeforces
         "src/464B Restore Cube.cpp"
         "src/464C Substitutes in Number.cpp"
         "src/464D World of Darkraft - 2.cpp"
-        "src/464E The Classic Problem.cpp")
+        "src/464E The Classic Problem.cpp"
+        "src/465A inc ARG.cpp"
+        "src/465B Inbox (100500).cpp"
+        "src/466A Cheap Travel.cpp"
+        "src/466B Wonder Room.cpp"
+        "src/466C Number of Ways.cpp"
+        "src/466D Increase Sequence.cpp"
+        "src/466E Information Graph.cpp"
+        "src/467A George and Accommodation.cpp"
+        "src/467B Fedor and New Game.cpp"
+        "src/467C George and Job.cpp"
+        "src/467D Fedor and Essay.cpp"
+        "src/467E Alex and Complicated Task.cpp"
+        "src/468A 24 Game.cpp"
+        "src/468B Two Sets.cpp"
+        "src/468C Hack it!.cpp"
+        "src/468D Tree.cpp"
+        "src/469A I Wanna Be the Guy.cpp"
+        "src/469B Chat Online.cpp"
+        "src/470A Crystal Ball Sequence.cpp"
+        "src/471A MUH and Sticks.cpp"
+        "src/471B MUH and Important Things.cpp"
+        "src/471C MUH and House of Cards.cpp"
+        "src/471D MUH and Cube Walls.cpp"
+        "src/471E MUH and Lots and Lots of Segments.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
