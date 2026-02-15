@@ -1795,7 +1795,27 @@ add_executable(codeforces
         "src/471B MUH and Important Things.cpp"
         "src/471C MUH and House of Cards.cpp"
         "src/471D MUH and Cube Walls.cpp"
-        "src/471E MUH and Lots and Lots of Segments.cpp")
+        "src/471E MUH and Lots and Lots of Segments.cpp"
+        "src/472B Design Tutorial: Learn from Life.cpp"
+        "src/472C Design Tutorial: Make It Nondeterministic.cpp"
+        "src/472D Design Tutorial: Inverse the Problem.cpp"
+        "src/472E Design Tutorial: Learn from a Game.cpp"
+        "src/472F Design Tutorial: Change the Goal.cpp"
+        "src/472G Design Tutorial: Increase the Constraints.cpp"
+        "src/474A Keyboard.cpp"
+        "src/474B Worms.cpp"
+        "src/474C Captain Marmot.cpp"
+        "src/474D Flowers.cpp"
+        "src/474E Pillars.cpp"
+        "src/474F Ant colony.cpp"
+        "src/475A Bayan Bus.cpp"
+        "src/475B Strongly Connected City.cpp"
+        "src/475C Kamal-ol-molk's Painting.cpp"
+        "src/475D CGCDSSQ.cpp"
+        "src/475E Strongly Connected City 2.cpp"
+        "src/475F Meta-universe.cpp"
+        "src/476A Dreamoon and Stairs.cpp"
+        "src/476B Dreamoon and WiFi.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
