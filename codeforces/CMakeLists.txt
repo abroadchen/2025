@@ -1815,7 +1815,25 @@ add_executable(codeforces
         "src/475E Strongly Connected City 2.cpp"
         "src/475F Meta-universe.cpp"
         "src/476A Dreamoon and Stairs.cpp"
-        "src/476B Dreamoon and WiFi.cpp")
+        "src/476B Dreamoon and WiFi.cpp"
+        "src/476C Dreamoon and Sums.cpp"
+        "src/476D Dreamoon and Sets.cpp"
+        "src/476E Dreamoon and Strings.cpp"
+        "src/477D Dreamoon and Binary.cpp"
+        "src/477E Dreamoon and Notepad.cpp"
+        "src/478A Initial Bet.cpp"
+        "src/478B Random Teams.cpp"
+        "src/478C Table Decorations.cpp"
+        "src/478D Red-Green Towers.cpp"
+        "src/478E Wavy numbers.cpp"
+        "src/479A Expression.cpp"
+        "src/479B Towers.cpp"
+        "src/479C Exams.cpp"
+        "src/479D Long Jumps.cpp"
+        "src/479E Riding in a Lift.cpp"
+        "src/480D Parcels.cpp"
+        "src/480E Parking Lot.cpp"
+        "src/482A Diverse Permutation.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
