@@ -1833,7 +1833,24 @@ add_executable(codeforces
         "src/479E Riding in a Lift.cpp"
         "src/480D Parcels.cpp"
         "src/480E Parking Lot.cpp"
-        "src/482A Diverse Permutation.cpp")
+        "src/482A Diverse Permutation.cpp"
+        "src/482B Interesting Array.cpp"
+        "src/482C Game with Strings.cpp"
+        "src/482D Random Function and Tree.cpp"
+        "src/482E ELCA.cpp"
+        "src/483A Counterexample.cpp"
+        "src/483B Friends and Presents.cpp"
+        "src/484A Bits.cpp"
+        "src/484B Maximum Value.cpp"
+        "src/484C Strange Sorting.cpp"
+        "src/484D Kindergarten.cpp"
+        "src/484E Sign on Fence.cpp"
+        "src/485A Factory.cpp"
+        "src/485B Valuable Resources.cpp"
+        "src/486A Calculating Function.cpp"
+        "src/486B OR in Matrix.cpp"
+        "src/486C Palindrome Transformation.cpp"
+        "src/486D Valid Sets.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
