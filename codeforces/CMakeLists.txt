@@ -1850,7 +1850,27 @@ add_executable(codeforces
         "src/486A Calculating Function.cpp"
         "src/486B OR in Matrix.cpp"
         "src/486C Palindrome Transformation.cpp"
-        "src/486D Valid Sets.cpp")
+        "src/486D Valid Sets.cpp"
+        "src/486E LIS of Sequence.cpp"
+        "src/487A Fight the Monster.cpp"
+        "src/487B Strip.cpp"
+        "src/487C Prefix Product Sequence.cpp"
+        "src/487D Conveyor Belts.cpp"
+        "src/487E Tourists.cpp"
+        "src/488A Giga Tower.cpp"
+        "src/488B Candy Boxes.cpp"
+        "src/489A SwapSort.cpp"
+        "src/489B BerSU Ball.cpp"
+        "src/489C Given Length and Sum of Digits....cpp"
+        "src/489D Unbearable Controversy of Being.cpp"
+        "src/489E Hiking.cpp"
+        "src/489F Special Matrices.cpp"
+        "src/490A Team Olympiad.cpp"
+        "src/490B Queue.cpp"
+        "src/490C Hacking Cypher.cpp"
+        "src/490D Chocolate.cpp"
+        "src/490E Restoring Increasing Sequence.cpp"
+        "src/490F Treeland Tour.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
