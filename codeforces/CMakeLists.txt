@@ -1870,7 +1870,21 @@ add_executable(codeforces
         "src/490C Hacking Cypher.cpp"
         "src/490D Chocolate.cpp"
         "src/490E Restoring Increasing Sequence.cpp"
-        "src/490F Treeland Tour.cpp")
+        "src/490F Treeland Tour.cpp"
+        "src/491A Up the hill.cpp"
+        "src/491B New York Hotel.cpp"
+        "src/491C Deciphering.cpp"
+        "src/492A Vanya and Cubes.cpp"
+        "src/492B Vanya and Lanterns.cpp"
+        "src/492C Vanya and Exams.cpp"
+        "src/492D Vanya and Computer Game.cpp"
+        "src/492E Vanya and Field.cpp"
+        "src/493A Vasya and Football.cpp"
+        "src/493B Vasya and Wrestling.cpp"
+        "src/493C Vasya and Basketball.cpp"
+        "src/493D Vasya and Chess.cpp"
+        "src/493E Vasya and Polynomial.cpp"
+        "src/494A Treasure.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
