@@ -1884,7 +1884,11 @@ add_executable(codeforces
         "src/493C Vasya and Basketball.cpp"
         "src/493D Vasya and Chess.cpp"
         "src/493E Vasya and Polynomial.cpp"
-        "src/494A Treasure.cpp")
+        "src/494A Treasure.cpp"
+        "src/494B Obsessive String.cpp"
+        "src/494C Helping People.cpp"
+        "src/494D Birthday.cpp"
+        "src/494E Sharti.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
