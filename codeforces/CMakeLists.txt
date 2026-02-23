@@ -1888,7 +1888,16 @@ add_executable(codeforces
         "src/494B Obsessive String.cpp"
         "src/494C Helping People.cpp"
         "src/494D Birthday.cpp"
-        "src/494E Sharti.cpp")
+        "src/494E Sharti.cpp"
+        "src/495A Digital Counter.cpp"
+        "src/495B Modular Equations.cpp"
+        "src/496A Minimum Difficulty.cpp"
+        "src/496B Secret Combination.cpp"
+        "src/496C Removing Columns.cpp"
+        "src/496D Tennis Game.cpp"
+        "src/496E Distributing Parts.cpp"
+        "src/497D Gears.cpp"
+        "src/497E Subsequences Return.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
