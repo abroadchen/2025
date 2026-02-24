@@ -1897,7 +1897,20 @@ add_executable(codeforces
         "src/496D Tennis Game.cpp"
         "src/496E Distributing Parts.cpp"
         "src/497D Gears.cpp"
-        "src/497E Subsequences Return.cpp")
+        "src/497E Subsequences Return.cpp"
+        "src/498A Crazy Town.cpp"
+        "src/498B Name That Tune.cpp"
+        "src/498C Array and Operations.cpp"
+        "src/498D Traffic Jams in the Land.cpp"
+        "src/498E Stairs and Lines.cpp"
+        "src/499A Watching a movie.cpp"
+        "src/499B Lecture.cpp"
+        "src/500A New Year Transportation.cpp"
+        "src/500B New Year Permutation.cpp"
+        "src/500C New Year Book Reading.cpp"
+        "src/500D New Year Santa Network.cpp"
+        "src/500E New Year Domino.cpp"
+        "src/500G New Year Running.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
