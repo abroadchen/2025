@@ -1910,7 +1910,19 @@ add_executable(codeforces
         "src/500C New Year Book Reading.cpp"
         "src/500D New Year Santa Network.cpp"
         "src/500E New Year Domino.cpp"
-        "src/500G New Year Running.cpp")
+        "src/500G New Year Running.cpp"
+        "src/501A Contest.cpp"
+        "src/501B Misha and Changing Handles.cpp"
+        "src/501C Misha and Forest.cpp"
+        "src/501D Misha and Permutations Summation.cpp"
+        "src/501E Misha and Palindrome Degree.cpp"
+        "src/504D Misha and XOR.cpp"
+        "src/504E Misha and LCP on Tree.cpp"
+        "src/505A Mr. Kitayuta's Gift.cpp"
+        "src/505B Mr. Kitayuta's Colorful Graph.cpp"
+        "src/505C Mr. Kitayuta, the Treasure Hunter.cpp"
+        "src/505D Mr. Kitayuta's Technology.cpp"
+        "src/505E Mr. Kitayuta vs. Bamboos.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
