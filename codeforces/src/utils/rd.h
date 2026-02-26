@@ -4,7 +4,7 @@
 
 #ifndef CODEFORCES_RD_H
 #define CODEFORCES_RD_H
-
+#include "../bits/stdc++.h"
 inline char gc() {
     static char now[1<<16], *s, *t;
     if (t == s) {
@@ -15,17 +15,11 @@ inline char gc() {
 }
 
 inline int read() {
-    int x = 0, f = 1;
-    char ch = gc();
-    while (ch < '0' || ch > '9') {
-        if (ch == '-') f = -1;
-        ch = gc();
-    }
-    while (ch <= '9' && ch >= '0') {
-        x = x * 10 + ch - '0';
-        ch = gc();
-    }
-    return x * f;
+    int f = 0, ch = 0; int x = 0;
+    for (; !isdigit(ch); ch = getchar()) if (ch == '-') f = 1;
+    for (; isdigit(ch); ch = getchar()) x = (x<<1)+(x<<3)+(ch&15);
+    if (f) x = -x;
+    return x;
 }
 
 

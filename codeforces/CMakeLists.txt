@@ -1922,7 +1922,25 @@ add_executable(codeforces
         "src/505B Mr. Kitayuta's Colorful Graph.cpp"
         "src/505C Mr. Kitayuta, the Treasure Hunter.cpp"
         "src/505D Mr. Kitayuta's Technology.cpp"
-        "src/505E Mr. Kitayuta vs. Bamboos.cpp")
+        "src/505E Mr. Kitayuta vs. Bamboos.cpp"
+        "src/506D Mr. Kitayuta's Colorful Graph.cpp"
+        "src/506E Mr. Kitayuta's Gift.cpp"
+        "src/507A Amr and Music.cpp"
+        "src/507B Amr and Pins.cpp"
+        "src/507C Guess Your Way Out!.cpp"
+        "src/507D The Maths Lecture.cpp"
+        "src/507E Breaking Good.cpp"
+        "src/508A Pasha and Pixels.cpp"
+        "src/508B Anton and currency you all know.cpp"
+        "src/508C Anya and Ghosts.cpp"
+        "src/508D Tanya and Password.cpp"
+        "src/508E Arthur and Brackets.cpp"
+        "src/509A Maximum in Table.cpp"
+        "src/509B Painting Pebbles.cpp"
+        "src/509C Sums of Digits.cpp"
+        "src/509D Restoring Numbers.cpp"
+        "src/509E Pretty Song.cpp"
+        "src/509F Progress Monitoring.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
