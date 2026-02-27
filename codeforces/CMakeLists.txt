@@ -1940,7 +1940,24 @@ add_executable(codeforces
         "src/509C Sums of Digits.cpp"
         "src/509D Restoring Numbers.cpp"
         "src/509E Pretty Song.cpp"
-        "src/509F Progress Monitoring.cpp")
+        "src/509F Progress Monitoring.cpp"
+        "src/510A Fox And Snake.cpp"
+        "src/510B Fox And Two Dots.cpp"
+        "src/510C Fox And Names.cpp"
+        "src/510D Fox And Jumping.cpp"
+        "src/510E Fox And Dinner.cpp"
+        "src/512D Fox And Travelling.cpp"
+        "src/512E Fox And Polygon.cpp"
+        "src/513A Game.cpp"
+        "src/513B1 Permutations.cpp"
+        "src/513B2 Permutations.cpp"
+        "src/513C Second price auction.cpp"
+        "src/513D1 Constrained Tree.cpp"
+        "src/513D2 Constrained Tree.cpp"
+        "src/513E1 Subarray Cuts.cpp"
+        "src/513E2 Subarray Cuts.cpp"
+        "src/513F1 Scaygerboss.cpp"
+        "src/513F2 Scaygerboss.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
