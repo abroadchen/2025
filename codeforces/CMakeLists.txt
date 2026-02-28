@@ -1957,7 +1957,22 @@ add_executable(codeforces
         "src/513E1 Subarray Cuts.cpp"
         "src/513E2 Subarray Cuts.cpp"
         "src/513F1 Scaygerboss.cpp"
-        "src/513F2 Scaygerboss.cpp")
+        "src/513F2 Scaygerboss.cpp"
+        "src/513G1 Inversions problem.cpp"
+        "src/513G3 Inversions problem.cpp"
+        "src/514A Chewbaсca and Number.cpp"
+        "src/514B Han Solo and Lazer Gun.cpp"
+        "src/514C Watto and Mechanism.cpp"
+        "src/514D R2D2 and Droid Army.cpp"
+        "src/514E Darth Vader and Tree.cpp"
+        "src/515A Drazil and Date.cpp"
+        "src/515B Drazil and His Happy Friends.cpp"
+        "src/515C Drazil and Factorial.cpp"
+        "src/515D Drazil and Tiles.cpp"
+        "src/515E Drazil and Park.cpp"
+        "src/516D Drazil and Morning Exercise.cpp"
+        "src/516E Drazil and His Happy Friends.cpp"
+        "src/518A Vitaly and Strings.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
