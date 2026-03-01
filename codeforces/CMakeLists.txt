@@ -1972,7 +1972,27 @@ add_executable(codeforces
         "src/515E Drazil and Park.cpp"
         "src/516D Drazil and Morning Exercise.cpp"
         "src/516E Drazil and His Happy Friends.cpp"
-        "src/518A Vitaly and Strings.cpp")
+        "src/518A Vitaly and Strings.cpp"
+        "src/518B Tanya and Postcard.cpp"
+        "src/518C Anya and Smartphone.cpp"
+        "src/518D Ilya and Escalator.cpp"
+        "src/518E Arthur and Questions.cpp"
+        "src/518F Pasha and Pipe.cpp"
+        "src/519A A and B and Chess.cpp"
+        "src/519B A and B and Compilation Errors.cpp"
+        "src/519C A and B and Team Training.cpp"
+        "src/519D A and B and Interesting Substrings.cpp"
+        "src/519E A and B and Lecture Rooms.cpp"
+        "src/520A Pangram.cpp"
+        "src/520B Two Buttons.cpp"
+        "src/520C DNA Alignment.cpp"
+        "src/520D Cubes.cpp"
+        "src/520E Pluses everywhere.cpp"
+        "src/521D Shop.cpp"
+        "src/521E Cycling City.cpp"
+        "src/522A Reposts.cpp"
+        "src/522B Photo to Remember.cpp"
+        "src/522C Chicken or Fish?.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
