@@ -1992,7 +1992,30 @@ add_executable(codeforces
         "src/521E Cycling City.cpp"
         "src/522A Reposts.cpp"
         "src/522B Photo to Remember.cpp"
-        "src/522C Chicken or Fish?.cpp")
+        "src/522C Chicken or Fish?.cpp"
+        "src/522D Closest Equals.cpp"
+        "src/523A Rotate, Flip and Zoom.cpp"
+        "src/523B Mean Requests.cpp"
+        "src/523C Name Quest.cpp"
+        "src/523D Statistics of Recompressing Videos.cpp"
+        "src/524A Возможно, вы знаете этих людей?.cpp"
+        "src/524B Фото на память - 2 (round version).cpp"
+        "src/524C The Art of Dealing with ATM.cpp"
+        "src/524D Social Network.cpp"
+        "src/524E Rooks and Rectangles.cpp"
+        "src/524F And Yet Another Bracket Sequence.cpp"
+        "src/525A Vitaliy and Pie.cpp"
+        "src/525B Pasha and String.cpp"
+        "src/525C Ilya and Sticks.cpp"
+        "src/525D Arthur and Walls.cpp"
+        "src/525E Anya and Cubes.cpp"
+        "src/526A King of Thieves.cpp"
+        "src/526B Om Nom and Dark Park.cpp"
+        "src/526C Om Nom and Candies.cpp"
+        "src/526D Om Nom and Necklace.cpp"
+        "src/526E Transmitting Levels .cpp"
+        "src/526F Pudding Monsters.cpp"
+        "src/526G Spiders Evil Plan.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
