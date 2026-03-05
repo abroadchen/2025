@@ -2042,7 +2042,15 @@ add_executable(codeforces
         "src/535D Tavas and Malekas.cpp"
         "src/535E Tavas and Pashmaks.cpp"
         "src/536D Tavas in Kansas.cpp"
-        "src/536E Tavas on the Path.cpp")
+        "src/536E Tavas on the Path.cpp"
+        "src/538A Cutting Banner.cpp"
+        "src/538B Quasi Binary.cpp"
+        "src/538C Tourist's Notes.cpp"
+        "src/538D Weird Chess.cpp"
+        "src/538E Demiurges Play Again.cpp"
+        "src/538F A Heap of Heaps.cpp"
+        "src/538G Berserk Robot.cpp"
+        "src/538H Summer Dichotomy.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
