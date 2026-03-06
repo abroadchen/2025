@@ -2050,7 +2050,16 @@ add_executable(codeforces
         "src/538E Demiurges Play Again.cpp"
         "src/538F A Heap of Heaps.cpp"
         "src/538G Berserk Robot.cpp"
-        "src/538H Summer Dichotomy.cpp")
+        "src/538H Summer Dichotomy.cpp"
+        "src/540A Combination Lock.cpp"
+        "src/540B School Marks.cpp"
+        "src/540C Ice Cave.cpp"
+        "src/540D Bad Luck Island.cpp"
+        "src/540E Infinite Inversions.cpp"
+        "src/542A Place Your Ad Here.cpp"
+        "src/542B Duck Hunt.cpp"
+        "src/542C Idempotent functions.cpp"
+        "src/542D Superhero's Job.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
