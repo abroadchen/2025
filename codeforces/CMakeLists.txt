@@ -2059,7 +2059,24 @@ add_executable(codeforces
         "src/542A Place Your Ad Here.cpp"
         "src/542B Duck Hunt.cpp"
         "src/542C Idempotent functions.cpp"
-        "src/542D Superhero's Job.cpp")
+        "src/542E Playing on Graph.cpp"
+        "src/542F Quest.cpp"
+        "src/543A Writing Code.cpp"
+        "src/543B Destroying Roads.cpp"
+        "src/543C Remembering Strings.cpp"
+        "src/543D Road Improvement.cpp"
+        "src/543E Listening to Music.cpp"
+        "src/544A Set of Strings.cpp"
+        "src/544B Sea and Islands.cpp"
+        "src/545A Toy Cars.cpp"
+        "src/545B Equidistant String.cpp"
+        "src/545C Woodcutters.cpp"
+        "src/545D Queue.cpp"
+        "src/545E Paths and Trees.cpp"
+        "src/546A Soldier and Bananas.cpp"
+        "src/546B Soldier and Badges.cpp"
+        "src/546C Soldier and Cards.cpp"
+        "src/546D Soldier and Number Game.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
