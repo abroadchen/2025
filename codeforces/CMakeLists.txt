@@ -2076,7 +2076,29 @@ add_executable(codeforces
         "src/546A Soldier and Bananas.cpp"
         "src/546B Soldier and Badges.cpp"
         "src/546C Soldier and Cards.cpp"
-        "src/546D Soldier and Number Game.cpp")
+        "src/546D Soldier and Number Game.cpp"
+        "src/547A Mike and Frog.cpp"
+        "src/547B Mike and Feet.cpp"
+        "src/547C Mike and Foam.cpp"
+        "src/547D Mike and Fish.cpp"
+        "src/548A Mike and Fax.cpp"
+        "src/549A Face Detection.cpp"
+        "src/549B Looksery Party.cpp"
+        "src/549C The Game Of Parity.cpp"
+        "src/549D Haar Features.cpp"
+        "src/549F Yura and Developers.cpp"
+        "src/549G Happy Line.cpp"
+        "src/549H Degenerate Matrix.cpp"
+        "src/550A Two Substrings.cpp"
+        "src/550B Preparing Olympiad.cpp"
+        "src/550C Divisibility by Eight.cpp"
+        "src/550D Regular Bridge.cpp"
+        "src/550E Brackets in Implications.cpp"
+        "src/551A GukiZ and Contest.cpp"
+        "src/551B ZgukistringZ.cpp"
+        "src/551C GukiZ hates Boxes.cpp"
+        "src/551D GukiZ and Binary Operations.cpp"
+        "src/551E GukiZ and GukiZiana.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
