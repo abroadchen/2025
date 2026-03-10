@@ -2098,7 +2098,23 @@ add_executable(codeforces
         "src/551B ZgukistringZ.cpp"
         "src/551C GukiZ hates Boxes.cpp"
         "src/551D GukiZ and Binary Operations.cpp"
-        "src/551E GukiZ and GukiZiana.cpp")
+        "src/551E GukiZ and GukiZiana.cpp"
+        "src/552A Vanya and Table .cpp"
+        "src/552B Vanya and Books.cpp"
+        "src/552C Vanya and Scales.cpp"
+        "src/552D Vanya and Triangles.cpp"
+        "src/553A Kyoya and Colored Balls.cpp"
+        "src/553B Kyoya and Permutation.cpp"
+        "src/553D Nudist Beach.cpp"
+        "src/553E Kyoya and Train.cpp"
+        "src/554A Kyoya and Photobooks.cpp"
+        "src/554B Ohana Cleans Up.cpp"
+        "src/555A Case of Matryoshkas.cpp"
+        "src/555B Case of Fugitive.cpp"
+        "src/555C Case of Chocolate.cpp"
+        "src/555D Case of a Top Secret.cpp"
+        "src/555E Case of Computer Network.cpp"
+        "src/556A Case of the Zeros and Ones.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
