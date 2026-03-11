@@ -2114,7 +2114,26 @@ add_executable(codeforces
         "src/555C Case of Chocolate.cpp"
         "src/555D Case of a Top Secret.cpp"
         "src/555E Case of Computer Network.cpp"
-        "src/556A Case of the Zeros and Ones.cpp")
+        "src/556A Case of the Zeros and Ones.cpp"
+        "src/556B Case of Fake Numbers.cpp"
+        "src/557A Ilya and Diplomas.cpp"
+        "src/557B Pasha and Tea.cpp"
+        "src/557C Arthur and Table.cpp"
+        "src/557D Vitaly and Cycle.cpp"
+        "src/557E Ann and Half-Palindrome.cpp"
+        "src/558A Lala Land and Apple Trees.cpp"
+        "src/558B Amr and The Large Array.cpp"
+        "src/558C Amr and Chemistry.cpp"
+        "src/558D Guess Your Way Out! II.cpp"
+        "src/558E A Simple Task.cpp"
+        "src/559A Gerald's Hexagon.cpp"
+        "src/559B Equivalent Strings.cpp"
+        "src/559C Gerald and Giant Chess.cpp"
+        "src/559D Randomizer.cpp"
+        "src/559E Gerald and Path.cpp"
+        "src/560A Currency System in Geraldion.cpp"
+        "src/560B Gerald is into Art.cpp"
+        "src/566A Matching Names.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
