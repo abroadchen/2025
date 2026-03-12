@@ -2133,7 +2133,25 @@ add_executable(codeforces
         "src/559E Gerald and Path.cpp"
         "src/560A Currency System in Geraldion.cpp"
         "src/560B Gerald is into Art.cpp"
-        "src/566A Matching Names.cpp")
+        "src/566A Matching Names.cpp"
+        "src/566B Replicating Processes.cpp"
+        "src/566C Logistical Questions.cpp"
+        "src/566D Restructuring Company.cpp"
+        "src/566E Restoring Map.cpp"
+        "src/566F Clique in the Divisibility Graph.cpp"
+        "src/566G Max and Min.cpp"
+        "src/567A Lineland Mail.cpp"
+        "src/567B Berland National Library.cpp"
+        "src/567C Geometric Progression.cpp"
+        "src/567D One-Dimensional Battle Ships.cpp"
+        "src/567E President and Roads.cpp"
+        "src/567F Mausoleum.cpp"
+        "src/568A Primes or Palindromes?.cpp"
+        "src/568B Symmetric and Transitive.cpp"
+        "src/568C New Language.cpp"
+        "src/568D Sign Posts.cpp"
+        "src/568E Longest Increasing Subsequence.cpp"
+        "src/569A Music.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
