@@ -2151,7 +2151,25 @@ add_executable(codeforces
         "src/568C New Language.cpp"
         "src/568D Sign Posts.cpp"
         "src/568E Longest Increasing Subsequence.cpp"
-        "src/569A Music.cpp")
+        "src/569A Music.cpp"
+        "src/569B Inventory.cpp"
+        "src/570A Elections.cpp"
+        "src/570B Simple Game.cpp"
+        "src/570C Replacement.cpp"
+        "src/570D Tree Requests.cpp"
+        "src/570E Pig and Palindromes.cpp"
+        "src/571A Lengthening Sticks.cpp"
+        "src/571B Minimization.cpp"
+        "src/571C CNF 2.cpp"
+        "src/571D Campus.cpp"
+        "src/571E Geometric Progressions.cpp"
+        "src/572A Arrays.cpp"
+        "src/572B Order Book .cpp"
+        "src/573A Bear and Poker.cpp"
+        "src/573B Bear and Blocks.cpp"
+        "src/573C Bear and Drawing.cpp"
+        "src/573D Bear and Cavalry.cpp"
+        "src/573E Bear and Bowling.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
