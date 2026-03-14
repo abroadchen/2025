@@ -2169,7 +2169,16 @@ add_executable(codeforces
         "src/573B Bear and Blocks.cpp"
         "src/573C Bear and Drawing.cpp"
         "src/573D Bear and Cavalry.cpp"
-        "src/573E Bear and Bowling.cpp")
+        "src/573E Bear and Bowling.cpp"
+        "src/574A Bear and Elections.cpp"
+        "src/574B Bear and Three Musketeers.cpp"
+        "src/575A Fibonotci.cpp"
+        "src/575B Bribes.cpp"
+        "src/575C Party.cpp"
+        "src/575D Tablecity.cpp"
+        "src/575E Spectator Riots.cpp"
+        "src/575F Bulbo.cpp"
+        "src/575G Run for beer.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
