@@ -36,6 +36,11 @@ void read(T& x) {
     if (f) x = -x;
 }
 
+template<typename T,typename... Args>
+void read(T& t,Args&... args) {
+    read(t); read(args...);
+}
+
 inline void readd(int& x) {
     char c = getchar();
     for (; !isdigit(c); c = getchar()) {}

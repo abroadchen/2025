@@ -2178,7 +2178,22 @@ add_executable(codeforces
         "src/575D Tablecity.cpp"
         "src/575E Spectator Riots.cpp"
         "src/575F Bulbo.cpp"
-        "src/575G Run for beer.cpp")
+        "src/575G Run for beer.cpp"
+        "src/575H Bots.cpp"
+        "src/575I Robots protection.cpp"
+        "src/576A Vasya and Petya's Game.cpp"
+        "src/576B Invariance of Tree.cpp"
+        "src/576C Points on Plane.cpp"
+        "src/576D Flights for Regular Customers.cpp"
+        "src/576E Painting Edges.cpp"
+        "src/577A Multiplication Table.cpp"
+        "src/577B Modulo Sum.cpp"
+        "src/578A A Problem about Polyline.cpp"
+        "src/578B \"Or\" Game.cpp"
+        "src/578C Weakness and Poorness.cpp"
+        "src/578D LCS Again.cpp"
+        "src/578E Walking!.cpp"
+        "src/578F Mirror Box.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
