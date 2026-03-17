@@ -2193,7 +2193,25 @@ add_executable(codeforces
         "src/578C Weakness and Poorness.cpp"
         "src/578D LCS Again.cpp"
         "src/578E Walking!.cpp"
-        "src/578F Mirror Box.cpp")
+        "src/578F Mirror Box.cpp"
+        "src/579A Raising Bacteria.cpp"
+        "src/579B Finding Team Member.cpp"
+        "src/580A Kefa and First Steps.cpp"
+        "src/580B Kefa and Company.cpp"
+        "src/580C Kefa and Park.cpp"
+        "src/580D Kefa and Dishes.cpp"
+        "src/580E Kefa and Watch.cpp"
+        "src/581A Vasya the Hipster.cpp"
+        "src/581B Luxurious Houses.cpp"
+        "src/581C Developing Skills.cpp"
+        "src/581D Three Logos.cpp"
+        "src/581E Kojiro and Furrari.cpp"
+        "src/581F Zublicanes and Mumocrates.cpp"
+        "src/582A GCD Table.cpp"
+        "src/582B Once Again....cpp"
+        "src/582C Superior Periodic Subarrays.cpp"
+        "src/582D Number of Binominal Coefficients.cpp"
+        "src/582E Boolean Function.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
