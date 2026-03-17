@@ -2211,7 +2211,25 @@ add_executable(codeforces
         "src/582B Once Again....cpp"
         "src/582C Superior Periodic Subarrays.cpp"
         "src/582D Number of Binominal Coefficients.cpp"
-        "src/582E Boolean Function.cpp")
+        "src/582E Boolean Function.cpp"
+        "src/583A Asphalting Roads.cpp"
+        "src/583B Robot's Task.cpp"
+        "src/584A Olesya and Rodion.cpp"
+        "src/584B Kolya and Tanya.cpp"
+        "src/584C Marina and Vasya.cpp"
+        "src/584D Dima and Lisa.cpp"
+        "src/584E Anton and Ira.cpp"
+        "src/585A Gennady the Dentist.cpp"
+        "src/585B Phillip and Trains.cpp"
+        "src/585C Alice, Bob, Oranges and Apples.cpp"
+        "src/585D Lizard Era: Beginning.cpp"
+        "src/585E Present for Vitalik the Philatelist.cpp"
+        "src/585F Digits of Number Pi.cpp"
+        "src/586A Alena's Schedule.cpp"
+        "src/586B Laurenty and Shop.cpp"
+        "src/587A Duff and Weight Lifting.cpp"
+        "src/587B Duff in Beach.cpp"
+        "src/587C Duff in the Army.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
