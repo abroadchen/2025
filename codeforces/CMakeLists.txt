@@ -2239,7 +2239,25 @@ add_executable(codeforces
         "src/590B Chip 'n Dale Rescue Rangers.cpp"
         "src/590C Three States.cpp"
         "src/590D Top Secret Task.cpp"
-        "src/590E Birthday.cpp")
+        "src/590E Birthday.cpp"
+        "src/591A Wizards' Duel.cpp"
+        "src/591B Rebranding.cpp"
+        "src/592A PawnChess.cpp"
+        "src/592B The Monster and the Squirrel.cpp"
+        "src/592C The Big Race.cpp"
+        "src/592D Super M.cpp"
+        "src/593A 2Char.cpp"
+        "src/593B Anton and Lines.cpp"
+        "src/593C Beautiful Function.cpp"
+        "src/593D Happy Tree Party.cpp"
+        "src/593E Strange Calculation and Cats.cpp"
+        "src/594A Warrior and Archer.cpp"
+        "src/594B Max and Bike.cpp"
+        "src/594C Edo and Magnets.cpp"
+        "src/594D REQ.cpp"
+        "src/594E Cutting the Line .cpp"
+        "src/595A Vitaly and Night.cpp"
+        "src/595B Pasha and Phone.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
