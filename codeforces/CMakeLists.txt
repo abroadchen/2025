@@ -2229,7 +2229,17 @@ add_executable(codeforces
         "src/586B Laurenty and Shop.cpp"
         "src/587A Duff and Weight Lifting.cpp"
         "src/587B Duff in Beach.cpp"
-        "src/587C Duff in the Army.cpp")
+        "src/587C Duff in the Army.cpp"
+        "src/587D Duff in Mafia.cpp"
+        "src/587E Duff as a Queen.cpp"
+        "src/587F Duff is Mad.cpp"
+        "src/588A Duff and Meat.cpp"
+        "src/588B Duff in Love.cpp"
+        "src/590A Median Smoothing.cpp"
+        "src/590B Chip 'n Dale Rescue Rangers.cpp"
+        "src/590C Three States.cpp"
+        "src/590D Top Secret Task.cpp"
+        "src/590E Birthday.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
