@@ -2257,7 +2257,30 @@ add_executable(codeforces
         "src/594D REQ.cpp"
         "src/594E Cutting the Line .cpp"
         "src/595A Vitaly and Night.cpp"
-        "src/595B Pasha and Phone.cpp")
+        "src/595B Pasha and Phone.cpp"
+        "src/596A Wilbur and Swimming Pool.cpp"
+        "src/596B Wilbur and Array.cpp"
+        "src/596C Wilbur and Points.cpp"
+        "src/596D Wilbur and Trees.cpp"
+        "src/596E Wilbur and Strings.cpp"
+        "src/597A Divisibility.cpp"
+        "src/597B Restaurant.cpp"
+        "src/597C Subsequences.cpp"
+        "src/598A Tricky Sum.cpp"
+        "src/598B Queries on a String.cpp"
+        "src/598C Nearest vectors.cpp"
+        "src/598D Igor In the Museum.cpp"
+        "src/598E Chocolate Bar.cpp"
+        "src/598F Cut Length.cpp"
+        "src/599A Patrick and Shopping.cpp"
+        "src/599B Spongebob and Joke.cpp"
+        "src/599C Day at the Beach.cpp"
+        "src/599D Spongebob and Squares.cpp"
+        "src/599E Sandy and Nuts.cpp"
+        "src/600A Extract Numbers.cpp"
+        "src/600B Queries about less or equal elements.cpp"
+        "src/600D Area of Two Circles' Intersection.cpp"
+        "src/600E Lomsat gelral.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
