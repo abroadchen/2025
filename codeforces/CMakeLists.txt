@@ -2280,7 +2280,25 @@ add_executable(codeforces
         "src/600A Extract Numbers.cpp"
         "src/600B Queries about less or equal elements.cpp"
         "src/600D Area of Two Circles' Intersection.cpp"
-        "src/600E Lomsat gelral.cpp")
+        "src/600E Lomsat gelral.cpp"
+        "src/600F Edge coloring of bipartite graph.cpp"
+        "src/601A The Two Routes .cpp"
+        "src/601B Lipshitz Sequence.cpp"
+        "src/601C Kleofáš and the n-thlon.cpp"
+        "src/601D Acyclic Organic Compounds.cpp"
+        "src/601E A Museum Robbery.cpp"
+        "src/602A Two Bases.cpp"
+        "src/602B Approximating a Constant Range!!.cpp"
+        "src/603A Alternative Thinking.cpp"
+        "src/603B Moodular Arithmetic.cpp"
+        "src/603C Lieges of Legendre.cpp"
+        "src/603D Ruminations on Ruminants.cpp"
+        "src/603E Pastoral Oddities!!.cpp"
+        "src/604A Uncowed Forces.cpp"
+        "src/604B More Cowbell.cpp"
+        "src/605A Sorting Railway Cars.cpp"
+        "src/605B Lazy Student.cpp"
+        "src/605C Freelancer's Dreams.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
