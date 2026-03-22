@@ -2298,7 +2298,16 @@ add_executable(codeforces
         "src/604B More Cowbell.cpp"
         "src/605A Sorting Railway Cars.cpp"
         "src/605B Lazy Student.cpp"
-        "src/605C Freelancer's Dreams.cpp")
+        "src/605C Freelancer's Dreams.cpp"
+        "src/605D Board Game!!.cpp"
+        "src/605E Intergalaxy Trips.cpp"
+        "src/606A Magic Spheres.cpp"
+        "src/606B Testing Robots.cpp"
+        "src/607A Chain Reaction.cpp"
+        "src/607B Zuma.cpp"
+        "src/607C Marbles.cpp"
+        "src/607D Power Tree!!.cpp"
+        "src/607E Cross Sum.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
