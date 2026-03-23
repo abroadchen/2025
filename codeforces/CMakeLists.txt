@@ -2307,7 +2307,28 @@ add_executable(codeforces
         "src/607B Zuma.cpp"
         "src/607C Marbles.cpp"
         "src/607D Power Tree!!.cpp"
-        "src/607E Cross Sum.cpp")
+        "src/607E Cross Sum.cpp"
+        "src/608A Saitama Destroys Hotel.cpp"
+        "src/608B Hamming Distance Sum.cpp"
+        "src/609A USB Flash Drives.cpp"
+        "src/609B The Best Gift.cpp"
+        "src/609C Load Balancing.cpp"
+        "src/609D Gadgets for dollars and pounds.cpp"
+        "src/609E Minimum spanning tree for each edge!!.cpp"
+        "src/609F Frogs and mosquitoes!!.cpp"
+        "src/610A Pasha and Stick.cpp"
+        "src/610B Vika and Squares.cpp"
+        "src/610C Harmony Analysis.cpp"
+        "src/610D Vika and Segments!!.cpp"
+        "src/610E Alphabet Permutations!!.cpp"
+        "src/611A New Year and Days.cpp"
+        "src/611B New Year and Old Property.cpp"
+        "src/611C New Year and Domino.cpp"
+        "src/611D New Year and Ancient Prophecy.cpp"
+        "src/611E New Year and Three Musketeers.cpp"
+        "src/611F New Year and Cleaning.cpp"
+        "src/611G New Year and Cake.cpp"
+        "src/611H New Year and Forgotten Tree!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
