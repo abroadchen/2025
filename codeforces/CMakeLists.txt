@@ -2346,7 +2346,25 @@ add_executable(codeforces
         "src/615B Longtail Hedgehog.cpp"
         "src/615C Running Track.cpp"
         "src/615D Multipliers.cpp"
-        "src/615E Hexagons!!.cpp")
+        "src/615E Hexagons!!.cpp"
+        "src/616A Comparing Two Long Integers.cpp"
+        "src/616B Dinner with Emma.cpp"
+        "src/616C The Labyrinth.cpp"
+        "src/616D Longest k-Good Segment!!.cpp"
+        "src/616E Sum of Remainders.cpp"
+        "src/616F Expensive Strings!!.cpp"
+        "src/617A Elephant.cpp"
+        "src/617B Chocolate.cpp"
+        "src/617C Watering Flowers.cpp"
+        "src/617D Polyline.cpp"
+        "src/617E XOR and Favorite Number!!.cpp"
+        "src/618A Slime Combining.cpp"
+        "src/618B Guess the Permutation.cpp"
+        "src/618C Constellation.cpp"
+        "src/618D Hamiltonian Spanning Tree.cpp"
+        "src/618E Robot Arm.cpp"
+        "src/618F Double Knapsack.cpp"
+        "src/618G Combining Slimes.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
