@@ -2328,7 +2328,25 @@ add_executable(codeforces
         "src/611E New Year and Three Musketeers.cpp"
         "src/611F New Year and Cleaning.cpp"
         "src/611G New Year and Cake.cpp"
-        "src/611H New Year and Forgotten Tree!!.cpp")
+        "src/611H New Year and Forgotten Tree!!.cpp"
+        "src/612A The Text Splitting.cpp"
+        "src/612B HDD is Outdated Technology.cpp"
+        "src/612C Replace To Make Regular Bracket Sequence.cpp"
+        "src/612D The Union of k-Segments.cpp"
+        "src/612E Square Root of Permutation.cpp"
+        "src/612F Simba on the Circle!!.cpp"
+        "src/613A Peter and Snow Blower.cpp"
+        "src/613B Skills.cpp"
+        "src/613C Necklace!!.cpp"
+        "src/613D Kingdom and its Cities!!.cpp"
+        "src/613E Puzzle Lover!!.cpp"
+        "src/614A Link Cut Tree.cpp"
+        "src/614B Gena's Code.cpp"
+        "src/615A Bulbs.cpp"
+        "src/615B Longtail Hedgehog.cpp"
+        "src/615C Running Track.cpp"
+        "src/615D Multipliers.cpp"
+        "src/615E Hexagons!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

@@ -66,6 +66,11 @@ inline int ksm(int x, int p) {
     return res;
 }
 
+ll dfs(ll a, ll n) {
+    return n ? dfs(a*a%mod, n>>1)*(n&1 ? a : 1)%mod : 1;
+}
+
+
 int fac[N], inv[N];
 inline void init() {
     fac[0] = 1;
