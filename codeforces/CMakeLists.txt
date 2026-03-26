@@ -2364,7 +2364,26 @@ add_executable(codeforces
         "src/618D Hamiltonian Spanning Tree.cpp"
         "src/618E Robot Arm.cpp"
         "src/618F Double Knapsack.cpp"
-        "src/618G Combining Slimes.cpp")
+        "src/618G Combining Slimes!!.cpp"
+        "src/620A Professor GukiZ's Robot.cpp"
+        "src/620B Grandfather Dovlet’s calculator.cpp"
+        "src/620C Pearls in a Row.cpp"
+        "src/620D Professor GukiZ and Two Arrays.cpp"
+        "src/620E New Year Tree.cpp"
+        "src/620F Xors on Segments.cpp"
+        "src/621A Wet Shark and Odd and Even.cpp"
+        "src/621B Wet Shark and Bishops.cpp"
+        "src/621C Wet Shark and Flowers.cpp"
+        "src/621D Rat Kwesh and Cheese.cpp"
+        "src/621E Wet Shark and Blocks.cpp"
+        "src/622A Infinite Sequence.cpp"
+        "src/622B The Time.cpp"
+        "src/622C Not Equal on a Segment!!.cpp"
+        "src/622D Optimal Number Permutation.cpp"
+        "src/622E Ants in Leaves.cpp"
+        "src/622F The Sum of the k-th Powers!!.cpp"
+        "src/623A Graph and String.cpp"
+        "src/623B Array GCD!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
