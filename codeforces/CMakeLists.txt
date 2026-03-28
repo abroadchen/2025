@@ -2383,7 +2383,24 @@ add_executable(codeforces
         "src/622E Ants in Leaves.cpp"
         "src/622F The Sum of the k-th Powers!!.cpp"
         "src/623A Graph and String.cpp"
-        "src/623B Array GCD!!.cpp")
+        "src/623B Array GCD!!.cpp"
+        "src/623C Electric Charges!!.cpp"
+        "src/623D Birthday.cpp"
+        "src/623E Transforming Sequence!!.cpp"
+        "src/624A Save Luke.cpp"
+        "src/624B Making a String.cpp"
+        "src/625A Guest From the Past.cpp"
+        "src/625B War of the Corporations.cpp"
+        "src/625C K-special Tables.cpp"
+        "src/625D Finals in arithmetic!!.cpp"
+        "src/625E Frog Fights.cpp"
+        "src/626A Robot Sequence.cpp"
+        "src/626B Cards.cpp"
+        "src/626C Block Towers.cpp"
+        "src/626D Jerry's Protest.cpp"
+        "src/626E Simple Skewness!!.cpp"
+        "src/626F Group Projects.cpp"
+        "src/626G Raffles.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
