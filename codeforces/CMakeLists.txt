@@ -2400,7 +2400,24 @@ add_executable(codeforces
         "src/626D Jerry's Protest.cpp"
         "src/626E Simple Skewness!!.cpp"
         "src/626F Group Projects.cpp"
-        "src/626G Raffles.cpp")
+        "src/626G Raffles.cpp"
+        "src/627A XOR Equation.cpp"
+        "src/627B Factory Repairs.cpp"
+        "src/627C Package Delivery.cpp"
+        "src/627D Preorder Test!!.cpp"
+        "src/627E Orchestra!!.cpp"
+        "src/627F Island Puzzle.cpp"
+        "src/628A Tennis Tournament.cpp"
+        "src/628B New Skateboard.cpp"
+        "src/628C Bear and String Distance.cpp"
+        "src/628D Magic Numbers.cpp"
+        "src/628E Zbazi in Zeydabad.cpp"
+        "src/628F Bear and Fair Set.cpp"
+        "src/629A Far Relative’s Birthday Cake.cpp"
+        "src/629B Far Relative’s Problem.cpp"
+        "src/629C Famil Door and Brackets.cpp"
+        "src/629D Babaei and Birthday Cake.cpp"
+        "src/629E Famil Door and Roads.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
