@@ -2417,7 +2417,31 @@ add_executable(codeforces
         "src/629B Far Relative’s Problem.cpp"
         "src/629C Famil Door and Brackets.cpp"
         "src/629D Babaei and Birthday Cake.cpp"
-        "src/629E Famil Door and Roads.cpp")
+        "src/629E Famil Door and Roads.cpp"
+        "src/630A Again Twenty Five!.cpp"
+        "src/630B Moore's Law.cpp"
+        "src/630C Lucky Numbers.cpp"
+        "src/630D Hexagons!.cpp"
+        "src/630E A rectangle.cpp"
+        "src/630F Selection of Personnel.cpp"
+        "src/630G Challenge Pennants.cpp"
+        "src/630H Benches.cpp"
+        "src/630I Parking Lot.cpp"
+        "src/630J Divisibility.cpp"
+        "src/630K Indivisibility.cpp"
+        "src/630L Cracking the Code.cpp"
+        "src/630M Turn.cpp"
+        "src/630N Forecast.cpp"
+        "src/630O Arrow.cpp"
+        "src/630P Area of a Star.cpp"
+        "src/630Q Pyramids.cpp"
+        "src/630R Game.cpp"
+        "src/631A Interview.cpp"
+        "src/631B Print Check.cpp"
+        "src/631C Report.cpp"
+        "src/631D Messenger.cpp"
+        "src/631E Product Sum.cpp"
+        "src/632A Grandma Laura and Apples.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
