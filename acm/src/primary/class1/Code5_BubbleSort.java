@@ -1,6 +1,6 @@
-package class1;
+package primary.class1;
 
-import static class1.Code3_Sort.swap;
+import static primary.class1.Code3_Sort.swap;
 
 /**
  * Created by June on ${fmdate} ...

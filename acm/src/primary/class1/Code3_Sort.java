@@ -1,7 +1,7 @@
 /**
  * Created by June on ${date} ...
  */
-package class1;
+package primary.class1;
 /**
  *
  排序算法	时间复杂度	空间复杂度	稳定性	特点

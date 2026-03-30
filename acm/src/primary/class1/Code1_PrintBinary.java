@@ -1,4 +1,4 @@
-package class1;
+package primary.class1;
 
 /// num & (1 << i)：按位AND运算，检查num的第i位是否为1
 /// 将整数以二进制形式输出

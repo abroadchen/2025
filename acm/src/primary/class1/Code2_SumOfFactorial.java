@@ -1,7 +1,7 @@
 /**
  * Created by June on ${fmdate} ...
  */
-package class1;
+package primary.class1;
 
 public class Code2_SumOfFactorial {
 /*

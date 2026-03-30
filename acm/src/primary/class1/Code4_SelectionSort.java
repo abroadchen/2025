@@ -1,9 +1,9 @@
 /**
  * Created by June on ${fmdate} ...
  */
-package class1;
+package primary.class1;
 
-import static class1.Code3_Sort.swap;
+import static primary.class1.Code3_Sort.swap;
 
 public class Code4_SelectionSort {
 

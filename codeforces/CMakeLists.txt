@@ -2441,7 +2441,21 @@ add_executable(codeforces
         "src/631C Report.cpp"
         "src/631D Messenger.cpp"
         "src/631E Product Sum.cpp"
-        "src/632A Grandma Laura and Apples.cpp")
+        "src/632A Grandma Laura and Apples.cpp"
+        "src/632B Alice, Bob, Two Teams.cpp"
+        "src/632C The Smallest String Concatenation.cpp"
+        "src/632D Longest Subsequence.cpp"
+        "src/632E Thief in a Shop.cpp"
+        "src/632F Magic Matrix!!.cpp"
+        "src/633A Ebony and Ivory.cpp"
+        "src/633B A Trivial Problem.cpp"
+        "src/633C Spy Syndrome 2.cpp"
+        "src/633D Fibonacci-ish!!.cpp"
+        "src/633E Startup Funding!!.cpp"
+        "src/633F The Chocolate Spree!!.cpp"
+        "src/633G Yash And Trees!!.cpp"
+        "src/633H Fibonacci-ish II!!.cpp"
+        "src/634A Island Puzzle.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
