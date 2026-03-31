@@ -2455,7 +2455,29 @@ add_executable(codeforces
         "src/633F The Chocolate Spree!!.cpp"
         "src/633G Yash And Trees!!.cpp"
         "src/633H Fibonacci-ish II!!.cpp"
-        "src/634A Island Puzzle.cpp")
+        "src/634A Island Puzzle.cpp"
+        "src/635A Orchestra.cpp"
+        "src/637A Voting for Photos.cpp"
+        "src/637B Chat Order.cpp"
+        "src/637C Promocodes with Mistakes.cpp"
+        "src/637D Running with Obstacles.cpp"
+        "src/638A Home Numbers.cpp"
+        "src/638B Making Genome in Berland.cpp"
+        "src/638C Road Improvement.cpp"
+        "src/638D Three-dimensional Turtle Super Computer.cpp"
+        "src/639A Bear and Displayed Friends.cpp"
+        "src/639B Bear and Forgotten Tree 3.cpp"
+        "src/639C Bear and Polynomials.cpp"
+        "src/639D Bear and Contribution.cpp"
+        "src/639E Bear and Paradox.cpp"
+        "src/639F Bear and Chemistry!!.cpp"
+        "src/641A Little Artem and Grasshopper.cpp"
+        "src/641B Little Artem and Matrix.cpp"
+        "src/641C Little Artem and Dance.cpp"
+        "src/641D Little Artem and Random Variable.cpp"
+        "src/641E Little Artem and Time Machine.cpp"
+        "src/641F Little Artem and 2-SAT!!.cpp"
+        "src/641G Little Artem and Graph.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
