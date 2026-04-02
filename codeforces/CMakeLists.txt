@@ -2477,7 +2477,24 @@ add_executable(codeforces
         "src/641D Little Artem and Random Variable.cpp"
         "src/641E Little Artem and Time Machine.cpp"
         "src/641F Little Artem and 2-SAT!!.cpp"
-        "src/641G Little Artem and Graph.cpp")
+        "src/641G Little Artem and Graph.cpp"
+        "src/643A Bear and Colors.cpp"
+        "src/643B Bear and Two Paths.cpp"
+        "src/643C Levels and Regions!!.cpp"
+        "src/643D Bearish Fanpages!!.cpp"
+        "src/643E Bear and Destroying Subtrees.cpp"
+        "src/643F Bears and Juice!!.cpp"
+        "src/643G Choosing Ads.cpp"
+        "src/644A Parliament of Berland.cpp"
+        "src/644B Processing Queries.cpp"
+        "src/644C Hostname Aliases.cpp"
+        "src/645A Amity Assessment.cpp"
+        "src/645B Mischievous Mess Makers.cpp"
+        "src/645C Enduring Exodus.cpp"
+        "src/645D Robot Rapping Results Report.cpp"
+        "src/645E Intellectual Inquiry.cpp"
+        "src/645F Cowslip Collections!!.cpp"
+        "src/645G Armistice Area Apportionment!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
