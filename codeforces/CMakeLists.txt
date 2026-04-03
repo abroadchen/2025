@@ -2494,7 +2494,17 @@ add_executable(codeforces
         "src/645D Robot Rapping Results Report.cpp"
         "src/645E Intellectual Inquiry.cpp"
         "src/645F Cowslip Collections!!.cpp"
-        "src/645G Armistice Area Apportionment!!.cpp")
+        "src/645G Armistice Area Apportionment!!.cpp"
+        "src/648A Наибольший подъем.cpp"
+        "src/650A Watchmen.cpp"
+        "src/650B Image Preview!!.cpp"
+        "src/650C Table Compression.cpp"
+        "src/650D Zip-line!!.cpp"
+        "src/650E Clockwork Bomb.cpp"
+        "src/651A Joysticks.cpp"
+        "src/651B Beautiful Paintings.cpp"
+        "src/652A Gabriel and Caterpillar.cpp"
+        "src/652B z-sort.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
