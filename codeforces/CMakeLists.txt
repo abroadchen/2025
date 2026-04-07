@@ -2504,7 +2504,11 @@ add_executable(codeforces
         "src/651A Joysticks.cpp"
         "src/651B Beautiful Paintings.cpp"
         "src/652A Gabriel and Caterpillar.cpp"
-        "src/652B z-sort.cpp")
+        "src/652B z-sort.cpp"
+        "src/652C Foe Pairs.cpp"
+        "src/652D Nested Segments.cpp"
+        "src/652E Pursuit For Artifacts!!.cpp"
+        "src/652F Ants on a Circle.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
