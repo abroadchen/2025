@@ -2525,7 +2525,13 @@ add_executable(codeforces
         "src/656G You're a Professional.cpp"
         "src/658A Bear and Reverse Radewoosh.cpp"
         "src/659A Round House.cpp"
-        "src/659B Qualifying Contest.cpp")
+        "src/659B Qualifying Contest.cpp"
+        "src/659C Tanya and Toys.cpp"
+        "src/659D Bicycle Race.cpp"
+        "src/659E New Reform.cpp"
+        "src/659F Polycarp and Hay.cpp"
+        "src/659G Fence Divercity.cpp"
+        "src/660A Co-prime Array.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
