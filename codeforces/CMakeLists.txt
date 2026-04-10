@@ -2508,7 +2508,24 @@ add_executable(codeforces
         "src/652C Foe Pairs.cpp"
         "src/652D Nested Segments.cpp"
         "src/652E Pursuit For Artifacts!!.cpp"
-        "src/652F Ants on a Circle.cpp")
+        "src/652F Ants on a Circle.cpp"
+        "src/653A Bear and Three Balls.cpp"
+        "src/653B Bear and Compressing.cpp"
+        "src/653C Bear and Up-Down.cpp"
+        "src/653D Delivery Bears.cpp"
+        "src/653E Bear and Forgotten Tree 2!!.cpp"
+        "src/653F Paper task.cpp"
+        "src/653G Move by Prime!!.cpp"
+        "src/656A Da Vinci Powers.cpp"
+        "src/656B Scrambled.cpp"
+        "src/656C Without Text.cpp"
+        "src/656D Rosetta Problem.cpp"
+        "src/656E Out of Controls.cpp"
+        "src/656F Ace It!.cpp"
+        "src/656G You're a Professional.cpp"
+        "src/658A Bear and Reverse Radewoosh.cpp"
+        "src/659A Round House.cpp"
+        "src/659B Qualifying Contest.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
