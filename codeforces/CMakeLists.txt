@@ -2531,7 +2531,25 @@ add_executable(codeforces
         "src/659E New Reform.cpp"
         "src/659F Polycarp and Hay.cpp"
         "src/659G Fence Divercity.cpp"
-        "src/660A Co-prime Array.cpp")
+        "src/660A Co-prime Array.cpp"
+        "src/660B Seating On Bus.cpp"
+        "src/660C Hard Process!!.cpp"
+        "src/660D Number of Parallelograms.cpp"
+        "src/660E Different Subsets For All Tuples.cpp"
+        "src/660F Bear and Bowling 4.cpp"
+        "src/662A Gambling Nim.cpp"
+        "src/662B Graph Coloring.cpp"
+        "src/662C Binary Table.cpp"
+        "src/662D International Olympiad .cpp"
+        "src/662E To Hack or not to Hack.cpp"
+        "src/663A Rebus.cpp"
+        "src/664A Complicated GCD.cpp"
+        "src/665A Buses Between Cities.cpp"
+        "src/665B Shopping!!.cpp"
+        "src/665C Simple Strings.cpp"
+        "src/665D Simple Subset.cpp"
+        "src/665E Beautiful Subarrays.cpp"
+        "src/665F Four Divisors.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
