@@ -2549,7 +2549,24 @@ add_executable(codeforces
         "src/665C Simple Strings.cpp"
         "src/665D Simple Subset.cpp"
         "src/665E Beautiful Subarrays.cpp"
-        "src/665F Four Divisors.cpp")
+        "src/665F Four Divisors.cpp"
+        "src/666A Reberland Linguistics.cpp"
+        "src/666B World Tour.cpp"
+        "src/666C Codeword.cpp"
+        "src/666D Chain Reaction.cpp"
+        "src/666E Forensic Examination.cpp"
+        "src/667A Pouring Rain.cpp"
+        "src/667B Coat of Anticubism.cpp"
+        "src/669A Little Artem and Presents.cpp"
+        "src/670A Holidays.cpp"
+        "src/670B Game of Robots.cpp"
+        "src/670C Cinema.cpp"
+        "src/670D1 Magic Powder - 1.cpp"
+        "src/670D2 Magic Powder - 2.cpp"
+        "src/670E Correct Bracket Sequence Editor!!.cpp"
+        "src/670F Restore a Number.cpp"
+        "src/671A Recycling Bottles.cpp"
+        "src/671B Robin Hood.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
