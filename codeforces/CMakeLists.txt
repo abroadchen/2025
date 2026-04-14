@@ -2566,7 +2566,29 @@ add_executable(codeforces
         "src/670E Correct Bracket Sequence Editor!!.cpp"
         "src/670F Restore a Number.cpp"
         "src/671A Recycling Bottles.cpp"
-        "src/671B Robin Hood.cpp")
+        "src/671B Robin Hood.cpp"
+        "src/671C Ultimate Weirdness of an Array.cpp"
+        "src/671D Roads in Yusland.cpp"
+        "src/671E Organizing a Race!!.cpp"
+        "src/672A Summer Camp.cpp"
+        "src/672B Different is Good.cpp"
+        "src/673A Bear and Game.cpp"
+        "src/673B Problems for Round.cpp"
+        "src/675A Infinite Sequence.cpp"
+        "src/675B Restoring Painting.cpp"
+        "src/675C Money Transfers.cpp"
+        "src/675D Tree Construction.cpp"
+        "src/675E Trains and Statistic.cpp"
+        "src/676A Nicholas and Permutation.cpp"
+        "src/676B Pyramid of Glasses.cpp"
+        "src/676C Vasya and String.cpp"
+        "src/676D Theseus and labyrinth.cpp"
+        "src/676E The Last Fight Between Human and AI.cpp"
+        "src/677A Vanya and Fence.cpp"
+        "src/677B Vanya and Food Processor.cpp"
+        "src/677C Vanya and Label.cpp"
+        "src/677D Vanya and Treasure!!.cpp"
+        "src/677E Vanya and Balloons.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
