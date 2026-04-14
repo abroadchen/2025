@@ -2588,7 +2588,20 @@ add_executable(codeforces
         "src/677B Vanya and Food Processor.cpp"
         "src/677C Vanya and Label.cpp"
         "src/677D Vanya and Treasure!!.cpp"
-        "src/677E Vanya and Balloons.cpp")
+        "src/677E Vanya and Balloons.cpp"
+        "src/678A Johny Likes Numbers.cpp"
+        "src/678B The Same Calendar.cpp"
+        "src/678C Joty and Chocolate.cpp"
+        "src/678D Iterated Linear Function!!.cpp"
+        "src/678E Another Sith Tournament.cpp"
+        "src/678F Lena and Queries.cpp"
+        "src/679A Bear and Prime 100.cpp"
+        "src/679B Bear and Tower of Cubes.cpp"
+        "src/679C Bear and Square Grid!!.cpp"
+        "src/679D Bear and Chase!!.cpp"
+        "src/679E Bear and Bad Powers of 42.cpp"
+        "src/680A Bear and Five Cards.cpp"
+        "src/680B Bear and Finding Criminals.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
