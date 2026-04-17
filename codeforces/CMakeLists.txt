@@ -2634,7 +2634,26 @@ add_executable(codeforces
         "src/690A1 Collective Mindsets (easy).cpp"
         "src/690A2 Collective Mindsets (medium).cpp"
         "src/690A3 Collective Mindsets (hard).cpp"
-        "src/690B1 Recover Polygon (easy).cpp")
+        "src/690B1 Recover Polygon (easy).cpp"
+        "src/690B2 Recover Polygon (medium).cpp"
+        "src/690B3 Recover Polygon (hard).cpp"
+        "src/690C1 Brain Network (easy).cpp"
+        "src/690C2 Brain Network (medium).cpp"
+        "src/690C3 Brain Network (hard).cpp"
+        "src/690D1 The Wall (easy).cpp"
+        "src/690D2 The Wall (medium).cpp"
+        "src/690D3 The Wall (hard).cpp"
+        "src/690E1 Photographs (I).cpp"
+        "src/690E2 Photographs (II)!!.cpp"
+        "src/690F1 Tree of Life (easy).cpp"
+        "src/690F2 Tree of Life (medium)!!.cpp"
+        "src/690F3 Tree of Life (hard)!!!.cpp"
+        "src/691A Fashion in Berland .cpp"
+        "src/691B s-palindrome.cpp"
+        "src/691C Exponential notation.cpp"
+        "src/691D Swaps in Permutation!!.cpp"
+        "src/691E Xor-sequences .cpp"
+        "src/691F Couple Cover.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
