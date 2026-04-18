@@ -2653,7 +2653,27 @@ add_executable(codeforces
         "src/691C Exponential notation.cpp"
         "src/691D Swaps in Permutation!!.cpp"
         "src/691E Xor-sequences .cpp"
-        "src/691F Couple Cover.cpp")
+        "src/691F Couple Cover.cpp"
+        "src/696A Lorenzo Von Matterhorn.cpp"
+        "src/696B Puzzles.cpp"
+        "src/696C PLEASE.cpp"
+        "src/696D Legen....cpp"
+        "src/696E ...Wait for it....cpp"
+        "src/696F ...Dary!.cpp"
+        "src/697A Pineapple Incident.cpp"
+        "src/697B Barnicle.cpp"
+        "src/698A Vacations.cpp"
+        "src/698B Fix a Tree.cpp"
+        "src/698C LRU!!.cpp"
+        "src/698D Limak and Shooting Points.cpp"
+        "src/698E Cron.cpp"
+        "src/698F Coprime Permutation.cpp"
+        "src/699A Launch of Collider.cpp"
+        "src/699B One Bomb.cpp"
+        "src/700A As Fast As Possible.cpp"
+        "src/700B Connecting Universities.cpp"
+        "src/700C Break Up!!!.cpp"
+        "src/700D Huffman Coding on Segment.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
