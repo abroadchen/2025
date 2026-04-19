@@ -2673,7 +2673,26 @@ add_executable(codeforces
         "src/700A As Fast As Possible.cpp"
         "src/700B Connecting Universities.cpp"
         "src/700C Break Up!!!.cpp"
-        "src/700D Huffman Coding on Segment.cpp")
+        "src/700D Huffman Coding on Segment!!!.cpp"
+        "src/700E Cool Slogans!!.cpp"
+        "src/701A Cards.cpp"
+        "src/701B Cells Not Under Attack.cpp"
+        "src/701C They Are Everywhere!!.cpp"
+        "src/702A Maximum Increase.cpp"
+        "src/702B Powers of Two.cpp"
+        "src/702C Cellular Network.cpp"
+        "src/702D Road to Post Office.cpp"
+        "src/702E Analysis of Pathes in Functional Graph.cpp"
+        "src/702F T-Shirts!!.cpp"
+        "src/703A Mishka and Game.cpp"
+        "src/703B Mishka and trip.cpp"
+        "src/703C Chris and Road.cpp"
+        "src/703D Mishka and Interesting sum.cpp"
+        "src/703E Mishka and Divisors.cpp"
+        "src/704A Thor.cpp"
+        "src/704B Ant Man.cpp"
+        "src/704C Black Widow!!.cpp"
+        "src/704D Captain America.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
