@@ -2692,7 +2692,25 @@ add_executable(codeforces
         "src/704A Thor.cpp"
         "src/704B Ant Man.cpp"
         "src/704C Black Widow!!.cpp"
-        "src/704D Captain America.cpp")
+        "src/704D Captain America!!!.cpp"
+        "src/704E Iron Man!!.cpp"
+        "src/705A Hulk.cpp"
+        "src/705B Spider Man.cpp"
+        "src/706A Beru-taxi.cpp"
+        "src/706B Interesting drink.cpp"
+        "src/706C Hard problem .cpp"
+        "src/706D Vasiliy's Multiset.cpp"
+        "src/706E Working routine!!.cpp"
+        "src/707A Brain's Photos.cpp"
+        "src/707B Bakery.cpp"
+        "src/707C Pythagorean Triples.cpp"
+        "src/707D Persistent Bookcase.cpp"
+        "src/707E Garlands.cpp"
+        "src/708A Letters Cyclic Shift.cpp"
+        "src/708B Recover the String.cpp"
+        "src/708C Centroids!!.cpp"
+        "src/708D Incorrect Flow.cpp"
+        "src/708E Student's Camp!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23

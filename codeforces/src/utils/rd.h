@@ -47,14 +47,8 @@ inline void readd(int& x) {
     x = c^48;
 }
 
-template<class T>
-void write(T x) {
-    if (x < 0) { putchar('-'); x = -x; }
-    T y = 1;
-    int len = 1;
-    for (; y <= x/10; y *= 10) ++len;
-    for (; len; --len, x %= y, y /= 10) putchar(x/y+48);
-}
+
+
 
 
 constexpr int N = 1e5+1, mod = 1e9+7;
