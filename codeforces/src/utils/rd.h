@@ -35,6 +35,7 @@ void read(T& x) {
     for (; isdigit(ch); ch = getchar()) x = (x<<1)+(x<<3)+(ch&15);
     if (f) x = -x;
 }
+//double (x*=10) += ch&15;
 
 template<typename T,typename... Args>
 void read(T& t,Args&... args) {

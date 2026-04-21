@@ -2710,7 +2710,26 @@ add_executable(codeforces
         "src/708B Recover the String.cpp"
         "src/708C Centroids!!.cpp"
         "src/708D Incorrect Flow.cpp"
-        "src/708E Student's Camp!!.cpp")
+        "src/708E Student's Camp!!.cpp"
+        "src/709A Juicer.cpp"
+        "src/709B Checkpoints.cpp"
+        "src/710A King Moves.cpp"
+        "src/710B Optimal Point on a Line.cpp"
+        "src/710C Magic Odd Square.cpp"
+        "src/710D Two Arithmetic Progressions.cpp"
+        "src/710E Generate a String.cpp"
+        "src/710F String Set Queries!!.cpp"
+        "src/711A Bus to Udayland.cpp"
+        "src/711B Chris and Magic Square.cpp"
+        "src/711C Coloring Trees.cpp"
+        "src/711D Directed Roads.cpp"
+        "src/711E ZS and The Birthday Paradox!!.cpp"
+        "src/712A Memory and Crow.cpp"
+        "src/712B Memory and Trident.cpp"
+        "src/712C Memory and De-Evolution.cpp"
+        "src/712D Memory and Scores!!.cpp"
+        "src/712E Memory and Casinos.cpp"
+        "src/713A Sonya and Queries.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
