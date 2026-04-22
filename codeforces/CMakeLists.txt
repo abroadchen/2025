@@ -2729,7 +2729,26 @@ add_executable(codeforces
         "src/712C Memory and De-Evolution.cpp"
         "src/712D Memory and Scores!!.cpp"
         "src/712E Memory and Casinos.cpp"
-        "src/713A Sonya and Queries.cpp")
+        "src/713A Sonya and Queries.cpp"
+        "src/713B Searching Rectangles!!.cpp"
+        "src/713C Sonya and Problem Without a Legend.cpp"
+        "src/713D Animals and Puzzle!!.cpp"
+        "src/713E Sonya Partymaker.cpp"
+        "src/714A Meeting of Old Friends.cpp"
+        "src/714B Filya and Homework.cpp"
+        "src/715A Plus and Square Root.cpp"
+        "src/715B Complete The Graph!!.cpp"
+        "src/715C Digit Tree!!.cpp"
+        "src/715D Create a Maze.cpp"
+        "src/715E Complete the Permutations.cpp"
+        "src/716A Crazy Computer.cpp"
+        "src/716B Complete the Word.cpp"
+        "src/717A Festival Organization!!.cpp"
+        "src/717B R3D3’s Summer Adventure.cpp"
+        "src/717C Potions Homework.cpp"
+        "src/717D Dexterina’s Lab.cpp"
+        "src/717E Paint it really, really dark gray.cpp"
+        "src/717F Heroes of Making Magic III.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
