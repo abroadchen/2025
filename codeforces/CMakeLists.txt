@@ -2763,7 +2763,26 @@ add_executable(codeforces
         "src/720C Homework.cpp"
         "src/720D Slalom!!.cpp"
         "src/720E Cipher.cpp"
-        "src/720F Array Covering!!.cpp")
+        "src/720F Array Covering!!.cpp"
+        "src/721A One-dimensional Japanese Crossword.cpp"
+        "src/721B Passwords.cpp"
+        "src/721C Journey.cpp"
+        "src/721D Maxim and Array.cpp"
+        "src/721E Road to Home.cpp"
+        "src/722A Broken Clock.cpp"
+        "src/722B Verse Pattern.cpp"
+        "src/722C Destroying Array!!.cpp"
+        "src/722D Generating Sets.cpp"
+        "src/722E Research Rover!!.cpp"
+        "src/722F Cyclic Cipher.cpp"
+        "src/723A The New Year: Meeting Friends.cpp"
+        "src/723B Text Document Analysis.cpp"
+        "src/723C Polycarp at the Radio!!.cpp"
+        "src/723D Lakes in Berland.cpp"
+        "src/723E One-Way Reform.cpp"
+        "src/723F st-Spanning Tree.cpp"
+        "src/724A Checking the Calendar.cpp"
+        "src/724B Batch Sort.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
