@@ -2748,7 +2748,22 @@ add_executable(codeforces
         "src/717C Potions Homework.cpp"
         "src/717D Dexterina’s Lab.cpp"
         "src/717E Paint it really, really dark gray.cpp"
-        "src/717F Heroes of Making Magic III.cpp")
+        "src/717F Heroes of Making Magic III.cpp"
+        "src/717G Underfail!!.cpp"
+        "src/717H Pokermon League challenge.cpp"
+        "src/717I Cowboy Beblop at his computer!!.cpp"
+        "src/718A Efim and Strange Grade.cpp"
+        "src/718C Sasha and Array .cpp"
+        "src/718D Andrew and Chemistry.cpp"
+        "src/718E Matvey's Birthday!!.cpp"
+        "src/719A Vitya in the Countryside.cpp"
+        "src/719B Anatoly and Cockroaches.cpp"
+        "src/720A Closing ceremony.cpp"
+        "src/720B Cactusophobia!!!.cpp"
+        "src/720C Homework.cpp"
+        "src/720D Slalom!!.cpp"
+        "src/720E Cipher.cpp"
+        "src/720F Array Covering!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
