@@ -2782,7 +2782,19 @@ add_executable(codeforces
         "src/723E One-Way Reform.cpp"
         "src/723F st-Spanning Tree.cpp"
         "src/724A Checking the Calendar.cpp"
-        "src/724B Batch Sort.cpp")
+        "src/724B Batch Sort.cpp"
+        "src/724C Ray Tracing.cpp"
+        "src/724D Dense Subsequence.cpp"
+        "src/724E Goods transportation.cpp"
+        "src/724F Uniformly Branched Trees.cpp"
+        "src/724G Xor-matic Number of the Graph!!.cpp"
+        "src/725A Jumping Ball.cpp"
+        "src/725B Food on the Plane.cpp"
+        "src/725C Hidden Word!!.cpp"
+        "src/725D Contest Balloons.cpp"
+        "src/725E Too Much Money.cpp"
+        "src/725F Family Photos.cpp"
+        "src/725G Messages on a Tree.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
