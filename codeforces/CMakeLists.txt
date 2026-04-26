@@ -2794,7 +2794,26 @@ add_executable(codeforces
         "src/725D Contest Balloons.cpp"
         "src/725E Too Much Money.cpp"
         "src/725F Family Photos.cpp"
-        "src/725G Messages on a Tree.cpp")
+        "src/725G Messages on a Tree.cpp"
+        "src/727A Transformation: from A to B.cpp"
+        "src/727B Bill Total Value!!.cpp"
+        "src/727C Guess the Array.cpp"
+        "src/727D T-shirts Distribution.cpp"
+        "src/727E Games on a CD!!.cpp"
+        "src/727F Polycarp's problems.cpp"
+        "src/729A Interview with Oleg.cpp"
+        "src/729B Spotlights.cpp"
+        "src/729C Road to Cinema.cpp"
+        "src/729D Sea Battle.cpp"
+        "src/729E Subordinates.cpp"
+        "src/729F Financiers Game!!.cpp"
+        "src/730A Toda 2.cpp"
+        "src/730B Minimum and Maximum.cpp"
+        "src/730C Bulmart.cpp"
+        "src/730D Running Over The Bridges!!.cpp"
+        "src/730E Award Ceremony.cpp"
+        "src/730F Ber Patio!!.cpp"
+        "src/730G Car Repair Shop!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
