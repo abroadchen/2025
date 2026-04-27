@@ -2838,7 +2838,16 @@ add_executable(codeforces
         "src/733E Sleep in Class.cpp"
         "src/733F Drivers Dissatisfaction!!.cpp"
         "src/734A Anton and Danik.cpp"
-        "src/734B Anton and Digits.cpp")
+        "src/734B Anton and Digits.cpp"
+        "src/734C Anton and Making Potions.cpp"
+        "src/734D Anton and Chess!!.cpp"
+        "src/734E Anton and Tree.cpp"
+        "src/734F Anton and School.cpp"
+        "src/735A Ostap and Grasshopper.cpp"
+        "src/735B Urbanization.cpp"
+        "src/735C Tennis Championship.cpp"
+        "src/735D Taxes.cpp"
+        "src/735E Ostap and Tree.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
