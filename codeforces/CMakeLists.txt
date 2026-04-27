@@ -2813,7 +2813,32 @@ add_executable(codeforces
         "src/730D Running Over The Bridges!!.cpp"
         "src/730E Award Ceremony.cpp"
         "src/730F Ber Patio!!.cpp"
-        "src/730G Car Repair Shop!!.cpp")
+        "src/730G Car Repair Shop!!.cpp"
+        "src/730H Delete Them.cpp"
+        "src/730I Olympiad in Programming and Sports.cpp"
+        "src/730J Bottles!!.cpp"
+        "src/730K Roads Orientation Problem.cpp"
+        "src/730L Expression Queries!!.cpp"
+        "src/731A Night at the Museum.cpp"
+        "src/731B Coupons and Discounts.cpp"
+        "src/731C Socks.cpp"
+        "src/731D 80-th Level Archeology!!.cpp"
+        "src/731E Funny Game.cpp"
+        "src/731F Video Cards.cpp"
+        "src/732A Buy a Shovel.cpp"
+        "src/732B Cormen — The Best Friend Of a Man.cpp"
+        "src/732C Sanatorium.cpp"
+        "src/732D Exams.cpp"
+        "src/732E Sockets .cpp"
+        "src/732F Tourist Reform.cpp"
+        "src/733A Grasshopper And the String.cpp"
+        "src/733B Parade.cpp"
+        "src/733C Epidemic in Monstropolis!!.cpp"
+        "src/733D Kostya the Sculptor.cpp"
+        "src/733E Sleep in Class.cpp"
+        "src/733F Drivers Dissatisfaction!!.cpp"
+        "src/734A Anton and Danik.cpp"
+        "src/734B Anton and Digits.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
