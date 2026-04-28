@@ -2847,7 +2847,18 @@ add_executable(codeforces
         "src/735B Urbanization.cpp"
         "src/735C Tennis Championship.cpp"
         "src/735D Taxes.cpp"
-        "src/735E Ostap and Tree.cpp")
+        "src/735E Ostap and Tree.cpp"
+        "src/736D Permutations!!.cpp"
+        "src/736E Chess Championship.cpp"
+        "src/737E Tanya is 5!.cpp"
+        "src/737F Dirty plates.cpp"
+        "src/739A Alyona and mex.cpp"
+        "src/739B Alyona and a tree.cpp"
+        "src/739C Alyona and towers.cpp"
+        "src/739D Recover a functional graph!!.cpp"
+        "src/739E Gosha is hunting!!.cpp"
+        "src/740A Alyona and copybooks.cpp"
+        "src/740B Alyona and flowers.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
