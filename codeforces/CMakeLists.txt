@@ -2858,7 +2858,10 @@ add_executable(codeforces
         "src/739D Recover a functional graph!!.cpp"
         "src/739E Gosha is hunting!!.cpp"
         "src/740A Alyona and copybooks.cpp"
-        "src/740B Alyona and flowers.cpp")
+        "src/740B Alyona and flowers.cpp"
+        "src/741A Arpa's loud Owf and Mehrdad's evil plan.cpp"
+        "src/741B Arpa's weak amphitheater and Mehrdad's valuable Hoses.cpp"
+        "src/741C Arpa’s overnight party and Mehrdad’s silent entering.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
