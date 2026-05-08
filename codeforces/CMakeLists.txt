@@ -2863,7 +2863,14 @@ add_executable(codeforces
         "src/741B Arpa's weak amphitheater and Mehrdad's valuable Hoses.cpp"
         "src/741C Arpa’s overnight party and Mehrdad’s silent entering.cpp"
         "src/741D Arpa’s letter-marked tree and Mehrdad’s Dokhtar-kosh paths!!.cpp"
-        "src/741E Arpa’s abnormal DNA and Mehrdad’s deep interest!!.cpp")
+        "src/741E Arpa’s abnormal DNA and Mehrdad’s deep interest!!.cpp"
+        "src/742A Arpa’s hard exam and Mehrdad’s naive cheat.cpp"
+        "src/742B Arpa’s obvious problem and Mehrdad’s terrible solution.cpp"
+        "src/743A Vladik and flights.cpp"
+        "src/743B Chloe and the sequence.cpp"
+        "src/743C Vladik and fractions.cpp"
+        "src/743D Chloe and pleasant prizes!!.cpp"
+        "src/743E Vladik and cards!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
