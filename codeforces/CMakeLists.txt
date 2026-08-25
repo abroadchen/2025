@@ -2870,7 +2870,27 @@ add_executable(codeforces
         "src/743B Chloe and the sequence.cpp"
         "src/743C Vladik and fractions.cpp"
         "src/743D Chloe and pleasant prizes!!.cpp"
-        "src/743E Vladik and cards!!.cpp")
+        "src/743E Vladik and cards!!.cpp"
+        "src/744A Hongcow Builds A Nation.cpp"
+        "src/744B Hongcow's Game.cpp"
+        "src/744C Hongcow Buys a Deck of Cards!!.cpp"
+        "src/744D Hongcow Draws a Circle.cpp"
+        "src/744E Hongcow Masters the Cyclic Shift.cpp"
+        "src/745A Hongcow Learns the Cyclic Shift.cpp"
+        "src/745B Hongcow Solves A Puzzle.cpp"
+        "src/746A Compote.cpp"
+        "src/746B Decoding.cpp"
+        "src/746C Tram.cpp"
+        "src/746D Green and Black Tea.cpp"
+        "src/746E Numbers Exchange!!.cpp"
+        "src/746F Music in Car.cpp"
+        "src/746G New Roads.cpp"
+        "src/747A Display Size.cpp"
+        "src/747B Mammoth's Genome Decoding.cpp"
+        "src/747C Servers.cpp"
+        "src/747D Winter Is Coming.cpp"
+        "src/747E Comments.cpp"
+        "src/747F Igor and Interesting Numbers.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
