@@ -2890,7 +2890,11 @@ add_executable(codeforces
         "src/747C Servers.cpp"
         "src/747D Winter Is Coming.cpp"
         "src/747E Comments.cpp"
-        "src/747F Igor and Interesting Numbers.cpp")
+        "src/747F Igor and Interesting Numbers.cpp"
+        "src/748A Santa Claus and a Place in a Class.cpp"
+        "src/748B Santa Claus and Keyboard Check.cpp"
+        "src/748C Santa Claus and Robot.cpp"
+        "src/748D Santa Claus and a Palindrome.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
