@@ -2894,7 +2894,14 @@ add_executable(codeforces
         "src/748A Santa Claus and a Place in a Class.cpp"
         "src/748B Santa Claus and Keyboard Check.cpp"
         "src/748C Santa Claus and Robot.cpp"
-        "src/748D Santa Claus and a Palindrome.cpp")
+        "src/748D Santa Claus and a Palindrome.cpp"
+        "src/748E Santa Claus and Tangerines.cpp"
+        "src/748F Santa Clauses and a Soccer Championship.cpp"
+        "src/749A Bachgold Problem.cpp"
+        "src/749B Parallelogram is Back.cpp"
+        "src/749C Voting.cpp"
+        "src/749D Leaving Auction.cpp"
+        "src/749E Inversions After Shuffle.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
