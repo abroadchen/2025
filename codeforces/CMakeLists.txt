@@ -2901,7 +2901,13 @@ add_executable(codeforces
         "src/749B Parallelogram is Back.cpp"
         "src/749C Voting.cpp"
         "src/749D Leaving Auction.cpp"
-        "src/749E Inversions After Shuffle.cpp")
+        "src/749E Inversions After Shuffle.cpp"
+        "src/750A New Year and Hurry.cpp"
+        "src/750B New Year and North Pole.cpp"
+        "src/750C New Year and Rating.cpp"
+        "src/750D New Year and Fireworks.cpp"
+        "src/750E New Year and Old Subsequence.cpp"
+        "src/750F New Year and Finding Roots.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
