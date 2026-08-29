@@ -2907,7 +2907,7 @@ add_executable(codeforces
         "src/750C New Year and Rating.cpp"
         "src/750D New Year and Fireworks.cpp"
         "src/750E New Year and Old Subsequence.cpp"
-        "src/750F New Year and Finding Roots.cpp")
+        "src/750F New Year and Finding Roots!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
