@@ -2907,7 +2907,12 @@ add_executable(codeforces
         "src/750C New Year and Rating.cpp"
         "src/750D New Year and Fireworks.cpp"
         "src/750E New Year and Old Subsequence.cpp"
-        "src/750F New Year and Finding Roots!!!.cpp")
+        "src/750F New Year and Finding Roots!!!.cpp"
+        "src/750G New Year and Binary Tree Paths!!.cpp"
+        "src/750H New Year and Snowy Grid!!!.cpp"
+        "src/753A Santa Claus and Candies.cpp"
+        "src/753B Interactive Bulls and Cows (Easy).cpp"
+        "src/753C Interactive Bulls and Cows (Hard).cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
