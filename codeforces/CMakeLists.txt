@@ -2912,7 +2912,13 @@ add_executable(codeforces
         "src/750H New Year and Snowy Grid!!!.cpp"
         "src/753A Santa Claus and Candies.cpp"
         "src/753B Interactive Bulls and Cows (Easy).cpp"
-        "src/753C Interactive Bulls and Cows (Hard).cpp")
+        "src/753C Interactive Bulls and Cows (Hard).cpp"
+        "src/754A Lesha and array splitting.cpp"
+        "src/754B Ilya and tic-tac-toe game.cpp"
+        "src/754C Vladik and chat.cpp"
+        "src/754D Fedor and coupons.cpp"
+        "src/754E Dasha and cyclic table.cpp"
+        "src/755A PolandBall and Hypothesis.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
