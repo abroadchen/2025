@@ -2918,7 +2918,24 @@ add_executable(codeforces
         "src/754C Vladik and chat.cpp"
         "src/754D Fedor and coupons.cpp"
         "src/754E Dasha and cyclic table.cpp"
-        "src/755A PolandBall and Hypothesis.cpp")
+        "src/755A PolandBall and Hypothesis.cpp"
+        "src/755B PolandBall and Game.cpp"
+        "src/755C PolandBall and Forest.cpp"
+        "src/755D PolandBall and Polygon.cpp"
+        "src/755E PolandBall and White-Red graph.cpp"
+        "src/755F PolandBall and Gifts.cpp"
+        "src/755G PolandBall and Many Other Balls.cpp"
+        "src/756A Pavel and barbecue.cpp"
+        "src/756B Travel Card.cpp"
+        "src/756C Nikita and stack.cpp"
+        "src/756D Bacterial Melee.cpp"
+        "src/756E Byteland coins!!!.cpp"
+        "src/756F Long number.cpp"
+        "src/757A Gotta Catch Em' All!.cpp"
+        "src/757B Bash's Big Day.cpp"
+        "src/757C Felicity is Coming!.cpp"
+        "src/757D Felicity's Big Secret Revealed.cpp"
+        "src/757E Bash Plays with Functions.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
