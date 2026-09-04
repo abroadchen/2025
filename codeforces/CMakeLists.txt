@@ -2935,7 +2935,17 @@ add_executable(codeforces
         "src/757B Bash's Big Day.cpp"
         "src/757C Felicity is Coming!.cpp"
         "src/757D Felicity's Big Secret Revealed.cpp"
-        "src/757E Bash Plays with Functions.cpp")
+        "src/757E Bash Plays with Functions.cpp"
+        "src/757F Team Rocket Rises Again.cpp"
+        "src/757G Can Bash Save the Day?.cpp"
+        "src/758A Holiday Of Equality.cpp"
+        "src/758B Blown Garland.cpp"
+        "src/758C Unfair Poll.cpp"
+        "src/758D Ability To Convert.cpp"
+        "src/758E Broken Tree.cpp"
+        "src/758F Geometrical Progression.cpp"
+        "src/760A Petr and a calendar.cpp"
+        "src/760B Frodo and pillows.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
