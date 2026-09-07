@@ -2971,7 +2971,23 @@ add_executable(codeforces
         "src/765D Artsem and Saunders.cpp"
         "src/765E Tree Folding.cpp"
         "src/765F Souvenirs.cpp"
-        "src/765G Math, math everywhere.cpp")
+        "src/765G Math, math everywhere!!!.cpp"
+        "src/766A Mahmoud and Longest Uncommon Subsequence.cpp"
+        "src/766B Mahmoud and a Triangle.cpp"
+        "src/766C Mahmoud and a Message.cpp"
+        "src/766D Mahmoud and a Dictionary.cpp"
+        "src/766E Mahmoud and a xor trip.cpp"
+        "src/767A Snacktower.cpp"
+        "src/767B The Queue.cpp"
+        "src/767C Garland.cpp"
+        "src/767D Cartons of milk.cpp"
+        "src/767E Change-free.cpp"
+        "src/768A Oath of the Night's Watch.cpp"
+        "src/768B Code For 1.cpp"
+        "src/768C Jon Snow and his Favourite Number.cpp"
+        "src/768D Jon and Orbs.cpp"
+        "src/768E Game of Stones.cpp"
+        "src/768F Barrels and boxes.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
