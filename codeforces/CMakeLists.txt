@@ -2987,7 +2987,26 @@ add_executable(codeforces
         "src/768C Jon Snow and his Favourite Number.cpp"
         "src/768D Jon and Orbs.cpp"
         "src/768E Game of Stones.cpp"
-        "src/768F Barrels and boxes.cpp")
+        "src/768F Barrels and boxes.cpp"
+        "src/769A Year of University Entrance.cpp"
+        "src/769B News About Credit.cpp"
+        "src/769C Cycle In Maze.cpp"
+        "src/769D k-Interesting Pairs Of Integers.cpp"
+        "src/770A New Password.cpp"
+        "src/770B Maximize Sum of Digits.cpp"
+        "src/770C Online Courses In BSU.cpp"
+        "src/770D Draw Brackets!.cpp"
+        "src/771A Bear and Friendship Condition.cpp"
+        "src/771B Bear and Different Names.cpp"
+        "src/771C Bear and Tree Jumps!!.cpp"
+        "src/771D Bear and Company.cpp"
+        "src/771E Bear and Rectangle Strips!!.cpp"
+        "src/771F Bear and Isomorphic Points!!!.cpp"
+        "src/772A Voltage Keepsake.cpp"
+        "src/772B Volatile Kite.cpp"
+        "src/772C Vulnerable Kerbals.cpp"
+        "src/772D Varying Kibibits.cpp"
+        "src/772E Verifying Kingdom.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
