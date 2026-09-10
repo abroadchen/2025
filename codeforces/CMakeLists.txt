@@ -3006,7 +3006,15 @@ add_executable(codeforces
         "src/772B Volatile Kite.cpp"
         "src/772C Vulnerable Kerbals.cpp"
         "src/772D Varying Kibibits.cpp"
-        "src/772E Verifying Kingdom.cpp")
+        "src/772E Verifying Kingdom.cpp"
+        "src/773A Success Rate.cpp"
+        "src/773B Dynamic Problem Scoring.cpp"
+        "src/773C Prairie Partition.cpp"
+        "src/773D Perishable Roads.cpp"
+        "src/773E Blog Post Rating.cpp"
+        "src/773F Test Data Generation.cpp"
+        "src/774A Amusement Park.cpp"
+        "src/774B Significant Cups.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
