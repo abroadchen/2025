@@ -3014,7 +3014,30 @@ add_executable(codeforces
         "src/773E Blog Post Rating.cpp"
         "src/773F Test Data Generation.cpp"
         "src/774A Amusement Park.cpp"
-        "src/774B Significant Cups.cpp")
+        "src/774B Significant Cups.cpp"
+        "src/774C Maximum Number.cpp"
+        "src/774D Lie or Truth.cpp"
+        "src/774E Big Number and Remainder.cpp"
+        "src/774F Pens And Days Of Week.cpp"
+        "src/774G Perfectionist Arkadiy.cpp"
+        "src/774H Repairing Of String.cpp"
+        "src/774I Composing Of String.cpp"
+        "src/774J Stepan's Series.cpp"
+        "src/774K Stepan and Vowels.cpp"
+        "src/774L Bars.cpp"
+        "src/775A University Schedule.cpp"
+        "src/776A A Serial Killer.cpp"
+        "src/776B Sherlock and his girlfriend.cpp"
+        "src/776C Molly's Chemicals.cpp"
+        "src/776D The Door Problem.cpp"
+        "src/776E The Holmes Children.cpp"
+        "src/776F Sherlock's bet to Moriarty!!.cpp"
+        "src/776G Sherlock and the Encrypted Data.cpp"
+        "src/777A Shell Game.cpp"
+        "src/777B Game of Credit Cards.cpp"
+        "src/777C Alyona and Spreadsheet.cpp"
+        "src/777D Cloud of Hashtags.cpp"
+        "src/777E Hanoi Factory.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
