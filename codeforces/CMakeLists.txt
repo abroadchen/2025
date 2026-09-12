@@ -3037,7 +3037,23 @@ add_executable(codeforces
         "src/777B Game of Credit Cards.cpp"
         "src/777C Alyona and Spreadsheet.cpp"
         "src/777D Cloud of Hashtags.cpp"
-        "src/777E Hanoi Factory.cpp")
+        "src/777E Hanoi Factory.cpp"
+        "src/778A String Game.cpp"
+        "src/778B Bitwise Formula.cpp"
+        "src/778C Peterson Polyglot.cpp"
+        "src/778D Parquet Re-laying!!.cpp"
+        "src/778E Selling Numbers.cpp"
+        "src/779A Pupils Redistribution.cpp"
+        "src/779B Weird Rounding.cpp"
+        "src/779C Dishonest Sellers.cpp"
+        "src/780A Andryusha and Socks.cpp"
+        "src/780B The Meeting Place Cannot Be Changed.cpp"
+        "src/780C Andryusha and Colored Balloons.cpp"
+        "src/780D Innokenty and a Football League.cpp"
+        "src/780E Underground Lab.cpp"
+        "src/780F Axel and Marston in Bitland.cpp"
+        "src/780G Andryusha and Nervous Barriers.cpp"
+        "src/780H Intranet of Buses!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
