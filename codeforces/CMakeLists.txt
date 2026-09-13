@@ -3053,7 +3053,23 @@ add_executable(codeforces
         "src/780E Underground Lab.cpp"
         "src/780F Axel and Marston in Bitland.cpp"
         "src/780G Andryusha and Nervous Barriers.cpp"
-        "src/780H Intranet of Buses!!.cpp")
+        "src/780H Intranet of Buses!!.cpp"
+        "src/784A Numbers Joke.cpp"
+        "src/784B Kids' Riddle .cpp"
+        "src/784C INTERCALC .cpp"
+        "src/784D Touchy-Feely Palindromes.cpp"
+        "src/784E Twisted Circuit.cpp"
+        "src/784F Crunching Numbers Just for You.cpp"
+        "src/784G BF Calculator.cpp"
+        "src/785A Anton and Polyhedrons.cpp"
+        "src/785B Anton and Classes.cpp"
+        "src/785C Anton and Fairy Tale.cpp"
+        "src/785D Anton and School - 2.cpp"
+        "src/785E Anton and Permutation.cpp"
+        "src/786A Berzerk.cpp"
+        "src/786B Legacy.cpp"
+        "src/786C Till I Collapse.cpp"
+        "src/786D Rap God.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
