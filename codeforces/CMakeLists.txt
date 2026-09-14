@@ -3069,7 +3069,15 @@ add_executable(codeforces
         "src/786A Berzerk.cpp"
         "src/786B Legacy.cpp"
         "src/786C Till I Collapse.cpp"
-        "src/786D Rap God.cpp")
+        "src/786D Rap God!!!.cpp"
+        "src/786E ALT!!.cpp"
+        "src/787A The Monster.cpp"
+        "src/787B Not Afraid.cpp"
+        "src/788A Functions again.cpp"
+        "src/788B Weird journey.cpp"
+        "src/788C The Great Mixing.cpp"
+        "src/788D Finding lines.cpp"
+        "src/788E New task.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
