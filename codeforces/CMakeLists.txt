@@ -3077,7 +3077,25 @@ add_executable(codeforces
         "src/788B Weird journey.cpp"
         "src/788C The Great Mixing.cpp"
         "src/788D Finding lines.cpp"
-        "src/788E New task.cpp")
+        "src/788E New task.cpp"
+        "src/789A Anastasia and pebbles.cpp"
+        "src/789B Masha and geometric depression.cpp"
+        "src/791A Bear and Big Brother.cpp"
+        "src/792A New Bus Route.cpp"
+        "src/792B Counting-out Rhyme!!!.cpp"
+        "src/792C Divide by Three.cpp"
+        "src/792D Paths in a Complete Binary Tree.cpp"
+        "src/792E Colored Balls.cpp"
+        "src/792F Mages and Monsters.cpp"
+        "src/793A Oleg and shares.cpp"
+        "src/793B Igor and his way to work .cpp"
+        "src/793C Mice problem.cpp"
+        "src/793D Presents in Bankopolis.cpp"
+        "src/793E Problem of offices.cpp"
+        "src/793F Julia the snail.cpp"
+        "src/793G Oleg and chess!!.cpp"
+        "src/794A Bank Robbery.cpp"
+        "src/794B Cutting Carrot.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
