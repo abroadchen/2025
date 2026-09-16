@@ -3095,7 +3095,12 @@ add_executable(codeforces
         "src/793F Julia the snail.cpp"
         "src/793G Oleg and chess!!.cpp"
         "src/794A Bank Robbery.cpp"
-        "src/794B Cutting Carrot.cpp")
+        "src/794B Cutting Carrot.cpp"
+        "src/794C Naming Company.cpp"
+        "src/794D Labelling Cities.cpp"
+        "src/794E Choosing Carrot.cpp"
+        "src/794F Leha and security system.cpp"
+        "src/794G Replace All.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
