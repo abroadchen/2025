@@ -3100,7 +3100,24 @@ add_executable(codeforces
         "src/794D Labelling Cities.cpp"
         "src/794E Choosing Carrot.cpp"
         "src/794F Leha and security system.cpp"
-        "src/794G Replace All.cpp")
+        "src/794G Replace All!!!.cpp"
+        "src/796A Buying A House.cpp"
+        "src/796B Find The Bone.cpp"
+        "src/796C Bank Hacking!!.cpp"
+        "src/796D Police Stations.cpp"
+        "src/796E Exam Cheating.cpp"
+        "src/796F Sequence Recovery.cpp"
+        "src/797A k-Factorization.cpp"
+        "src/797B Odd sum.cpp"
+        "src/797C Minimal string.cpp"
+        "src/797D Broken BST.cpp"
+        "src/797E Array Queries.cpp"
+        "src/797F Mice and Holes.cpp"
+        "src/798A Mike and palindrome.cpp"
+        "src/798B Mike and strings.cpp"
+        "src/798C Mike and gcd problem.cpp"
+        "src/798D Mike and distribution.cpp"
+        "src/798E Mike and code of a permutation.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
