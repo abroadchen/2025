@@ -3117,7 +3117,27 @@ add_executable(codeforces
         "src/798B Mike and strings.cpp"
         "src/798C Mike and gcd problem.cpp"
         "src/798D Mike and distribution.cpp"
-        "src/798E Mike and code of a permutation.cpp")
+        "src/798E Mike and code of a permutation.cpp"
+        "src/799A Carrot Cakes.cpp"
+        "src/799B T-shirt buying.cpp"
+        "src/799C Fountains.cpp"
+        "src/799D Field expansion.cpp"
+        "src/799E Aquarium decoration.cpp"
+        "src/799F Beautiful fountains rows.cpp"
+        "src/799G Cut the pie.cpp"
+        "src/801A Vicious Keyboard.cpp"
+        "src/801B Valued Keys.cpp"
+        "src/802A1 Heidi and Library (easy).cpp"
+        "src/802A2 Heidi and Library (medium).cpp"
+        "src/802A3 Heidi and Library (hard).cpp"
+        "src/802D1 Marmots (easy).cpp"
+        "src/802D2 Marmots (medium).cpp"
+        "src/802D3 Marmots (hard).cpp"
+        "src/802G1 Fake News (easy).cpp"
+        "src/802G2 Fake News (medium).cpp"
+        "src/802G3 Fake News (hard)!!.cpp"
+        "src/802J1 Send the Fool Further! (easy).cpp"
+        "src/802J2 Send the Fool Further! (medium).cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
