@@ -3137,7 +3137,24 @@ add_executable(codeforces
         "src/802G2 Fake News (medium).cpp"
         "src/802G3 Fake News (hard)!!.cpp"
         "src/802J1 Send the Fool Further! (easy).cpp"
-        "src/802J2 Send the Fool Further! (medium).cpp")
+        "src/802J2 Send the Fool Further! (medium).cpp"
+        "src/802J3 Send the Fool Further! (hard).cpp"
+        "src/802M1 April Fools' Problem (easy).cpp"
+        "src/802M2 April Fools' Problem (medium).cpp"
+        "src/802M3 April Fools' Problem (hard).cpp"
+        "src/803A Maximal Binary Matrix.cpp"
+        "src/803B Distances to Zero.cpp"
+        "src/803C Maximal GCD.cpp"
+        "src/803D Magazine Ad.cpp"
+        "src/803E Roma and Poker.cpp"
+        "src/803F Coprime Subsequences.cpp"
+        "src/803G Periodic RMQ Problem.cpp"
+        "src/804A Find Amir.cpp"
+        "src/804B Minimum number of steps.cpp"
+        "src/804C Ice cream coloring.cpp"
+        "src/804D Expected diameter of a tree.cpp"
+        "src/804E The same permutation.cpp"
+        "src/804F Fake bullions!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
