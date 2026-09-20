@@ -3154,7 +3154,25 @@ add_executable(codeforces
         "src/804C Ice cream coloring.cpp"
         "src/804D Expected diameter of a tree.cpp"
         "src/804E The same permutation.cpp"
-        "src/804F Fake bullions!!!.cpp")
+        "src/804F Fake bullions!!!.cpp"
+        "src/805A Fake NP.cpp"
+        "src/805B 3-palindrome.cpp"
+        "src/807A Is it rated?.cpp"
+        "src/807B T-Shirt Hunt.cpp"
+        "src/808A Lucky Year.cpp"
+        "src/808B Average Sleep Time.cpp"
+        "src/808C Tea Party.cpp"
+        "src/808D Array Division.cpp"
+        "src/808E Selling Souvenirs.cpp"
+        "src/808F Card Game.cpp"
+        "src/808G Anthem of Berland.cpp"
+        "src/809A Do you want a date?.cpp"
+        "src/809B Glad to see you!.cpp"
+        "src/809C Find a car.cpp"
+        "src/809D Hitchhiking in the Baltic States!!!.cpp"
+        "src/809E Surprise me!!.cpp"
+        "src/810A Straight «A» .cpp"
+        "src/810B Summer sell-off.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
