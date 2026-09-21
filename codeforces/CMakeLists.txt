@@ -3172,7 +3172,28 @@ add_executable(codeforces
         "src/809D Hitchhiking in the Baltic States!!!.cpp"
         "src/809E Surprise me!!.cpp"
         "src/810A Straight «A» .cpp"
-        "src/810B Summer sell-off.cpp")
+        "src/810B Summer sell-off.cpp"
+        "src/811A Vladik and Courtesy .cpp"
+        "src/811B Vladik and Complicated Book.cpp"
+        "src/811C Vladik and Memorable Trip.cpp"
+        "src/811D Vladik and Favorite Game.cpp"
+        "src/811E Vladik and Entertaining Flags!!.cpp"
+        "src/812A Sagheer and Crossroads.cpp"
+        "src/812B Sagheer, the Hausmeister.cpp"
+        "src/812C Sagheer and Nubian Market.cpp"
+        "src/812D Sagheer and Kindergarten.cpp"
+        "src/812E Sagheer and Apple Tree.cpp"
+        "src/813A The Contest.cpp"
+        "src/813B The Golden Age .cpp"
+        "src/813C The Tag Game.cpp"
+        "src/813D Two Melodies.cpp"
+        "src/813E Army Creation.cpp"
+        "src/813F Bipartite Checking.cpp"
+        "src/814A An abandoned sentiment from past.cpp"
+        "src/814B An express train to reveries.cpp"
+        "src/814C An impassioned circulation of affection.cpp"
+        "src/814D An overnight dance in discotheque.cpp"
+        "src/814E An unavoidable detour for home!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
