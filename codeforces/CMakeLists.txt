@@ -3193,7 +3193,26 @@ add_executable(codeforces
         "src/814B An express train to reveries.cpp"
         "src/814C An impassioned circulation of affection.cpp"
         "src/814D An overnight dance in discotheque.cpp"
-        "src/814E An unavoidable detour for home!!.cpp")
+        "src/814E An unavoidable detour for home!!.cpp"
+        "src/815A Karen and Game.cpp"
+        "src/815B Karen and Test!!.cpp"
+        "src/815C Karen and Supermarket.cpp"
+        "src/815D Karen and Cards!!.cpp"
+        "src/815E Karen and Neighborhood.cpp"
+        "src/816A Karen and Morning.cpp"
+        "src/816B Karen and Coffee.cpp"
+        "src/817A Treasure Hunt.cpp"
+        "src/817B Makes And The Product.cpp"
+        "src/817C Really Big Numbers.cpp"
+        "src/817D Imbalanced Array.cpp"
+        "src/817E Choosing The Commander.cpp"
+        "src/817F MEX Queries.cpp"
+        "src/818A Diplomas and Certificates.cpp"
+        "src/818B Permutation Game.cpp"
+        "src/818C Sofa Thief.cpp"
+        "src/818D Multicolored Cars.cpp"
+        "src/818E Card Game Again.cpp"
+        "src/818F Level Generation.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
