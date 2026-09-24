@@ -71,7 +71,7 @@ constexpr int N = 5, M = 2e5+5;
 struct mtx {
     int mat[N][N];
     mtx() { memset(mat, 0x3f, sizeof(mat)); }
-    mtx friend operator*(mtx x, mtx y) {
+    mtx friend operator*(const mtx &x, const mtx &y) {
         mtx res;
         for (int i = 0; i < N; ++i)
             for (int j = 0; j < N; ++j)
