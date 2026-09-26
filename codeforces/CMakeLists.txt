@@ -3272,7 +3272,31 @@ add_executable(codeforces
         "src/835C Star sky.cpp"
         "src/835D Palindromic characteristics!!.cpp"
         "src/835E The penguin's game.cpp"
-        "src/835F Roads in the Kingdom.cpp")
+        "src/835F Roads in the Kingdom!!!.cpp"
+        "src/837A Text Volume.cpp"
+        "src/837B Flag of Berland.cpp"
+        "src/837C Two Seals.cpp"
+        "src/837D Round Subset.cpp"
+        "src/837E Vasya's Function.cpp"
+        "src/837F Prefix Sums!!.cpp"
+        "src/837G Functions On The Segments!!.cpp"
+        "src/838A Binary Blocks.cpp"
+        "src/838B Diverging Directions.cpp"
+        "src/838C Future Failure!!.cpp"
+        "src/838D Airplane Arrangements.cpp"
+        "src/838E Convex Countour.cpp"
+        "src/838F Expected Earnings.cpp"
+        "src/839A Arya and Bran.cpp"
+        "src/839B Game of the Rows.cpp"
+        "src/839C Journey.cpp"
+        "src/839D Winter is here!!!.cpp"
+        "src/839E Mother of Dragons.cpp"
+        "src/840A Leha and Function.cpp"
+        src/utils/mod.h
+        "src/840B Leha and another game about graph.cpp"
+        "src/840C On the Bench!!!.cpp"
+        "src/840D Destiny.cpp"
+        "src/840E In a Trap!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
