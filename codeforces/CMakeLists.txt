@@ -3296,7 +3296,28 @@ add_executable(codeforces
         "src/840B Leha and another game about graph.cpp"
         "src/840C On the Bench!!!.cpp"
         "src/840D Destiny.cpp"
-        "src/840E In a Trap!!.cpp")
+        "src/840E In a Trap!!.cpp"
+        "src/841A Generous Kefa.cpp"
+        "src/841B Godsend.cpp"
+        "src/842A Kirill And The Game.cpp"
+        "src/842B Gleb And Pizza .cpp"
+        "src/842C Ilya And The Tree.cpp"
+        "src/842D Vitya and Strange Lesson.cpp"
+        "src/842E Nikita and game.cpp"
+        "src/843A Sorting by Subsequences!!.cpp"
+        "src/843B Interactive LowerBound.cpp"
+        "src/843C Upgrading Tree.cpp"
+        "src/843D Dynamic Shortest Path!!!.cpp"
+        "src/843E Maximum Flow!!.cpp"
+        "src/844A Diversity.cpp"
+        "src/844B Rectangles.cpp"
+        "src/845A Chess Tourney.cpp"
+        "src/845B Luba And The Ticket.cpp"
+        "src/845C Two TVs!!.cpp"
+        "src/845D Driving Test.cpp"
+        "src/845E Fire in the City!!.cpp"
+        "src/845F Guards In The Storehouse!!.cpp"
+        "src/845G Shortest Path Problem?.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
