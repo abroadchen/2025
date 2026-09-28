@@ -3317,7 +3317,27 @@ add_executable(codeforces
         "src/845D Driving Test.cpp"
         "src/845E Fire in the City!!.cpp"
         "src/845F Guards In The Storehouse!!.cpp"
-        "src/845G Shortest Path Problem?.cpp")
+        "src/845G Shortest Path Problem?.cpp"
+        "src/846A Curriculum Vitae.cpp"
+        "src/846B Math Show.cpp"
+        "src/846C Four Segments!!.cpp"
+        "src/846D Monitor!!.cpp"
+        "src/846E Chemistry in Berland.cpp"
+        "src/846F Random Query.cpp"
+        "src/847A Union of Doubly Linked Lists.cpp"
+        "src/847B Preparing for Merge Sort.cpp"
+        "src/847C Sum of Nestings!!.cpp"
+        "src/847D Dog Show.cpp"
+        "src/847E Packmen.cpp"
+        "src/847F Berland Elections!!!.cpp"
+        "src/847G University Classes.cpp"
+        "src/847H Load Testing.cpp"
+        "src/847I Noise Level.cpp"
+        "src/847J Students Initiation.cpp"
+        "src/847K Travel Cards.cpp"
+        "src/847L Berland SU Computer Network!!.cpp"
+        "src/847M Weather Tomorrow.cpp"
+        "src/848A From Y to Y.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
