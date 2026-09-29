@@ -18,7 +18,9 @@ int ksm(int x, int y) {
     }
     return ret;
 }
-
+// int ksm(int x, int y) {
+//     return y ? (y&1 ? x*ksm(x, y-1)%mod : ksm(x*x%mod, y/2)) : 1;
+// }
 
 
 #endif //CODEFORCES_MOD_H

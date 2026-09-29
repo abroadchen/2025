@@ -3337,7 +3337,30 @@ add_executable(codeforces
         "src/847K Travel Cards.cpp"
         "src/847L Berland SU Computer Network!!.cpp"
         "src/847M Weather Tomorrow.cpp"
-        "src/848A From Y to Y.cpp")
+        "src/848A From Y to Y.cpp"
+        "src/848B Rooter's Song .cpp"
+        "src/848C Goodbye Souvenir!!.cpp"
+        "src/848D Shake It!!.cpp"
+        "src/848E Days of Floral Colours!!.cpp"
+        "src/849A Odds and Ends.cpp"
+        "src/849B Tell Your World.cpp"
+        "src/850A Five Dimensional Points.cpp"
+        "src/850B Arpa and a list of numbers.cpp"
+        "src/850C Arpa and a game with Mojtaba!!.cpp"
+        "src/850D Tournament Construction!!.cpp"
+        "src/850E Random Elections.cpp"
+        "src/850F Rainbow Balls.cpp"
+        "src/851A Arpa and a research in Mexican wave.cpp"
+        "src/851B Arpa and an exam about geometry.cpp"
+        "src/852A Digits.cpp"
+        "src/852B Neural Network country .cpp"
+        "src/852C Property.cpp"
+        "src/852D Exploration plan.cpp"
+        "src/852E Casinos and travel.cpp"
+        "src/852F Product transformation.cpp"
+        "src/852G Bathroom terminal.cpp"
+        "src/852H Bob and stages.cpp"
+        "src/852I Dating.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
