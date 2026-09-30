@@ -3360,7 +3360,27 @@ add_executable(codeforces
         "src/852F Product transformation.cpp"
         "src/852G Bathroom terminal.cpp"
         "src/852H Bob and stages.cpp"
-        "src/852I Dating.cpp")
+        "src/852I Dating.cpp"
+        "src/853A Planning.cpp"
+        "src/853B Jury Meeting.cpp"
+        "src/853C Boredom.cpp"
+        "src/853D Michael and Charging Stations.cpp"
+        "src/853E Lada Malina.cpp"
+        "src/854A Fraction.cpp"
+        "src/854B Maxim Buys an Apartment.cpp"
+        "src/855A Tom Riddle's Diary.cpp"
+        "src/855B Marvolo Gaunt's Ring.cpp"
+        "src/855C Helga Hufflepuff's Cup .cpp"
+        "src/855D Rowena Ravenclaw's Diadem.cpp"
+        "src/855E Salazar Slytherin's Locket!!.cpp"
+        "src/855F Nagini.cpp"
+        "src/855G Harry Vs Voldemort.cpp"
+        "src/856A Set Theory.cpp"
+        "src/856B Similar Words.cpp"
+        "src/856C Eleventh Birthday!!.cpp"
+        "src/856D Masha and Cactus!!.cpp"
+        "src/856E Satellites!!.cpp"
+        "src/856F To Play or not to Play!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
