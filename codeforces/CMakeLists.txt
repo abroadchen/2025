@@ -3380,7 +3380,27 @@ add_executable(codeforces
         "src/856C Eleventh Birthday!!.cpp"
         "src/856D Masha and Cactus!!.cpp"
         "src/856E Satellites!!.cpp"
-        "src/856F To Play or not to Play!!!.cpp")
+        "src/856F To Play or not to Play!!!.cpp"
+        "src/858A k-rounding.cpp"
+        "src/858B Which floor?.cpp"
+        "src/858C Did you mean...!!.cpp"
+        "src/858D Polycarp's phone book.cpp"
+        "src/858E Tests Renumeration!!.cpp"
+        "src/858F Wizard's Tour.cpp"
+        "src/859A Declined Finalists.cpp"
+        "src/859B Lazy Security Guard.cpp"
+        "src/859C Pie Rules.cpp"
+        "src/859D Third Month Insanity!!.cpp"
+        "src/859E Desk Disorder.cpp"
+        "src/859F Ordering T-Shirts.cpp"
+        "src/859G Circle of Numbers.cpp"
+        "src/860E Arkady and a Nobody-men.cpp"
+        "src/862A Mahmoud and Ehab and the MEX.cpp"
+        "src/862B Mahmoud and Ehab and the bipartiteness.cpp"
+        "src/862C Mahmoud and Ehab and the xor.cpp"
+        "src/862D Mahmoud and Ehab and the binary string.cpp"
+        "src/862E Mahmoud and Ehab and the function.cpp"
+        "src/862F Mahmoud and Ehab and the final stage!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
