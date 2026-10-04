@@ -3400,7 +3400,27 @@ add_executable(codeforces
         "src/862C Mahmoud and Ehab and the xor.cpp"
         "src/862D Mahmoud and Ehab and the binary string.cpp"
         "src/862E Mahmoud and Ehab and the function.cpp"
-        "src/862F Mahmoud and Ehab and the final stage!!!.cpp")
+        "src/862F Mahmoud and Ehab and the final stage!!!.cpp"
+        "src/863A Quasi-palindrome!!.cpp"
+        "src/863B Kayaking .cpp"
+        "src/863C 1-2-3!!.cpp"
+        "src/863D Yet Another Array Queries Problem.cpp"
+        "src/863E Turn Off The TV.cpp"
+        "src/863F Almost Permutation.cpp"
+        "src/863G Graphic Settings.cpp"
+        "src/864A Fair Game.cpp"
+        "src/864B Polycarp and Letters.cpp"
+        "src/864C Bus.cpp"
+        "src/864D Make a Permutation!.cpp"
+        "src/864E Fire.cpp"
+        "src/864F Cities Excursions!!!.cpp"
+        "src/865A Save the problem!.cpp"
+        "src/865B Ordering Pizza.cpp"
+        "src/865C Gotta Go Fast.cpp"
+        "src/865D Buy Low Sell High.cpp"
+        "src/865E Hex Dyslexia!!.cpp"
+        "src/865F Egg Roulette.cpp"
+        "src/865G Flowers and Chocolate.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
