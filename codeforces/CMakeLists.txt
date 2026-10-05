@@ -3420,7 +3420,27 @@ add_executable(codeforces
         "src/865D Buy Low Sell High.cpp"
         "src/865E Hex Dyslexia!!.cpp"
         "src/865F Egg Roulette.cpp"
-        "src/865G Flowers and Chocolate.cpp")
+        "src/865G Flowers and Chocolate.cpp"
+        "src/867A Between the Offices.cpp"
+        "src/868A Bark to Unlock.cpp"
+        "src/868B Race Against Time.cpp"
+        "src/868C Qualification Rounds.cpp"
+        "src/868D Huge Strings.cpp"
+        "src/868E Policeman and a Tree.cpp"
+        "src/868F Yet Another Minimization Problem!!.cpp"
+        "src/868G El Toll Caves.cpp"
+        "src/869A The Artful Expedient.cpp"
+        "src/869B The Eternal Immortality.cpp"
+        "src/869C The Intriguing Obsession.cpp"
+        "src/869D The Overdosing Ubiquity!!.cpp"
+        "src/869E The Untended Antiquity.cpp"
+        "src/870A Search for Pretty Integers.cpp"
+        "src/870B Maximum of Maximums of Minimums.cpp"
+        "src/870C Maximum splitting.cpp"
+        "src/870D Something with XOR Queries.cpp"
+        "src/870E Points, Lines and Ready-made Titles.cpp"
+        "src/870F Paths.cpp"
+        "src/871E Restore the Tree!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
