@@ -3440,7 +3440,27 @@ add_executable(codeforces
         "src/870D Something with XOR Queries.cpp"
         "src/870E Points, Lines and Ready-made Titles.cpp"
         "src/870F Paths.cpp"
-        "src/871E Restore the Tree!!!.cpp")
+        "src/871E Restore the Tree!!!.cpp"
+        "src/873A Chores.cpp"
+        "src/873B Balanced Substring.cpp"
+        "src/873C Strange Game On Matrix.cpp"
+        "src/873D Merge Sort.cpp"
+        "src/873E Awards For Contestants.cpp"
+        "src/873F Forbidden Indices!!!.cpp"
+        "src/875A Classroom Watch.cpp"
+        "src/875B Sorting the Coins.cpp"
+        "src/875C National Property!!.cpp"
+        "src/875D High Cry.cpp"
+        "src/875E Delivery Club!!.cpp"
+        "src/875F Royal Questions.cpp"
+        "src/876A Trip For Meal.cpp"
+        "src/876B Divisiblity of Differences.cpp"
+        "src/877A Alex and broken contest.cpp"
+        "src/877B Nikita and string.cpp"
+        "src/877C Slava and tanks.cpp"
+        "src/877D Olya and Energy Drinks.cpp"
+        "src/877E Danil and a Part-time Job.cpp"
+        "src/877F Ann and Books!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
