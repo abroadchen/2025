@@ -3460,7 +3460,27 @@ add_executable(codeforces
         "src/877C Slava and tanks.cpp"
         "src/877D Olya and Energy Drinks.cpp"
         "src/877E Danil and a Part-time Job.cpp"
-        "src/877F Ann and Books!!.cpp")
+        "src/877F Ann and Books!!.cpp"
+        "src/878A Short Program.cpp"
+        "src/878B Teams Formation!!.cpp"
+        "src/878C Tournament.cpp"
+        "src/878D Magic Breeding.cpp"
+        "src/878E Numbers on the blackboard!!!.cpp"
+        "src/879A Borya's Diagnosis.cpp"
+        "src/879B Table Tennis.cpp"
+        "src/883A Automatic Door.cpp"
+        "src/883B Berland Army.cpp"
+        "src/883C Downloading B++.cpp"
+        "src/883D Packmen Strike Back.cpp"
+        "src/883E Field of Wonders.cpp"
+        "src/883F Lost in Transliteration.cpp"
+        "src/883G Orientation of Edges.cpp"
+        "src/883H Palindromic Cut.cpp"
+        "src/883I Photo Processing.cpp"
+        "src/883J Renovation.cpp"
+        "src/883K Road Widening.cpp"
+        "src/883L Berland.Taxi!!.cpp"
+        "src/883M Quadcopter Competition.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
