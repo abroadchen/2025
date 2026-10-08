@@ -13,7 +13,7 @@ using namespace std;
 
 int k, v1[N], v2[N];
 map<string, int> mp;
-int get(string str) {
+int get(const string &str) {
     for (char& i : str)
         if (i >= 'a') i = i - 'a' + 'A';//转换为大写
     if (mp[str]) return mp[str];//已存在

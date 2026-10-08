@@ -28,7 +28,7 @@ v: 存储非"1"的字符串
 #define fast ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 using namespace std;
 constexpr int N = 1e5+5;
-int get(string s) {
+int get(const string &s) {
     if (s[0] != '1') return 0;
     for (int i = 1; i < s.size(); ++i)
         if (s[i] != '0') return 0;
