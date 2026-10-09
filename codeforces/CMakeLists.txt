@@ -3506,7 +3506,32 @@ add_executable(codeforces
         "src/888E Maximum Subsequence.cpp"
         "src/888F Connecting Vertices.cpp"
         "src/888G Xor-MST.cpp"
-        "src/889E Mod Mod Mod.cpp")
+        "src/889E Mod Mod Mod.cpp"
+        "src/891A Pride.cpp"
+        "src/891B Gluttony.cpp"
+        "src/891C Envy.cpp"
+        "src/891D Sloth!!!.cpp"
+        "src/891E Lust!!.cpp"
+        "src/892A Greed.cpp"
+        "src/892B Wrath.cpp"
+        "src/893A Chess For Three.cpp"
+        "src/893B Beautiful Divisors.cpp"
+        "src/893C Rumor.cpp"
+        "src/893D Credit Card.cpp"
+        "src/893E Counting Arrays.cpp"
+        "src/893F Subtree Minimum Query.cpp"
+        "src/894A QAQ.cpp"
+        "src/894B Ralph And His Magic Field.cpp"
+        "src/894C Marco and GCD Sequence.cpp"
+        "src/894D Ralph And His Tour in Binary Country.cpp"
+        "src/894E Ralph and Mushrooms.cpp"
+        "src/895A Pizza Separation.cpp"
+        "src/895B XK Segments.cpp"
+        "src/895C Square Subsets.cpp"
+        "src/895D String Mark.cpp"
+        "src/895E Eyes Closed.cpp"
+        "src/896A Nephren gives a riddle.cpp"
+        "src/896B Ithea Plays With Chtholly.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
