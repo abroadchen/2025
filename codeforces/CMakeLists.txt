@@ -3558,7 +3558,31 @@ add_executable(codeforces
         "src/901B GCD of Polynomials!!.cpp"
         "src/901C Bipartite Segments!!!.cpp"
         "src/901D Weighting a Tree.cpp"
-        "src/901E Cyclic Cipher!!!!.cpp")
+        "src/901E Cyclic Cipher!!!!.cpp"
+        "src/902A Visiting a Friend.cpp"
+        "src/902B Coloring a Tree.cpp"
+        "src/903A Hungry Student Problem.cpp"
+        "src/903B The Modcrab.cpp"
+        "src/903C Boxes Packing.cpp"
+        "src/903D Almost Difference.cpp"
+        "src/903E Swapping Characters.cpp"
+        "src/903F Clear The Matrix!!!.cpp"
+        "src/903G Yet Another Maxflow Problem.cpp"
+        "src/906A Shockers.cpp"
+        "src/906B Seating of Students.cpp"
+        "src/906C Party.cpp"
+        "src/906D Power Tower!!.cpp"
+        "src/906E Reverses!!.cpp"
+        "src/907A Masha and Bears.cpp"
+        "src/907B Tic-Tac-Toe.cpp"
+        "src/908A New Year and Counting Cards.cpp"
+        "src/908B New Year and Buggy Bot.cpp"
+        "src/908C New Year and Curling.cpp"
+        "src/908D New Year and Arbitrary Arrangement.cpp"
+        "src/908E New Year and Entity Enumeration.cpp"
+        "src/908F New Year and Rainbow Roads.cpp"
+        "src/908G New Year and Original Order.cpp"
+        "src/908H New Year and Boolean Bridges!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
