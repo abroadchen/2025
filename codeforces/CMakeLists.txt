@@ -3582,7 +3582,37 @@ add_executable(codeforces
         "src/908E New Year and Entity Enumeration.cpp"
         "src/908F New Year and Rainbow Roads.cpp"
         "src/908G New Year and Original Order.cpp"
-        "src/908H New Year and Boolean Bridges!!.cpp")
+        "src/908H New Year and Boolean Bridges!!.cpp"
+        "src/909A Generate Login.cpp"
+        "src/909B Segments.cpp"
+        "src/909C Python Indentation.cpp"
+        src/utils/for.h
+        "src/909D Colorful Points.cpp"
+        "src/909E Coprocessor.cpp"
+        "src/909F AND-permutations.cpp"
+        "src/910A The Way to Home.cpp"
+        "src/910B Door Frames.cpp"
+        "src/910C Minimum Sum.cpp"
+        "src/911A Nearest Minimums.cpp"
+        "src/911B Two Cakes.cpp"
+        "src/911C Three Garlands.cpp"
+        "src/911D Inversion Counting.cpp"
+        "src/911E Stack Sorting .cpp"
+        "src/911F Tree Destruction!!.cpp"
+        "src/911G Mass Change Queries!!!!!.cpp"
+        "src/912A Tricky Alchemy.cpp"
+        "src/912B New Year's Eve.cpp"
+        "src/912C Perun, Ult!.cpp"
+        "src/912D Fishes.cpp"
+        "src/912E Prime Gift.cpp"
+        "src/913A Modular Exponentiation.cpp"
+        "src/913B Christmas Spruce.cpp"
+        "src/913C Party Lemonade.cpp"
+        "src/913D Too Easy Problems.cpp"
+        "src/913E Logical Expression.cpp"
+        "src/913F Strongly Connected Tournament.cpp"
+        "src/913G Power Substring.cpp"
+        "src/913H Don't Exceed!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
