@@ -20,13 +20,14 @@ char buf[SIZE], *S = buf, *T = buf;
 (S == T ? T = ((S = buf) + fread(buf, 1, SIZE, stdin)), \
 (S == T ? EOF : *S++) : *S++)
 
-inline int read() {
+inline int rd() {
     int f = 0, ch = 0; int x = 0;
     for (; !isdigit(ch); ch = getchar()) if (ch == '-') f = 1;
     for (; isdigit(ch); ch = getchar()) x = (x<<1)+(x<<3)+(ch&15);
     if (f) x = -x;
     return x;
 }
+
 
 template<class T>
 void read(T& x) {

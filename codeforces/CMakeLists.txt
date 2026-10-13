@@ -3612,7 +3612,32 @@ add_executable(codeforces
         "src/913E Logical Expression.cpp"
         "src/913F Strongly Connected Tournament.cpp"
         "src/913G Power Substring.cpp"
-        "src/913H Don't Exceed!!!.cpp")
+        "src/913H Don't Exceed!!!.cpp"
+        "src/914A Perfect Squares.cpp"
+        "src/914B Conan and Agasa play a Card Game.cpp"
+        "src/914C Travelling Salesman and Special Numbers.cpp"
+        "src/914D Bash and a Tough Math Puzzle.cpp"
+        "src/914E Palindromes in a Tree!!!.cpp"
+        "src/914F Substrings in a String!!.cpp"
+        "src/914G Sum the Fibonacci!!.cpp"
+        "src/914H Ember and Storm's Tree Game!!.cpp"
+        "src/915A Garden.cpp"
+        "src/915B Browser.cpp"
+        "src/915C Permute Digits.cpp"
+        "src/915D Almost Acyclic Graph!!.cpp"
+        "src/915E Physical Education Lessons.cpp"
+        "src/915F Imbalance Value of a Tree.cpp"
+        "src/915G Coprime Arrays.cpp"
+        "src/916A Jamie and Alarm Snooze.cpp"
+        "src/916B Jamie and Binary Sequence (changed after round).cpp"
+        "src/916C Jamie and Interesting Graph.cpp"
+        "src/916D Jamie and To-do List.cpp"
+        "src/916E Jamie and Tree!!.cpp"
+        "src/917A The Monster.cpp"
+        "src/917B MADMAX.cpp"
+        "src/917C Pollywog!!.cpp"
+        "src/917D Stranger Trees.cpp"
+        "src/917E Upside Down!!!.cpp")
 
 set_target_properties(codeforces PROPERTIES
     CXX_STANDARD 23
