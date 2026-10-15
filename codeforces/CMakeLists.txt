@@ -3664,6 +3664,18 @@ add_executable(codeforces
         "src/923D Picking Strings.cpp"
         "src/923E Perpetual Subtraction.cpp"
         "src/923F Public Service!!!.cpp"
+        "src/924A Mystical Mosaic.cpp"
+        "src/924B Three-level Laser.cpp"
+        "src/924C Riverside Curio.cpp"
+        "src/924D Contact ATC.cpp"
+        "src/924E Wardrobe.cpp"
+        "src/924F Minimal Subset Difference.cpp"
+        "src/925A Stairs and Elevators.cpp"
+        "src/925B Resource Distribution.cpp"
+        "src/925C Big Secret!!.cpp"
+        "src/925D Aztec Catacombs.cpp"
+        "src/925E May Holidays!!!!.cpp"
+        "src/925F Parametric Circulation.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
