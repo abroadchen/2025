@@ -20,7 +20,7 @@ struct node {
     }
 };
 //按原始位置排序
-bool cmp(node o1, node o2) { return o1.pos < o2.pos; }
+bool cmp(const node &o1, const node &o2) { return o1.pos < o2.pos; }
 int n, l, r;
 vector<node> v;
 int main() {

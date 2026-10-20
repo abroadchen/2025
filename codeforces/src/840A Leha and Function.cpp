@@ -20,7 +20,7 @@ using namespace std;
 constexpr int N = 2e5+5;
 
 struct node { int now, id; } c[N];
-inline bool cmp(node a, node b) { return a.now < b.now; }
+inline bool cmp(const node &a, const node &b) { return a.now < b.now; }
 
 inline int rd() {
     int f = 0, ch = 0; int x = 0;

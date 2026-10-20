@@ -23,7 +23,7 @@ dp[i][j]：考虑前 i 个任务，总用时为 j 时能获得的最大价值。
 using namespace std;
 constexpr int N = 107, M = 2007;
 struct node { int t, d, p, id; } a[N];
-bool cmp(node x, node y) { return x.d < y.d; }
+bool cmp(const node &x, const node &y) { return x.d < y.d; }
 int sum, ans, dp[N][M];
 bool vis[N][M];
 int main() {

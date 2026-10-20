@@ -21,7 +21,7 @@ using namespace std;
 constexpr int N = 1e3+50;
 struct node { int a, b; } p[N];
 
-bool cmp(const node x, const node y) {
+bool cmp(const node &x, const node &y) {
     if (x.b == y.b) return x.a > y.a;
     return x.b > y.b;
 }

@@ -22,7 +22,7 @@ constexpr int N = 6e4+5, inf = 1e9;
 struct node {
     double x; int w;
 };
-bool cmp(node a, node b) { return a.x < b.x; }
+bool cmp(const node &a, const node &b) { return a.x < b.x; }
 vector<node> v;
 int n;
 double x[N], y[N];

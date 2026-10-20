@@ -53,7 +53,7 @@ using namespace std;
 
 constexpr int N = 3e5+100, inf = 0x3f3f3f3f;
 struct node { int l, r, num; } e[N];
-bool cmp(node a, node b) { return a.l < b.l; }
+bool cmp(const node &a, const node &b) { return a.l < b.l; }
 priority_queue<int, vector<int>, greater<>> q;
 
 int main() {

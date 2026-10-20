@@ -23,7 +23,7 @@ using namespace std;
 constexpr int N = 1e5+10;
 
 struct node { int v, id; } a[N];
-inline bool cmp(node x, node y) { return x.v < y.v; }
+inline bool cmp(const node &x, const node &y) { return x.v < y.v; }
 vector<int> v[N];//存以 x 为代表元的连通块内所有节点
 int to[N];//指向"代表元 x 实际存集合的那个描述符"
 inline void hm(int x, int y) {

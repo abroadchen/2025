@@ -38,7 +38,7 @@ constexpr int N = 1e5+10;
 struct node { int l, r, id; } q[N];//查询：列区间[l,r]，id 是原顺序
 
 int b[N];//每列所属块号
-inline bool cmp(node x, node y) {
+inline bool cmp(const node &x, const node &y) {
     if (b[x.l] != b[y.l]) return x.l < y.l;
     return x.r < y.r;
 }

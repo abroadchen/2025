@@ -29,7 +29,7 @@ struct node {
     node() = default;
     node(ll w, ll v) : w(w), v(v) {}
 };
-bool cmp(node a, node b) {
+bool cmp(const node &a, const node &b) {
     return a.v*b.w > b.v*a.w;
 }
 

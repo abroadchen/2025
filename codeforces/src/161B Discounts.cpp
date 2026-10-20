@@ -29,7 +29,7 @@ using namespace std;
 
 
 struct node { int order, price, kind; };
-bool cmp(const node a, const node b) {
+bool cmp(const node &a, const node &b) {
     if (a.kind == b.kind) return a.price > b.price;
     if (a.kind == 1) return true;
     if (b.kind == 1) return false;

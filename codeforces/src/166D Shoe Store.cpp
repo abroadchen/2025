@@ -48,7 +48,7 @@ vector<int> e[N];
 void add(const int u, const int v) { e[u].push_back(v); }
 
 struct node { int money, siz, num; } a[N], b[N];
-bool cmp(const node x, const node y) { return x.money > y.money; }
+bool cmp(const node &x, const node &y) { return x.money > y.money; }
 
 bool dfs(const int x) {
     for (int i = 0; i < e[x].size(); ++i) if (f[e[x][i]] != x) {

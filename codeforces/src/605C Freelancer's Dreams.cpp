@@ -40,7 +40,7 @@ node operator*(node a, double b) { return node(a.x * b, a.y * b); }
 double dis(node a, node b) {
     return (a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y);
 }
-bool cmp(node a, node b) {
+bool cmp(const node &a, const node &b) {
     if (abs((a - p[1])*(b - p[1])) < eps) {
         return dis(p[1], a) < dis(p[1], b);
     }

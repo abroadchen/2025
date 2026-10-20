@@ -34,7 +34,7 @@ struct node {
     }
 } t[N];
 
-bool cmp(node a, node b) {
+bool cmp(const node &a, const node &b) {
     return a.b > b.b;
 }
 

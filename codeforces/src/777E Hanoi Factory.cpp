@@ -29,7 +29,7 @@ using namespace std;
 constexpr int N = 1e5+10;
 
 struct node { ll h; int a, b; } ary[N];
-bool cmp(node o1, node o2) {
+bool cmp(const node &o1, const node &o2) {
     if (o1.b == o2.b) return o1.a < o2.a;
     return o1.b < o2.b;
 }

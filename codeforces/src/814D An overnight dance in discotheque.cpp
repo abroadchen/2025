@@ -18,7 +18,7 @@ get(u) = π·r² 为圆面积。
 using namespace std;
 constexpr int N = 1e3+5;
 struct node { db x, y, r; int num; } a[N];
-bool cmp(node p, node q) { return p.r > q.r; }
+bool cmp(const node &p, const node &q) { return p.r > q.r; }
 bool check(node u, node v) {
     return (u.x - v.x)*(u.x - v.x) + (u.y - v.y)*(u.y - v.y) <
         (u.r + v.r)*(u.r + v.r);

@@ -28,7 +28,7 @@ n 位）‍，其答案设为最小的数 a[1].x（循环回去）。
 using namespace std;
 constexpr int N = 205, M = 25;
 struct node { int x, id; } a[N];
-bool cmp(node x, node y) { return x.x < y.x; }
+bool cmp(const node &x, const node &y) { return x.x < y.x; }
 
 int ans[M];
 int main() {
