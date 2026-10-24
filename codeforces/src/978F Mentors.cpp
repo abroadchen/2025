@@ -24,7 +24,7 @@ using namespace std;
 constexpr int N = 2e5+5;
 
 struct node { int v, p, ans; } a[N];
-bool cmp(node x, node y) { return x.v < y.v; }
+bool cmp(const node &x, const node &y) { return x.v < y.v; }
 bool cmp2(node x, node y) { return x.p < y.p; }
 
 int n;

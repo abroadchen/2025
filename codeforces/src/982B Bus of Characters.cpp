@@ -23,7 +23,7 @@ using namespace std;
 constexpr int N = 2e5+5;
 
 struct node { int w, id; } a[N];
-bool cmp(node x, node y) {
+bool cmp(const node &x, const node &y) {
     if (x.w == y.w) return x.id < y.id;
     return x.w < y.w;
 }

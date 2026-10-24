@@ -36,7 +36,7 @@ using namespace std;
 constexpr int N = 2e5+5;
 
 struct node { int hp, dmg; } s[N];
-inline bool cmp(node a, node b) {
+inline bool cmp(const node &a, const node &b) {
     if (a.hp - a.dmg == b.hp - b.dmg) return a.hp > b.hp;
     return a.hp - a.dmg > b.hp - b.dmg;
 }
