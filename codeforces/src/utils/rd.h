@@ -57,7 +57,8 @@ void write(T x) {
     for (; y <= x/10; y *= 10) ++len;
     for (; len; --len, x %= y, y /= 10) putchar(x/y+48);
 }
-
+inline void writel(int x) { write(x); putchar(' '); }
+inline void writeln(int x) { write(x); putchar('\n'); }
 
 
 constexpr int N = 1e5+1, mod = 1e9+7;
