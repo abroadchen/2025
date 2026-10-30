@@ -66,7 +66,7 @@ struct node {
 };
 priority_queue<node> q;
 //对可用节点列表按 节点编号 n 升序排序
-int cmp(node a, node b) { return a.n < b.n; }
+int cmp(const node &a, const node &b) { return a.n < b.n; }
 
 int main() {
     fast;

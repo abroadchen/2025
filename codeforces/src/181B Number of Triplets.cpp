@@ -11,7 +11,7 @@ using namespace std;
 
 struct node { int a, b; } pt[N];
 int a[N<<1][N<<1] = {};//标记点的存在
-inline int cmp(const node u, const node v) {//按x坐标优先，y坐标次要的顺序排序
+inline int cmp(const node &u, const node &v) {//按x坐标优先，y坐标次要的顺序排序
     if (u.a != v.a) return u.a < v.a;
     return u.b < v.b;
 }

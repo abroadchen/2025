@@ -29,6 +29,12 @@ inline int rd() {
 }
 
 
+inline ll read() {
+    ll x=0;char c=getchar();bool f=0;
+    while(!isdigit(c)){if(c=='-')f=1;c=getchar();}
+    while(isdigit(c)){x=(x<<1)+(x<<3)+(c^48);c=getchar();}
+    return f?-x:x;
+}
 template<class T>
 void read(T& x) {
     int f = 0, ch = 0; x = 0;

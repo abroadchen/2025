@@ -28,7 +28,7 @@ struct node { int l, r, id; } a[N];
 int b[N];
 ll ss[N], s;
 int g[N], nxt[N], pre[N];
-int cmp(node x,node y){return b[x.l]!=b[y.l]?b[x.l]<b[y.l]:x.r<y.r;}//按 l 所在块、再按 r 排序
+int cmp(const node &x, const node &y){return b[x.l]!=b[y.l]?b[x.l]<b[y.l]:x.r<y.r;}//按 l 所在块、再按 r 排序
 void delfst(int x){int p=ss[x],tmp;--g[p];tmp=nxt[p];if (tmp!=-1) s=s-g[tmp];}
 void dellst(int x){int p=ss[x],tmp;--g[p];tmp=pre[p];if (tmp!=-1) s=s-g[tmp];}
 void addfst(int x){int p=ss[x],tmp;tmp=nxt[p];if (tmp!=-1) s=s+g[tmp];++g[p];}

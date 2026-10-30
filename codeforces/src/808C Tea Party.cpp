@@ -15,7 +15,7 @@ ans[i] 在上一轮按 pos（原下标）写回，保证输出顺序恢复成输
 using namespace std;
 constexpr int N = 15e5;
 struct node { ll val, pos, cm; } b[N];
-int cmp(node a, node b) { return a.cm > b.cm; }
+int cmp(const node &a, const node &b) { return a.cm > b.cm; }
 
 ll n, m, a[N], ans[N];
 int main() {

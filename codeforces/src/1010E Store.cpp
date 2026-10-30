@@ -54,7 +54,7 @@ constexpr int N = 2e5+5;
 struct node { int x[3]; } a[N], v[N];
 
 int opt;
-inline int cmp(node x, node y) { return x.x[opt] < y.x[opt]; }
+inline int cmp(const node &x, const node &y) { return x.x[opt] < y.x[opt]; }
 
 int mn[N][3], mx[N][3], ls[N], rs[N];
 void up(int x) {
