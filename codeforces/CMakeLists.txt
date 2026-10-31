@@ -3855,7 +3855,7 @@ add_executable(codeforces
         "src/978E Bus Video System.cpp"
         "src/978F Mentors.cpp"
         "src/978G Petya's Exams!!.cpp"
-        src/utils/debug.h
+        src/utils/dbg.h
         "src/979A Pizza, Pizza, Pizza.cpp"
         "src/979B Treasure Hunt.cpp"
         "src/979C Kuro and Walking Route.cpp"
@@ -4037,7 +4037,20 @@ add_executable(codeforces
         "src/1016D Vasya And The Matrix.cpp"
         "src/1016E Rest In The Shades.cpp"
         "src/1016F Road Projects!!!.cpp"
-        "src/1016G Appropriate Team.cpp"
+        "src/1016G Appropriate Team!!!.cpp"
+        "src/1017A The Rank.cpp"
+        "src/1017B The Bits.cpp"
+        "src/1017C The Phone Number.cpp"
+        "src/1017D The Wu.cpp"
+        "src/1017E The Supersonic Rocket!!!.cpp"
+        "src/1017F The Neutral Zone.cpp"
+        "src/1017G The Tree!!!!.cpp"
+        "src/1017H The Films!!!!!.cpp"
+        "src/1019A Elections!!!.cpp"
+        "src/1019B The hat.cpp"
+        "src/1019C Sergey's problem.cpp"
+        "src/1019D Large Triangle.cpp"
+        "src/1019E Raining season!!!!.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
