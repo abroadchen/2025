@@ -66,6 +66,18 @@ void write(T x) {
 inline void writel(int x) { write(x); putchar(' '); }
 inline void writeln(int x) { write(x); putchar('\n'); }
 
+template<typename T,typename...Args>
+void write(const T x,const Args...y) {
+    write(x),putchar(' '),write(y...),sizeof...(y)==1?putchar('\n'):0;
+}
+
+
+inline void read(char&c){c=getchar();while(isspace(c)) c=getchar();}
+inline void write(char c){putchar(c);}
+inline void read(string&s){s.clear();char c;read(c);while(!isspace(c)&&~c) s+=c,c=getchar();}
+inline void write(string s){for(int i=0,len=s.size();i<len;i++) putchar(s[i]);}
+template<typename T>inline void write(T*x){while(*x) putchar(*(x++));}
+template<typename T,typename...T2> inline void read(T&x,T2&...y){read(x),read(y...);}
 
 constexpr int N = 1e5+1, mod = 1e9+7;
 
