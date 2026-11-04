@@ -35,6 +35,8 @@ inline ll read() {
     while(isdigit(c)){x=(x<<1)+(x<<3)+(c^48);c=getchar();}
     return f?-x:x;
 }
+
+
 template<class T>
 void read(T& x) {
     int f = 0, ch = 0; x = 0;
