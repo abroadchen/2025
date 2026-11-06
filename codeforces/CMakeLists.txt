@@ -4159,6 +4159,18 @@ add_executable(codeforces
         "src/1042D Petya and Array.cpp"
         "src/1042E Vasya and Magic Matrix.cpp"
         "src/1042F Leaf Sets.cpp"
+        "src/1043A Elections.cpp"
+        "src/1043B Lost Array.cpp"
+        "src/1043C Smallest Word.cpp"
+        "src/1043D Mysterious Crime!!.cpp"
+        "src/1043E Train Hard, Win Easy.cpp"
+        "src/1043F Make It One!!!.cpp"
+        "src/1043G Speckled Band.cpp"
+        "src/1044A The Tower is Going Home.cpp"
+        "src/1044B Intersecting Subtrees.cpp"
+        "src/1044C Optimal Polygon Perimeter.cpp"
+        "src/1044D Deduction Queries .cpp"
+        "src/1044E Grid Sort!!!!!.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
