@@ -4171,6 +4171,17 @@ add_executable(codeforces
         "src/1044C Optimal Polygon Perimeter.cpp"
         "src/1044D Deduction Queries .cpp"
         "src/1044E Grid Sort!!!!!.cpp"
+        "src/1044F DFS.cpp"
+        "src/1045A Last chance.cpp"
+        "src/1045B Space Isaac.cpp"
+        "src/1045C Hyperspace Highways.cpp"
+        "src/1045D Interstellar battle.cpp"
+        "src/1045E Ancient civilizations.cpp"
+        "src/1045F Shady Lady.cpp"
+        "src/1045G AI robots.cpp"
+        "src/1045H Self-exploration.cpp"
+        "src/1045I Palindrome Pairs.cpp"
+        "src/1045J Moonwalk challenge.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
