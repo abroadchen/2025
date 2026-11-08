@@ -4182,6 +4182,19 @@ add_executable(codeforces
         "src/1045H Self-exploration.cpp"
         "src/1045I Palindrome Pairs.cpp"
         "src/1045J Moonwalk challenge.cpp"
+        "src/1046C Space Formula.cpp"
+        "src/1046F Splitting money.cpp"
+        "src/1046I Say Hello.cpp"
+        "src/1047A Little C Loves 3 I.cpp"
+        "src/1047B Cover Points.cpp"
+        "src/1051A Vasya And Password.cpp"
+        "src/1051B Relatively Prime Pairs.cpp"
+        "src/1051C Vasya and Multisets.cpp"
+        "src/1051D Bicolorings .cpp"
+        "src/1051E Vasya and Big Integers.cpp"
+        "src/1051F The Shortest Statement!!!.cpp"
+        "src/1051G Distinctification.cpp"
+        "src/1053E Euler tour!!!!!.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
