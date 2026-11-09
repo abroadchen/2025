@@ -4195,6 +4195,21 @@ add_executable(codeforces
         "src/1051F The Shortest Statement!!!.cpp"
         "src/1051G Distinctification.cpp"
         "src/1053E Euler tour!!!!!.cpp"
+        "src/1054A Elevator or Stairs?.cpp"
+        "src/1054B Appending Mex.cpp"
+        "src/1054C Candies Distribution.cpp"
+        "src/1054D Changing Array.cpp"
+        "src/1054E Chips Puzzle.cpp"
+        "src/1054F Electric Scheme.cpp"
+        "src/1054G New Road Network.cpp"
+        "src/1054H Epic Convolution!!!.cpp"
+        "src/1055A Metro.cpp"
+        "src/1055B Alice and Hairdresser.cpp"
+        "src/1055C Lucky Days.cpp"
+        "src/1055D Refactoring.cpp"
+        "src/1055E Segments on the Line.cpp"
+        "src/1055F Tree and XOR.cpp"
+        "src/1055G Jellyfish Nightmare.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
