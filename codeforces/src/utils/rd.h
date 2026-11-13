@@ -109,4 +109,21 @@ inline int c(const int n, const int m) {
     return 1ll*fac[n]*inv[m]%mod*inv[n-m]%mod;
 }
 
+
+
+#define G if(++ip==ie)if(fread(ip=buf,1,SZ,stdin))
+using namespace std;
+typedef double DB;
+const int SZ=1<<19,N=1e5+9;
+const DB EPS=1e-8;
+char buf[SZ],*ie=buf+SZ,*ip=ie-1;
+inline int in(){
+    G;while(*ip<'-')G;
+    R x=*ip&15;G;
+    while(*ip>'-'){x*=10;x+=*ip&15;G;}
+    return x;
+}
+inline bool is0(DB x){return fabs(x)<EPS;}
+
+
 #endif //CODEFORCES_RD_H

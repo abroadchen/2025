@@ -46,7 +46,7 @@ struct bit {
 } bt;
 
 struct node { int a[3][3]; } ept;
-node merge(node x, node y) {
+node merge(const node &x, const node &y) {
     node z = ept;
     for (int i = 0; i < 3; ++i) {
         for (int j = i; j < 3; ++j) {
