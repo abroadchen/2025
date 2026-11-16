@@ -4357,6 +4357,21 @@ add_executable(codeforces
         "src/1088D Ehab and another another xor problem.cpp"
         "src/1088E Ehab and a component choosing problem.cpp"
         "src/1088F Ehab and a weird weight formula.cpp"
+        "src/1089A Alice the Fan.cpp"
+        "src/1089B Bimatching.cpp"
+        "src/1089C Cactus Search.cpp"
+        "src/1089D Distance Sum!!!.cpp"
+        "src/1089E Easy Chess.cpp"
+        "src/1089F Fractions.cpp"
+        "src/1089G Guest Student.cpp"
+        "src/1089H  Harder Satisfiability.cpp"
+        "src/1089I Interval-Free Permutations.cpp"
+        "src/1089J JS Minification.cpp"
+        "src/1089K King Kog's Reception.cpp"
+        "src/1089L Lazyland.cpp"
+        "src/1089M Minegraphed.cpp"
+        "src/1090A Company Merging.cpp"
+        "src/1090B LaTeX Expert.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
