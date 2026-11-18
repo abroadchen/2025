@@ -40,7 +40,7 @@ int c(string s) {
     return res;
 }
 
-bool check(string s) {
+bool check(const string &s) {
     return (s == "ABSINTH" || s == "BEER" || s == "BRANDY" ||
         s == "CHAMPAGNE" || s == "GIN" || s == "RUM" ||
         s == "SAKE" || s == "TEQUILA" || s == "VODKA" ||

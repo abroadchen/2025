@@ -58,7 +58,14 @@ inline void readd(int& x) {
     x = c^48;
 }
 
-
+template<class T>
+void write(T x) {
+    if (x < 0) { putchar('-'); x = -x; }
+    T y = 1;
+    int len = 1;
+    for (; y <= x/10; y *= 10) ++len;
+    for (; len; --len, x %= y, y /= 10) putchar(x/y+48);
+}
 
 inline void writel(int x) { write(x); putchar(' '); }
 inline void writeln(int x) { write(x); putchar('\n'); }

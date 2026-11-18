@@ -74,7 +74,7 @@ int k, pw[15][1005], x[1005], t;
 string l, r;
 
 void add(int& x, int y) { x = x + y >= mod ? x + y - mod : x + y; }
-bool check(string s) {
+bool check(const string &s) {
     int lst = -1000, p(0);
     for (auto i : s) {
         p++;
