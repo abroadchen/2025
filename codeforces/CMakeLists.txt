@@ -4485,6 +4485,23 @@ add_executable(codeforces
         "src/1108E1 Array and Segments (Easy version).cpp"
         "src/1108E2 Array and Segments (Hard version).cpp"
         "src/1108F MST Unification.cpp"
+        "src/1109A Sasha and a Bit of Relax.cpp"
+        "src/1109B Sasha and One More Name.cpp"
+        "src/1109C Sasha and a Patient Friend.cpp"
+        "src/1109D Sasha and Interesting Fact from Graph Theory.cpp"
+        "src/1109E Sasha and a Very Easy Test.cpp"
+        "src/1109F Sasha and Algorithm of Silence's Sounds!!!.cpp"
+        "src/1110A Parity.cpp"
+        "src/1110B Tape.cpp"
+        "src/1110C Meaningless Operations.cpp"
+        "src/1110D Jongmah.cpp"
+        "src/1110E Magic Stones.cpp"
+        "src/1110F Nearest Leaf.cpp"
+        "src/1110G Tree-Tac-Toe.cpp"
+        "src/1110H Modest Substrings.cpp"
+        "src/1111A Superhero Transformation.cpp"
+        "src/1111B Average Superhero Gang Power.cpp"
+        "src/1111C Creative Snap.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES
