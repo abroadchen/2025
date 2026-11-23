@@ -4502,6 +4502,23 @@ add_executable(codeforces
         "src/1111A Superhero Transformation.cpp"
         "src/1111B Average Superhero Gang Power.cpp"
         "src/1111C Creative Snap.cpp"
+        "src/1111D Destroy the Colony.cpp"
+        "src/1111E Tree.cpp"
+        "src/1113A Sasha and His Trip.cpp"
+        "src/1113B Sasha and Magnetic Machines.cpp"
+        "src/1114A Got Any Grapes?.cpp"
+        "src/1114B Yet Another Array Partitioning Task.cpp"
+        "src/1114C Trailing Loves (or L'oeufs?).cpp"
+        "src/1114D Flood Fill.cpp"
+        "src/1114E Arithmetic Progression.cpp"
+        "src/1114F Please, another Queries on Array?.cpp"
+        "src/1117A Best Subsegment.cpp"
+        "src/1117B Emotes.cpp"
+        "src/1117C Magic Ship.cpp"
+        "src/1117D Magic Gems.cpp"
+        "src/1117E Decypher the String.cpp"
+        "src/1117F Crisp String.cpp"
+        "src/1117G Recursive Queries.cpp"
 )
 
 set_target_properties(codeforces PROPERTIES

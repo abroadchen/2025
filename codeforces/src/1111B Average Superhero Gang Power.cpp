@@ -45,6 +45,6 @@ int main() {
     cin >> n >> k >> m;
     for (int i = 0; i < n; ++i) { cin >> a[i]; sum += a[i]; }
     sort(a, a+n);
-    printf("%lf\n", solve());
+    printf("%.20lf\n", solve());
     return 0;
 }
