@@ -97,7 +97,7 @@ node qry(int u, int l, int r) {
     if (l > mid) return qry(u<<1|1,l,r);
     if (r <= mid) return qry(u << 1, l, r);
     node res{};
-    push(res, qry(u << 1, l, r), qry(u << 1 | 1, l, r));
+    push(res, qry(u<<1, l, r), qry(u<<1|1, l, r));
     return res;
 }
 
